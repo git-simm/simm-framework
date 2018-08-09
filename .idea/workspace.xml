@@ -112,8 +112,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="162" />
+    <option name="x" value="221" />
+    <option name="y" value="32" />
     <option name="width" value="1430" />
     <option name="height" value="850" />
   </component>
@@ -230,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1533817838911</updated>
       <workItem from="1533817840457" duration="733000" />
-      <workItem from="1533818595344" duration="3220000" />
+      <workItem from="1533818595344" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
