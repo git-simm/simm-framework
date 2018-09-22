@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="simm-framework-jsonext" />
-        <module name="simm.framework.threadutils" />
+        <module name="simm-framework-threadutils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simm.framework.threadutils" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

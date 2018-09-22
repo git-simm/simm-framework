@@ -25,7 +25,7 @@
     </properties>
     <modules>
         <module>simm-framework-jsonext</module>
-        <module>simm.framework.threadutils</module>
+        <module>simm-framework-threadutils</module>
     </modules>
     <dependencies>
         <dependency>
