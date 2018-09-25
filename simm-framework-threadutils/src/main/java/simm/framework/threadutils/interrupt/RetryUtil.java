@@ -2,6 +2,7 @@ package simm.framework.threadutils.interrupt;
 
 import java.lang.reflect.Constructor;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.*;
 /**
  * 方法超时重试工具
@@ -76,7 +77,6 @@ public class RetryUtil {
     public static <T extends BaseThread> Boolean execute(Class<T> syncThread, List<Object> params) throws Exception {
         return execute(syncThread,params,3000,1000,3);
     }
-
     /**
      * 方法超时控制
      * @param syncThread 线程类
@@ -91,21 +91,9 @@ public class RetryUtil {
     public static <T extends BaseThread> Boolean execute(Class<T> syncThread, List<Object> params, long timeout, long interval, int retryTimes) throws Exception {
         Boolean result = false;
         try{
-            //参数类型数组
-            Class[] parameterTypeArrs = new Class[params.size()];
-            for(int i=0;i<params.size();i++){
-                Class c =  params.get(i).getClass();
-                if(c.getName().indexOf("$$")>0){
-                    String clsName = c.getName().substring(0,c.getName().indexOf("$$"));
-                    parameterTypeArrs[i] = Class.forName(clsName);
-                }else{
-                    parameterTypeArrs[i] = c;
-                }
-            }
-            //根据参数类型获取相应的构造函数
-            Constructor constructor= syncThread.getConstructor(parameterTypeArrs);
             //参数数组
             Object[] parameters= params.toArray();
+            Constructor constructor = getConstructor(syncThread,params);
             //根据获取的构造函数和参数，创建实例
             BaseThread processor = (BaseThread) constructor.newInstance(parameters);
             processor.start();
@@ -128,5 +116,33 @@ public class RetryUtil {
             }
         }
         return result;
+    }
+
+    /**
+     * 获取类型的构造函数
+     */
+    private static Map<Class,Constructor> constructorMap = new ConcurrentHashMap<>();
+    private static Constructor getConstructor(Class cls,List<Object> params) throws Exception {
+        /**
+         * 获取缓存信息
+         */
+        if(constructorMap.containsKey(cls)){
+            return constructorMap.get(cls);
+        }
+        //参数类型数组
+        Class[] parameterTypeArrs = new Class[params.size()];
+        for(int i=0;i<params.size();i++){
+            Class c =  params.get(i).getClass();
+            if(c.getName().indexOf("$$")>0){
+                String clsName = c.getName().substring(0,c.getName().indexOf("$$"));
+                parameterTypeArrs[i] = Class.forName(clsName);
+            }else{
+                parameterTypeArrs[i] = c;
+            }
+        }
+        //根据参数类型获取相应的构造函数
+        Constructor constructor= cls.getConstructor(parameterTypeArrs);
+        constructorMap.put(cls,constructor);
+        return constructor;
     }
 }
