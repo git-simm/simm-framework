@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="false" debug="false">
+    <contextName>logback</contextName>
+    <springProperty source="spring.application.name" name="APP_NAME" scope="context"/>
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+    <springProperty source="spring.logPath" name="LOG_PATH" scope="context"/>
+    <property name="ENCODER_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS}|%highlight(%-5level)|%boldYellow(%thread)|%class|%method|%line|[%X{traceId}/%X{spanId}]|%X{userId}|%ip|%X{clientIp}|%cyan(%msg%n)"/>
+    <conversionRule conversionWord="ip" converterClass="com.sxh.framework.logback.IPLogConverter" />
+
+    <!-- 控制台输出 -->
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>
+                <pattern>${ENCODER_PATTERN}</pattern>
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/info.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/info-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <jsonFactoryDecorator class="net.logstash.logback.decorate.CharacterEscapesJsonFactoryDecorator">
+                <escape>
+                    <targetCharacterCode>10</targetCharacterCode>
+                    <escapeSequence>\u2028</escapeSequence>
+                </escape>
+            </jsonFactoryDecorator>
+            <providers>
+                <timestamp>
+                    <timeZone>UTC</timeZone>
+                </timestamp>
+                <pattern>
+                    <pattern>
+                        {
+                        "timestamp":"%date{ISO8601}",
+                        "app": "${APP_NAME}",
+                        "userId":"%X{userId:-}",
+                        "ip":"%ip",
+                        "clientIp":"%X{clientIp:-}",
+                        "level": "%level",
+                        "class": "%class",
+                        "method": "%method",
+                        "line_number": "%line",
+                        "spanId": "%X{spanId:-}",
+                        "parentId": "%X{parentId:-}",
+                        "traceId": "%X{traceId:-}",
+                        "thread": "%thread",
+                        "message": "%message",
+                        "stack_trace": "%exception{10}"
+                        }
+                    </pattern>
+                </pattern>
+            </providers>
+        </encoder>
+    </appender>
+
+    <logger name="com.apache.ibatis" additivity="false" level="error">
+        <appender-ref ref="stdout" />
+    </logger>
+    <logger name="java.sql.Connection" additivity="false" level="error">
+        <appender-ref ref="stdout" />
+    </logger>
+    <logger name="java.sql.Statement" additivity="false" level="error">
+        <appender-ref ref="stdout" />
+    </logger>
+    <logger name="java.sql.PreparedStatement" additivity="false" level="error">
+        <appender-ref ref="stdout" />
+    </logger>
+    <logger name="com.sxh" additivity="false" level="info">
+        <appender-ref ref="file" />
+        <appender-ref ref="stdout" />
+    </logger>
+    <root level="error">
+        <appender-ref ref="file" />
+        <appender-ref ref="stdout" />
+    </root>
+</configuration>

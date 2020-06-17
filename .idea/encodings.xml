@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simm-framework-jsonext" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simm-framework-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simm-framework-threadutils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/simm.framework.threadutils" charset="UTF-8" />
   </component>
 </project>
