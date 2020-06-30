@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import test.framework.simm.model.ElasticEntity;
 import test.framework.simm.service.BaseElasticService;
 
+//https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high-search.html
+//https://www.cnblogs.com/a393060727/p/12099651.html
 /**
  * es测试
  * @author simm
@@ -55,9 +57,11 @@ public class ESTestController {
     @RequestMapping(value = "/query/data", method = RequestMethod.POST)
     public Object testESFind(@RequestBody ElasticEntity user) {
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        // 语法糖
+        // QueryBuilders.boolQuery().should(QueryBuilders.termQuery("status",0));
         BoolQueryBuilder boolQuery = new BoolQueryBuilder();
         if(!StringUtils.isEmpty(user.getName())){
-            // termQuery 只能查询一个字
+            // termQuery 只能查询一个分词
             boolQuery.must(QueryBuilders.termQuery("name", user.getName()));
         }
         if(!StringUtils.isEmpty(user.getAddress())){
@@ -67,10 +71,19 @@ public class ESTestController {
 //        boolQuery.mustNot(QueryBuilders.matchQuery("message", "DISPLAY_CMDRECORD"));
 //        boolQuery.mustNot(QueryBuilders.matchQuery("message", "SUPPRESS_LOG"));
 //        boolQuery.filter(QueryBuilders.rangeQuery("@timestamp").gte(start).lte(end));
+        // 分页查询
+//        searchSourceBuilder.from(0);
+//        searchSourceBuilder.size(5);
+//        searchSourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+        // 排序方式
+//        searchSourceBuilder.sort(new ScoreSortBuilder().order(SortOrder.DESC));
+//        searchSourceBuilder.sort(new FieldSortBuilder("id").order(SortOrder.ASC));
         searchSourceBuilder.query(boolQuery);
         String[] includeFields = new String[] {"name", "age","address"};
         String[] excludeFields = new String[] {};
         searchSourceBuilder.fetchSource(includeFields, excludeFields);
+//        searchSourceBuilder.query(QueryBuilders.matchAllQuery());
+
         return baseElasticService.search(_key,searchSourceBuilder,ElasticEntity.class);
     }
 

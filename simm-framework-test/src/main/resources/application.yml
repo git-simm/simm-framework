@@ -30,7 +30,7 @@ spring:
 #    elasticsearch配置
     elasticsearch:
       cluster-name: es-cluster
-      cluster-nodes: 60.205.226.96:9200
+      cluster-nodes: 10.50.4.211:9200,10.50.4.213:9200,10.50.4.214:9200
       scheme: http
       connection-request-timeout: 30000
       socket-timeout: 30000
