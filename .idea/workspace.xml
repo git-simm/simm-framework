@@ -4,7 +4,6 @@
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="添加测试主应用项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,44 +39,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BaseElasticServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1806">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/logback-spring.xmlbak">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.7.0/elasticsearch-rest-high-level-client-7.7.0.jar!/org/elasticsearch/client/RestHighLevelClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="186" column="53" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state relative-caret-position="308">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/common/ElasticsearchConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -228,9 +227,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="191" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="178" />
+    <option name="y" value="85" />
     <option name="width" value="1210" />
     <option name="height" value="767" />
   </component>
@@ -242,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,6 +337,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +446,18 @@
       <workItem from="1592812487656" duration="4296000" />
       <workItem from="1593310981313" duration="5496000" />
       <workItem from="1593394404786" duration="2413000" />
-      <workItem from="1593504451326" duration="236000" />
+      <workItem from="1593504451326" duration="2006000" />
+      <workItem from="1593578657206" duration="1503000" />
+      <workItem from="1593653381645" duration="1190000" />
+      <workItem from="1593739517532" duration="596000" />
+      <workItem from="1594004526440" duration="589000" />
+      <workItem from="1594085334336" duration="1224000" />
+      <workItem from="1594171531961" duration="593000" />
+      <workItem from="1594256888081" duration="590000" />
+      <workItem from="1594344205659" duration="592000" />
+      <workItem from="1594689284792" duration="593000" />
+      <workItem from="1594775477340" duration="1987000" />
+      <workItem from="1594865637630" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -498,17 +508,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592377353567</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加测试主应用项目">
+      <created>1593504779787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593504779787</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47011000" />
+    <option name="totallyTimeSpent" value="59429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="31" width="1210" height="767" extended-state="1" />
+    <frame x="178" y="85" width="1210" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3330435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2669565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -699,13 +716,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BaseElasticService.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.7.0/elasticsearch-7.7.0.jar!/org/elasticsearch/index/reindex/DeleteByQueryRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -759,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.7.0/elasticsearch-7.7.0.jar!/org/elasticsearch/search/builder/SearchSourceBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -794,16 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/common/ElasticsearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BaseElasticServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
@@ -825,6 +818,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="186" column="53" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/common/ElasticsearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -873,16 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

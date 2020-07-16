@@ -14,6 +14,10 @@ import test.framework.simm.service.BaseElasticService;
 
 //https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high-search.html
 //https://www.cnblogs.com/a393060727/p/12099651.html
+//https://uniapp.dcloud.io/quickstart
+//https://www.cnblogs.com/yanyuechao/p/8467602.html
+//https://www.yiibai.com/elasticsearch/elasticsearch_api_conventions.html
+//https://www.e-learn.cn/content/java/1078247
 /**
  * es测试
  * @author simm
