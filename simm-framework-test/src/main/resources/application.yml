@@ -18,7 +18,7 @@ spring:
       test-on-borrow: false
       test-on-return: false
       pool-prepared-statements: false
-      max-pool-prepared-statement-per-connection-size: 20
+      max-pool-prepared-statement-per-connection-size:    20
       filter:
         stat:
           enabled: false

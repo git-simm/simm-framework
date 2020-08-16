@@ -29,6 +29,10 @@ public class MyResponseBodyAdvice implements ResponseBodyAdvice {
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType,
                                   Class selectedConverterType,
                                   ServerHttpRequest request, ServerHttpResponse response) {
+        if(JsonResult.class.isAssignableFrom(body.getClass())){
+            //异常已经被包装
+            return body;
+        }
         //将返回值包装成jsonresult结构
         JsonResult<Object> jsonResult = new JsonResult<>(true);
         jsonResult.setData(body);

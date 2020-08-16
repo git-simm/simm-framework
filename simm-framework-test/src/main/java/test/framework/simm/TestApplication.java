@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * @author simm
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"test.framework.simm.*"})
+@ComponentScan(basePackages = {"test.framework.simm","simm.framework.webutil"})
 @EnableAsync
 @EnableAspectJAutoProxy(exposeProxy = true)
 public class TestApplication {
