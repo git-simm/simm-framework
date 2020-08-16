@@ -28,6 +28,7 @@
         <module>simm-framework-jsonext</module>
         <module>simm-framework-threadutils</module>
         <module>simm-framework-test</module>
+        <module>simm-framework-webutil</module>
     </modules>
     <dependencies>
         <dependency>

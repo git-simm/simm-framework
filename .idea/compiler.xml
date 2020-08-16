@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simm-framework-webutil" />
         <module name="simm-framework-threadutils" />
         <module name="simm-framework-jsonext" />
         <module name="simm-framework-test" />
@@ -20,6 +21,7 @@
       <module name="simm-framework-jsonext" options="-parameters" />
       <module name="simm-framework-test" options="-parameters" />
       <module name="simm-framework-threadutils" options="-parameters" />
+      <module name="simm-framework-webutil" options="-parameters" />
     </option>
   </component>
 </project>
