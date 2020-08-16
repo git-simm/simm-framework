@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="异常测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/ProxyJsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/ProxyResolveUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/ReflectUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/annotations/ProxyEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/annotations/ProxyProp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/entity/ProxyField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/classes/simm/framework/jsonext/entity/ProxyMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/simm-framework-jsonext-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/surefire-reports/TEST-simm.framework.jsonext.test.CallerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/surefire-reports/simm.framework.jsonext.test.CallerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-jsonext/target/test-classes/simm/framework/jsonext/test/CallerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyExceptionHandlerAdvice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -266,9 +248,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="468" />
-    <option name="y" value="129" />
-    <option name="width" value="1200" />
+    <option name="x" value="258" />
+    <option name="y" value="17" />
+    <option name="width" value="1080" />
     <option name="height" value="646" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -560,7 +542,7 @@
       <workItem from="1597375910022" duration="2702000" />
       <workItem from="1597423207309" duration="240000" />
       <workItem from="1597426214096" duration="51000" />
-      <workItem from="1597543725046" duration="11397000" />
+      <workItem from="1597543725046" duration="12178000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -639,17 +621,24 @@
       <option name="project" value="LOCAL" />
       <updated>1597549024913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="异常测试">
+      <created>1597556870772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597556870772</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74437000" />
+    <option name="totallyTimeSpent" value="75218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="258" y="17" width="1080" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21015424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32058823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -660,7 +649,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33916554" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.10632571" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1539961" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -683,7 +672,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.15874036" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.17287917" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.2637255" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
