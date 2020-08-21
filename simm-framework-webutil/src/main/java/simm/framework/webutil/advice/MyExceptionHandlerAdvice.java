@@ -1,6 +1,6 @@
 package simm.framework.webutil.advice;
 
-import com.google.common.base.Throwables;
+import io.netty.util.internal.ThrowableUtil;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -44,7 +44,7 @@ public class MyExceptionHandlerAdvice {
     @ResponseBody
     JsonResult handleException(HttpServletRequest request, HttpServletResponse response, HandlerMethod handler, Throwable ex) {
         JsonResult result = new JsonResult(false);
-        result.error(Throwables.getStackTraceAsString(ex));
+        result.error(ThrowableUtil.stackTraceToString(ex));
         return result;
     }
 }

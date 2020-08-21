@@ -16,7 +16,7 @@ const parseEvironment = (hostname, domain) => {
   );
 };
 //让ajax携带cookie
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 /**
  * 请求拦截器
  */

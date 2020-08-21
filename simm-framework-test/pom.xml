@@ -27,11 +27,6 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>simm.framework</groupId>
-            <artifactId>simm-framework-webutil</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-client</artifactId>
             <version>7.7.0</version>
@@ -59,6 +54,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>simm.framework</groupId>
+            <artifactId>simm-framework-webutil</artifactId>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>simm.framework</groupId>

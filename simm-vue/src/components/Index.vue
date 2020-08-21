@@ -1,7 +1,7 @@
 <template>
   <section class="content-section" style="position:relative;">
     <div>我的测试程序</div>
-    <sxh-cropper :save="saveIdCard">
+    <sxh-cropper :option="{fixedNumber:[673, 425]}" :save="saveIdCard">
       <el-button type="primary">身份证上传</el-button>
     </sxh-cropper>
   </section>

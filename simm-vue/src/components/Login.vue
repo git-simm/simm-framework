@@ -279,7 +279,7 @@ export default {
             self.$router.push({
               path: "/index"
             });
-            self.$socketUtil.initWebSocket();
+            // self.$socketUtil.initWebSocket();
           }
           self.$httpUtil.post({
             url: "/adminUser/getBaseData.json",
@@ -295,7 +295,7 @@ export default {
               type: "warning"
             });
             self.authCodeGet();
-            self.$socketUtil.webSocketClose("logout");
+            // self.$socketUtil.webSocketClose("logout");
           } else if (result.resultCode === 1006) {
             self.editFlg = true;
             self.psdRequest.admin_user_name = self.username;

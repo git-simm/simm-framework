@@ -23,7 +23,7 @@ export default {
     //设置vue存储
     this.$cacheUtil.setVueStore(this);
     this.$httpUtil.setCacheData(this);
-    this.$socketUtil.initWebSocket();
+    // this.$socketUtil.initWebSocket();
   },
   methods: {
     callAPI: function(method, url, data, callback) {
