@@ -104,101 +104,101 @@ var router = new VueRouter({
   },
 });
 
-let initLoginData = function (store) {
-  if (window.sessionStorage) {
-    if (store.state.user !== window.sessionStorage.getItem("user")) {
-      store.dispatch("SET_USER", window.sessionStorage.getItem("user"));
-      store.dispatch("SET_TOKEN", window.sessionStorage.getItem("token"));
-      store.dispatch("SET_TOKENID", window.sessionStorage.getItem("tokenid"));
-      let userinfo = JSON.parse(window.sessionStorage.getItem("userinfo"));
-      let dic = new Map(userinfo.arr);
-      userinfo.dic = dic;
-      store.dispatch(
-        "SET_USERINFO",
-        userinfo
-      );
-    }
-  }
-};
-/**
- * 登录验证
- */
-router.beforeEach((to, from, next) => {
-  //记录上个路由的地址
-  store.dispatch("SET_FROM", from);
-  if (to.path == "/blank") {
-    //先加载空白页，解决嵌入portal，异步请求数据时页面黑屏的问题
-    next();
-    return;
-  }
-  if (to.path == "/") {
-    //主动跳转到首页
-    next({
-      path: "/index",
-    });
-    return;
-  }
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    var login = () => {
-      next({
-        path: "/login",
-        query: {
-          redirect: to.fullPath,
-        },
-      });
-    };
-    // true用户已登录， false用户未登录
-    var isLogin = false;
-    var user = window.sessionStorage.getItem("user");
-    var ssoLogin = window.sessionStorage.getItem("ssoLogin");
-    if (ssoLogin == 1) {
-      //sso已经登录
-      isLogin = true;
-      if (from.path == "/") {
-        //首次加载
-        isLogin = false;
-      }
-    } else if (user !== "null" && user !== "undefined") {
-      isLogin = Boolean(user);
-    }
-    //window.self !== window.top 说明嵌套在iframe中
-    if (!isLogin && window.self !== window.top) {
-      //先加载一个空白页
-      next({
-        path: "/blank"
-      });
-      portalAuthHandler.setParam({
-        httpUtil: httpUtil,
-        initLogin: (user) => {
-          cacheUtil.setUser(user);
-          //权限信息处理
-          permission.setMenuBtns(user.menuButtons);
-          window.sessionStorage.setItem(
-            "menuBtnId",
-            JSON.stringify(user.menuButtons)
-          );
-          window.sessionStorage.setItem("portalOrigin", user.portalOrigin);
-          window.sessionStorage.setItem(
-            "menuBtnId",
-            JSON.stringify(user.menuButtons)
-          );
-          window.sessionStorage.setItem("ssoLogin", 1);
-          initLoginData(store);
-          next(to);
-        },
-      });
-      //获取权限信息
-      portalAuthHandler.getTopAuthData();
-    } else if (isLogin) {
-      initLoginData(store);
-      next();
-    } else {
-      login();
-    }
-  } else {
-    next(); // 确保一定要调用 next()
-  }
-});
+// let initLoginData = function (store) {
+//   if (window.sessionStorage) {
+//     if (store.state.user !== window.sessionStorage.getItem("user")) {
+//       store.dispatch("SET_USER", window.sessionStorage.getItem("user"));
+//       store.dispatch("SET_TOKEN", window.sessionStorage.getItem("token"));
+//       store.dispatch("SET_TOKENID", window.sessionStorage.getItem("tokenid"));
+//       let userinfo = JSON.parse(window.sessionStorage.getItem("userinfo"));
+//       let dic = new Map(userinfo.arr);
+//       userinfo.dic = dic;
+//       store.dispatch(
+//         "SET_USERINFO",
+//         userinfo
+//       );
+//     }
+//   }
+// };
+// /**
+//  * 登录验证
+//  */
+// router.beforeEach((to, from, next) => {
+//   //记录上个路由的地址
+//   store.dispatch("SET_FROM", from);
+//   if (to.path == "/blank") {
+//     //先加载空白页，解决嵌入portal，异步请求数据时页面黑屏的问题
+//     next();
+//     return;
+//   }
+//   if (to.path == "/") {
+//     //主动跳转到首页
+//     next({
+//       path: "/index",
+//     });
+//     return;
+//   }
+//   if (to.matched.some((record) => record.meta.requiresAuth)) {
+//     var login = () => {
+//       next({
+//         path: "/login",
+//         query: {
+//           redirect: to.fullPath,
+//         },
+//       });
+//     };
+//     // true用户已登录， false用户未登录
+//     var isLogin = false;
+//     var user = window.sessionStorage.getItem("user");
+//     var ssoLogin = window.sessionStorage.getItem("ssoLogin");
+//     if (ssoLogin == 1) {
+//       //sso已经登录
+//       isLogin = true;
+//       if (from.path == "/") {
+//         //首次加载
+//         isLogin = false;
+//       }
+//     } else if (user !== "null" && user !== "undefined") {
+//       isLogin = Boolean(user);
+//     }
+//     //window.self !== window.top 说明嵌套在iframe中
+//     if (!isLogin && window.self !== window.top) {
+//       //先加载一个空白页
+//       next({
+//         path: "/blank"
+//       });
+//       portalAuthHandler.setParam({
+//         httpUtil: httpUtil,
+//         initLogin: (user) => {
+//           cacheUtil.setUser(user);
+//           //权限信息处理
+//           permission.setMenuBtns(user.menuButtons);
+//           window.sessionStorage.setItem(
+//             "menuBtnId",
+//             JSON.stringify(user.menuButtons)
+//           );
+//           window.sessionStorage.setItem("portalOrigin", user.portalOrigin);
+//           window.sessionStorage.setItem(
+//             "menuBtnId",
+//             JSON.stringify(user.menuButtons)
+//           );
+//           window.sessionStorage.setItem("ssoLogin", 1);
+//           initLoginData(store);
+//           next(to);
+//         },
+//       });
+//       //获取权限信息
+//       portalAuthHandler.getTopAuthData();
+//     } else if (isLogin) {
+//       initLoginData(store);
+//       next();
+//     } else {
+//       login();
+//     }
+//   } else {
+//     next(); // 确保一定要调用 next()
+//   }
+// });
 var vue = new Vue({
   router: router,
   store: store,

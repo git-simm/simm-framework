@@ -24,8 +24,6 @@ public class OcrTest {
 
     public static void main(String[] args) throws TesseractException, IOException {
         File imageFile = new File("D:\\04test\\test\\test1.png");
-
-
         Tesseract tesseract = new Tesseract();
         tesseract.setDatapath("D:\\04test\\tessdata");
         tesseract.setLanguage("chi_sim");

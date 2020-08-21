@@ -30,6 +30,7 @@
         <module>simm-framework-test</module>
         <module>simm-framework-webutil</module>
         <module>simm-framework-common</module>
+        <module>simm-vue</module>
     </modules>
     <dependencies>
         <dependency>

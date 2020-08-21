@@ -3,29 +3,9 @@ import LoginView from "./components/Login.vue";
 import NotFoundView from "./components/404.vue";
 import BlankPage from "./components/blank.vue";
 import IndexPage from "./components/Index.vue";
-import erpRoute from "./routes/erp-route";
-import orderRoute from "./routes/order-route";
-import prodRoute from "./routes/prod-route";
-import reportsRoute from "./routes/reports-route";
-import settingRoute from "./routes/setting-route";
-import settleRoute from "./routes/settle-route";
-import sguRoute from "./routes/sgu-route";
-import skuRoute from "./routes/sku-route";
-import supplyClientRoute from "./routes/supply-client-route";
-import supplyRoute from "./routes/supply-route";
 import userRoute from "./routes/user-route";
 //dash路由值
 var dashRoutes = [
-  ...erpRoute.routes,
-  ...orderRoute.routes,
-  ...prodRoute.routes,
-  ...reportsRoute.routes,
-  ...settingRoute.routes,
-  ...settleRoute.routes,
-  ...sguRoute.routes,
-  ...skuRoute.routes,
-  ...supplyClientRoute.routes,
-  ...supplyRoute.routes,
   ...userRoute.routes
 ];
 // Routes
