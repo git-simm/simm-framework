@@ -20,6 +20,10 @@ export default {
       default: () => {
         return { img: null };
       }
+    },
+    save: {
+      type: Function,
+      default: null
     }
   },
   methods: {
@@ -41,17 +45,20 @@ export default {
      * 保存图片
      */
     saveImg(blobData) {
+      var files = [
+        {
+          blob: blobData,
+          fileName: "截图" + Math.random() + ".png"
+        }
+      ];
+      if (this.save) {
+        this.save(files);
+        return;
+      }
       var self = this;
       this.$httpUtil.post({
         url: "/file/upload.json",
-        data: {
-          files: [
-            {
-              blob: blobData,
-              fileName: "截图" + Math.random() + ".png"
-            }
-          ]
-        },
+        data: { files: files },
         contentType: "multipart", //
         succ: function(res) {
           self.$emit("success", res.data);

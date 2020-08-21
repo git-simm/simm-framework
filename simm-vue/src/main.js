@@ -207,7 +207,7 @@ var vue = new Vue({
 //设置httpUtil的基础信息
 httpUtil.setCacheData(vue);
 // 设置 websocket服务端URL
-socketUtil.setSocketCacheData(vue);
+// socketUtil.setSocketCacheData(vue);
 //-------------------------------------------
 //统一的回退操作
 Vue.prototype.$back = (e, page) => {

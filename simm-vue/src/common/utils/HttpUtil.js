@@ -26,30 +26,9 @@ axios.interceptors.request.use(
     if (submit.loading) {
       showLoading();
     }
-    var token = null,
-      tokenid = null;
-    if (cacheData != null && typeof cacheData == "object") {
-      token = cacheData.token;
-      tokenid = cacheData.tokenid;
-    }
-    if ((token == null || token == "") && vue.$cacheUtil) {
-      token = vue.$cacheUtil.getSessionCache("token");
-      tokenid = vue.$cacheUtil.getSessionCache("tokenid");
-    }
-    if (token == "undefined") {
-      token = null;
-    }
-    if (tokenid == "undefined") {
-      tokenid = null;
-    }
-    config.headers["token"] = token || "";
-    config.headers["tokenid"] = tokenid || "";
-    var requestData = {
-      token: token,
-      tokenid: tokenid
-    };
-    var signature = md5(config.data + "{shixh@2019}");
-    config.headers["signature"] = signature;
+    var requestData = {};
+    // var signature = md5(config.data + "{shixh@2019}");
+    // config.headers["signature"] = signature;
     if (submit.contentType == "json") {
       config.headers["Content-Type"] = "application/json";
       config.data = JSON.stringify({

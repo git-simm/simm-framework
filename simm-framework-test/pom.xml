@@ -8,7 +8,7 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>simm.framework.test</artifactId>
+    <artifactId>simm-framework-test</artifactId>
     <name>${project.artifactId} - ${project.version}</name>
     <dependencies>
         <dependency>
@@ -28,7 +28,7 @@
         </dependency>
         <dependency>
             <groupId>simm.framework</groupId>
-            <artifactId>simm.framework.webutil</artifactId>
+            <artifactId>simm-framework-webutil</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
@@ -40,11 +40,6 @@
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
             <version>7.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.16</version><!--版本号自己选一个就行-->
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -64,6 +59,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>simm.framework</groupId>
+            <artifactId>simm-framework-common</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>

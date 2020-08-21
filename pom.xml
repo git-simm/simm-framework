@@ -30,7 +30,6 @@
         <module>simm-framework-test</module>
         <module>simm-framework-webutil</module>
         <module>simm-framework-common</module>
-        <module>simm-vue</module>
     </modules>
     <dependencies>
         <dependency>
@@ -66,6 +65,11 @@
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
             <version>5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version><!--版本号自己选一个就行-->
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
