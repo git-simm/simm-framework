@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.grass{
+				width: 18px;
+				height: 18px;
+				background-color: darkgreen;
+				float: left;
+				margin: 1px;
+			}
+			.snake{
+				width: 18px;
+				height: 18px;
+				background-color: red;
+				float: left;
+				margin: 1px;
+			}
+			.food{
+				width: 18px;
+				height: 18px;
+				background-color: black;
+				float: left;
+				margin: 1px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="div1" style="width: 800px; height: 400px; border: 1px solid black; margin: 0 auto;"></div>
+		<script>
+		//食物的行
+		var foodh;
+		// 食物的列
+		var foodl;
+		//蛇的初始方向
+		var direction=39;
+		//定义一个蛇的初始行数
+		var snakeh=[1,1,1,1];
+		var snakel=[2,3,4,5];
+		//创建一个数组专门用于存储div
+		var maps=new Array(20);
+		//创建一个标签，并且将这个标签返回出来
+			function ss(){
+				var di=document.createElement("div");
+						//给创建出来的标签一个样式
+						di.className="grass";
+						//将创建出来的标签放置在其它标签的里面
+						document.getElementById("div1").appendChild(di);
+						return di;
+			}
+			//一次性创建800个标签
+			function createGrass(){
+				//表示行的for循环
+				for (var i = 0; i < 20; i++) {
+					//将数组的每一个元素再声明成一个数组
+					maps[i]=new Array();
+					//表示列的for循环
+					for (var j = 0; j < 40; j++) {
+						//将每一个creatDiv函数返回出来的div对象储存到对应的二维数组里面
+						maps[i][j]=ss();
+					}
+				}
+				showSnake();
+				showFood();
+				document.onkeydown=anjian;
+			}
+			createGrass();
+			function showSnake(){
+				for (var i = 0; i < snakeh.length; i++) {
+				  /*var snakeh=[1,1,1,1];
+					var snakel=[2,3,4,5];*/
+					maps[snakeh[i]][snakel[i]].className="snake";
+				}
+			}
+			function showFood(){
+				 foodh=parseInt(Math.random()*20);
+				 foodl=parseInt(Math.random()*40);
+				for (var i = 0; i < snakeh.length; i++) {
+					if(foodh==snakeh[i]&&foodl==snakel[i]){
+						showFood();
+						return;
+					}
+				}
+				//如果没有重合，再将食物显现出来
+				maps[foodh][foodl].className="food";
+			}
+			//蛇移动
+			function moveSnake(){
+				//保存尾巴的位置
+				sheweih=snakeh[0];
+				sheweil=snakel[0];
+				//在下一个蛇出现之前把上一个蛇擦掉
+				snakeMiss();
+				//把前一个身体的坐标赋给后一个身体的坐标（蛇头的情况另外考虑）
+				for (var i = 0; i < snakeh.length-1; i++) {
+					snakeh[i]=snakeh[i+1];
+					snakel[i]=snakel[i+1];
+				}
+				//如果是往右运动，只需要将列数加一
+				if(direction==39){
+					snakel[snakel.length-1]++;
+				}else if(direction==37){
+					snakel[snakel.length-1]--;
+				}else if(direction==38){
+					snakeh[snakeh.length-1]--;
+				}else if(direction==40){
+					snakeh[snakeh.length-1]++;
+				}
+				//蛇长度增加
+				if(eatFood()){
+					//把蛇头的坐标赋给新的数组的元素
+					snakeh[snakeh.length]=snakeh[snakeh.length-1];
+					snakel[snakel.length]=snakel[snakel.length-1];
+					//蛇身还原，将后面一个的值赋给前面一个
+					for (var i = snakeh.length; i>0; i--) {
+						snakeh[i]=snakeh[i-1];
+						snakel[i]=snakel[i-1];
+					}
+					//蛇尾的值还原为移动之前的蛇尾
+					snakeh[0]=sheweih;
+					snakel[0]=sheweil;
+					//显示新的食物
+					showFood();
+				}
+				//将新蛇对应的下标对应的div变成蛇的样式，也就是新的蛇出现
+				showSnake();
+			}
+			function snakeMiss(){
+				//把蛇擦掉
+				for (var i = 0; i < snakeh.length; i++) {
+					maps[snakeh[i]][snakel[i]].className="grass";
+				}
+			}
+			//让蛇不停的动
+			setInterval("moveSnake()",200);
+			function anjian(e){
+				var jianzhi=e.keyCode;
+				if(jianzhi>=37&&jianzhi<=40){
+					if(direction==39&&jianzhi==37||direction==37&&jianzhi==39||direction==38&&jianzhi==40||direction==40&&jianzhi==38){
+						return;
+					}
+					direction=jianzhi;
+				}
+			}
+			//吃
+			function eatFood(){
+				if(snakeh[snakeh.length-1]==foodh&&snakel[snakel.length-1]==foodl){
+					return true;
+				}else{
+					return false;
+				}
+			}
+			
+		</script>
+	</body>
+</html>
