@@ -2,51 +2,28 @@
   <div class="wrapper">
     <header class="main-header" v-if="isYqmLogin">
       <nav class="navbar navbar-static-top" role="navigation">
-        <!--<a href="/" class="logo">
-          <div class="container logo-lg">
-            <div class="pull-left info">一起卖</div>
-          </div>
-        </a>-->
         <a href="/" class="logo" style="width:auto;">
           <div class="pull-left info container" style="width:auto !important;font-size: 16px">
-            <img src="/static/img/logo2.png" />
+            <h3>我的测试项目</h3>
           </div>
         </a>
         <div class="navbar-custom-menu">
           <div class="pull-right">
             <ul class="nav navbar-nav">
-              <li class="company" v-if="false">
-                <el-dropdown>
-                  <span class="el-dropdown-link">
-                    <i class="iconfont icon-supply" style="margin-right:5px;"></i>
-                    {{ company.companyName }}
-                    <i
-                      class="el-icon-arrow-down el-icon--right"
-                    ></i>
-                  </span>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item @click.native="switchCompany(1, '七种美味')">七种美味</el-dropdown-item>
-                    <el-dropdown-item @click.native="switchCompany(2, '至味享会')">至味享会</el-dropdown-item>
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </li>
-              <li>
-                <a href="http://sxhimg.shixiangyiwei.com/upload/download/help.doc">帮助文档</a>
-              </li>
               <li>
                 <el-popover
                   placement="top-start"
                   title
                   width="200"
                   trigger="hover"
-                  :content="`账号类型: ${account}`"
+                  :content="`账号类型`"
                 >
                   <!-- <el-button slot="reference">hover 激活</el-button> -->
                   <a
                     slot="reference"
                     href="javascript:;"
                     class="dropdown-toggle messages-trigger"
-                  >{{ doc.displayName }}</a>
+                  >admin</a>
                 </el-popover>
               </li>
               <li>
@@ -57,7 +34,7 @@
         </div>
       </nav>
     </header>
-    <aside class="main-sidebar" style="z-index:499!important" v-if="isYqmLogin">
+    <!--<aside class="main-sidebar" style="z-index:499!important" v-if="isYqmLogin">
       <section class="sidebar">
         <el-menu
           class="el-menu-vertical-demo yqm-menu"
@@ -88,11 +65,12 @@
           </el-submenu>
         </el-menu>
       </section>
-    </aside>
+    </aside>-->
     <div
-      :class="isYqmLogin?`content-wrapper btn-small`:`content-wrapper btn-small content-wrapper-portal`"
+      :class="`content-wrapper btn-small content-wrapper-portal`"
+      style="padding-top: 40px !important;"
     >
-      <section class="content-header clearfix" v-if="isYqmLogin">
+      <section class="content-header clearfix">
         <ol class="breadcrumb">
           <li>
             <a href="javascript:;">
@@ -111,13 +89,13 @@
       <!-- 回到顶部 -->
       <el-backtop style="z-index:9999;" title="置顶"></el-backtop>
     </div>
-    <footer class="main-footer" v-if="isYqmLogin">
+    <!--<footer class="main-footer" v-if="isYqmLogin">
       <strong>
         Copyright &copy; {{ year }}
         <a href="javascript:;">食享会</a>.
       </strong>
       All rights reserved.
-    </footer>
+    </footer>-->
   </div>
 </template>
 
@@ -150,12 +128,6 @@ export default {
     state: function() {
       return this.store.state;
     },
-    callAPI: function() {
-      return this.$parent.callAPI;
-    },
-    callAPI2: function() {
-      return this.$parent.callAPI2;
-    },
     doTimeOut: function() {
       return this.$parent.doTimeOut;
     },
@@ -167,32 +139,10 @@ export default {
     year: function() {
       var y = new Date();
       return y.getFullYear();
-    },
-    account: function() {
-      var user = this.user;
-      var type = this.$cacheUtil.getVal("user_role_type", user.roleType, "");
-      if (user.cityName > "") {
-        return `${type} (${user.provinceName}-${user.cityName})`;
-      } else if (this.user.provinceName > "") {
-        return `${type} (${user.provinceName})`;
-      }
-      return type;
     }
   },
-  created: function() {
-    //console.log("支持缓存的组件:", this.keepAliveRoutes);
-    var self = this;
-    this.user = this.$store.state.userInfo;
-    this.routeName = (this.$route.name || "").toUpperCase();
-    //设置vue存储
-    this.$cacheUtil.setVueStore(this);
-    this.$httpUtil.setCacheData(this);
-    this.getMenu(menuBtns => {
-      self.$permission.setMenuBtns(menuBtns);
-    });
-    this.menuId = window.sessionStorage.getItem("menuId");
-    this.menuOpenArr = JSON.parse(window.sessionStorage.getItem("menuOpenArr"));
-    this.routeName = window.sessionStorage.getItem("menuName");
+  mounted: function() {
+    this.$router.push("/index");
   },
   methods: {
     /**
@@ -222,150 +172,6 @@ export default {
     logout: function() {
       sessionStorage.clear();
       return this.$parent.logout();
-    },
-    getMenu: function(callback) {
-      var self = this;
-      var store = this.store;
-      //rbac系统发布，不需要查询菜单
-      if (
-        store.state.token == null ||
-        store.state.token == undefined ||
-        store.state.token == "null" ||
-        store.state.token == "undefined"
-      )
-        return;
-      this.callAPI(
-        "GET",
-        "/adminMenu/getMenu.json",
-        {
-          token: store.state.token,
-          tokenid: store.state.tokenid
-        },
-        function(data) {
-          self.menu = data.data;
-          window.sessionStorage.setItem(
-            "menuBtnId",
-            JSON.stringify(data.dataReserve1)
-          );
-          //推送按钮权限信息
-          if (callback) {
-            callback(data.dataReserve1);
-          }
-          self.menu.forEach(function(item, index) {
-            switch (item.path) {
-              case "/marketing/prodpromotion":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-sale"
-                  })
-                );
-                break;
-              case "/client/clientmanage":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-user"
-                  })
-                );
-                break;
-              case "/prod/prodmanage":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-product"
-                  })
-                );
-                break;
-              case "/so":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-order"
-                  })
-                );
-                break;
-              case "/aftersaleservice":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-aftersales"
-                  })
-                );
-                break;
-              case "/settings":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-set"
-                  })
-                );
-                break;
-              case "/suplier":
-              case "/platform":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-supply"
-                  })
-                );
-                break;
-              case "/account":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-zijin"
-                  })
-                );
-                break;
-              case "/report":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-report"
-                  })
-                );
-                break;
-              case "/globalprod":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-sort-up"
-                  })
-                );
-                break;
-              case "/assemble":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-edit1"
-                  })
-                );
-                break;
-              case "/erp":
-                self.$set(
-                  self.menu,
-                  index,
-                  Object.assign(item, {
-                    cls: "icon-erp"
-                  })
-                );
-                break;
-            }
-          });
-        }
-      );
     }
   }
 };
