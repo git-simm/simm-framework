@@ -16,7 +16,7 @@ export default {
      */
     saveIdCard(files) {
       this.$httpUtil.post({
-        url: "/ocr/upload.json",
+        url: "/ocr/upload",
         data: { files: files },
         contentType: "multipart", //
         succ: function(res) {
