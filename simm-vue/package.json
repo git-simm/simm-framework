@@ -34,7 +34,7 @@
     "mathjs": "6.2.5",
     "moment": "2.24.0",
     "script-loader": "0.7.2",
-    "tinymce": "4.8.5",
+    "tinymce": "5.4.2",
     "v-contextmenu": "2.8.1",
     "v-jsoneditor": "^1.4.1",
     "v-viewer": "1.4.2",
