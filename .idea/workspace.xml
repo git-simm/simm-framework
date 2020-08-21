@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="异常测试">
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/BrightnessUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/Ocr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -11,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/simm-framework-threadutils/target/" />
     <ignored path="$PROJECT_DIR$/simm-framework-test/target/" />
     <ignored path="$PROJECT_DIR$/simm-framework-webutil/target/" />
+    <ignored path="$PROJECT_DIR$/simm-framework-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,107 +49,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="782" selection-start-line="782" selection-end-line="782" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="184" selection-start-line="184" selection-end-line="184" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/annotation/ExceptionHandlerMethodResolver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-              <folding>
-                <element signature="e#3351#3352#0" expanded="true" />
-                <element signature="e#3403#3404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyExceptionHandlerAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="13" selection-start-line="13" selection-end-line="49" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyResponseBodyAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="10" selection-start-line="10" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ExceptionTestController.java">
+        <entry file="file://$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" selection-start-line="7" selection-end-line="36" />
+            <state relative-caret-position="142">
+              <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="264" column="13" lean-forward="true" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/converter/HttpMessageConverter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -160,11 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/annotations/ProxyProp.java" />
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/AuthorityUtil.java" />
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/ProxyJsonUtil.java" />
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/ProxyResolveUtil.java" />
         <option value="$PROJECT_DIR$/simm-framework-jsonext/pom.xml" />
         <option value="$PROJECT_DIR$/simm-framework-jsonext/src/test/java/simm/framework/jsonext/test/CallerTest.java" />
         <option value="$PROJECT_DIR$/simm.framework.threadutils/pom.xml" />
@@ -211,6 +123,11 @@
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyResponseBodyAdvice.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyExceptionHandlerAdvice.java" />
+        <option value="$PROJECT_DIR$/simm-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java" />
+        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/Ocr.java" />
+        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/BrightnessUtil.java" />
+        <option value="$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java" />
       </list>
     </option>
   </component>
@@ -248,10 +165,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="17" />
-    <option name="width" value="1080" />
-    <option name="height" value="646" />
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,150 +188,78 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simm" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="ocr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simm" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webutil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webutil" type="462c0819:PsiDirectoryNode" />
-              <item name="advice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,7 +271,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-test/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -437,19 +281,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources" />
-      <recent name="E:\GitHub\simm-framework\simm.framework.threadutils\src\main\java\simm\framework\threadutils\multi" />
-      <recent name="E:\GitHub\simm-framework\simm.framework.threadutils\src\main\java\simm\framework\threadutils\interrupt" />
-      <recent name="D:\myworkspace\git\simm-framework\simm-framework-jsonext\src\main\java\simm\framework\jsonext" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="simm.framework.webutil.advice" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test.framework.simm.service.impl" />
       <recent name="multi" />
       <recent name="interrupt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simm.framework.webutil.advice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\simm-framework-common\src\main\java\simm\framework\common\ocr" />
+      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources" />
+      <recent name="E:\GitHub\simm-framework\simm.framework.threadutils\src\main\java\simm\framework\threadutils\multi" />
+      <recent name="E:\GitHub\simm-framework\simm.framework.threadutils\src\main\java\simm\framework\threadutils\interrupt" />
+      <recent name="D:\myworkspace\git\simm-framework\simm-framework-jsonext\src\main\java\simm\framework\jsonext" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,7 +309,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TestApplication">
+    <configuration name="BrightnessUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.framework.common.ocr.BrightnessUtil" />
+      <module name="simm-framework-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.common.ocr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -502,6 +361,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BrightnessUtil" />
         <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
@@ -542,7 +402,8 @@
       <workItem from="1597375910022" duration="2702000" />
       <workItem from="1597423207309" duration="240000" />
       <workItem from="1597426214096" duration="51000" />
-      <workItem from="1597543725046" duration="12178000" />
+      <workItem from="1597543725046" duration="12200000" />
+      <workItem from="1597979801882" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -628,17 +489,24 @@
       <option name="project" value="LOCAL" />
       <updated>1597556870772</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="异常测试">
+      <created>1597572371848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597572371848</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75218000" />
+    <option name="totallyTimeSpent" value="76243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="17" width="1080" height="646" extended-state="0" />
+    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32058823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -649,19 +517,19 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33916554" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1539961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1539961" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49946696" visible="true" weight="0.20456906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.20758355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -672,7 +540,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.15874036" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.2637255" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.1433902" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,54 +635,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/context/request/async/WebAsyncUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1072,60 +892,35 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="9912">
           <caret line="782" selection-start-line="782" selection-end-line="782" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="1722">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+        <state relative-caret-position="3206">
+          <caret line="299" column="13" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/annotation/ExceptionHandlerMethodResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="882">
           <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-          <folding>
-            <element signature="e#3351#3352#0" expanded="true" />
-            <element signature="e#3403#3404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/converter/HttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="264" column="13" lean-forward="true" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyExceptionHandlerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
+        <state relative-caret-position="56">
           <caret line="13" selection-start-line="13" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1135,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice/MyResponseBodyAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
+        <state relative-caret-position="56">
           <caret line="10" selection-start-line="10" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1143,14 +938,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1162">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2912">
+          <caret line="264" column="13" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/converter/HttpMessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ExceptionTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="36" />
+        <state relative-caret-position="140">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/Ocr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/BrightnessUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
