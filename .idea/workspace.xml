@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="提交测试代码">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/model/IDCardInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="身份证识别代码提交">
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/tmp/img.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/Ocr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/test/java/simm/framework/common/OcrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/OcrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/OcrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/IDCardOcr.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/IDCardOcr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper-panel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,18 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/OcrController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/IDCardOcr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -84,29 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/common/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1162">
-              <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="114" column="58" lean-forward="true" selection-start-line="114" selection-start-column="58" selection-end-line="114" selection-end-column="58" />
+            <state relative-caret-position="267">
+              <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +76,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-299">
+              <caret line="278" column="28" selection-start-line="278" selection-start-column="28" selection-end-line="278" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+              <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -234,7 +213,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="simm-framework - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="simm-framework - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -262,51 +251,6 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ocr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -374,6 +318,42 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -391,7 +371,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/advice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-test/src/main/resources/tmp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -541,7 +521,7 @@
       <workItem from="1597979801882" duration="14622000" />
       <workItem from="1598016586538" duration="2680000" />
       <workItem from="1598019286643" duration="2440000" />
-      <workItem from="1598232335354" duration="15923000" />
+      <workItem from="1598232335354" duration="18128000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -676,17 +656,23 @@
       <option name="project" value="LOCAL" />
       <updated>1598021710733</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="身份证识别代码提交">
+      <created>1598254838575</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598254838576</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110905000" />
+    <option name="totallyTimeSpent" value="113110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -696,8 +682,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33916554" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37798545" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33852544" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41952232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -736,7 +722,8 @@
     <MESSAGE value="OCR测试代码整理" />
     <MESSAGE value="壳子程序测试使用" />
     <MESSAGE value="提交测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交测试代码" />
+    <MESSAGE value="身份证识别代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="身份证识别代码提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,11 +778,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java</url>
-          <line>50</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="26" />
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -824,37 +809,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simm-vue/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-vue/src/components/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-vue/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="221" column="28" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-vue/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-vue/src/routes/setting-route.js" />
     <entry file="file://$PROJECT_DIR$/simm-vue/src/routes/user-route.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1118,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="397" column="73" selection-start-line="397" selection-start-column="67" selection-end-line="397" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1177,14 +1124,49 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/ocr/ImageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/WinNTFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2371">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="278" column="28" selection-start-line="278" selection-start-column="28" selection-end-line="278" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1604" column="27" selection-start-line="1604" selection-start-column="27" selection-end-line="1604" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="114" column="58" lean-forward="true" selection-start-line="114" selection-start-column="58" selection-end-line="114" selection-end-column="58" />
+        <state relative-caret-position="267">
+          <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
