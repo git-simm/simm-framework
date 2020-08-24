@@ -26,6 +26,11 @@ export default {
       default: null
     }
   },
+  data() {
+    return {
+      info: {}
+    };
+  },
   methods: {
     /**
      * 查询当前审核节点
@@ -44,15 +49,22 @@ export default {
     /**
      * 保存图片
      */
-    saveImg(blobData) {
+    saveImg(blobData, callback) {
       var files = [
         {
           blob: blobData,
           fileName: "截图" + Math.random() + ".png"
         }
       ];
+      var self = this;
       if (this.save) {
-        this.save(files);
+        this.save(files, data => {
+          self.info = data;
+          if (callback) {
+            callback(self.info);
+          }
+        });
+        //this.$layerUtil.closeWin(this);
         return;
       }
       var self = this;

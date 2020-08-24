@@ -4,6 +4,7 @@ import net.sourceforge.tess4j.util.ImageHelper;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.util.function.Function;
 
 /**
  * 源自于网络 https://github.com/firefoxmmx2/IDCardIDentify
@@ -220,22 +221,25 @@ public class ImageFilter {
 
   /**
    * 图片像素RGB差值滤镜
-   *
    * @param image
-   * @param differenceValue 最大允许差值
+   * @param differenceValue
+   * @param excludeFunc
    * @return
    */
-  public static BufferedImage imageRGBDifferenceFilter(BufferedImage image, int differenceValue) {
+  public static BufferedImage imageRGBDifferenceFilter(BufferedImage image, int differenceValue, Function<Integer[],Boolean> excludeFunc) {
     for (int x = image.getMinX(); x < image.getWidth(); x++) {
       for (int y = image.getMinY(); y < image.getHeight(); y++) {
         Object data = image.getRaster().getDataElements(x, y, null);
         int dataRed = image.getColorModel().getRed(data);
         int dataBlue = image.getColorModel().getBlue(data);
         int dataGreen = image.getColorModel().getGreen(data);
-
         if (differenceValue <= Math.abs(dataRed - dataBlue) &&
             differenceValue <= Math.abs(dataRed - dataGreen) &&
             differenceValue <= Math.abs(dataBlue - dataGreen)) {
+          if(excludeFunc!=null && excludeFunc.apply(new Integer[]{dataRed,dataGreen,dataBlue})){
+            //是否需要排除这个点
+            continue;
+          }
 //          把超过最大差值的像素涂白
           image.setRGB(x,y,Color.white.getRGB());
         }

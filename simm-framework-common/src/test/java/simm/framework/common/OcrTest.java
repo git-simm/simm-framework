@@ -28,7 +28,7 @@ public class OcrTest {
         tesseract.setDatapath("D:\\04test\\tessdata");
         tesseract.setLanguage("chi_sim");
         BufferedImage bufferedImage = ImageFilter.cloneImage(ImageIO.read(imageFile));
-        bufferedImage = ImageFilter.imageRGBDifferenceFilter(bufferedImage, targetDifferenceValue);
+        bufferedImage = ImageFilter.imageRGBDifferenceFilter(bufferedImage, targetDifferenceValue,null);
         bufferedImage = ImageFilter.convertImageToGrayScale(bufferedImage);
         //缩放到真实身份证大小
         bufferedImage = ImageFilter.imageScale(bufferedImage, 673, 425);

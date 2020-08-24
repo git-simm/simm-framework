@@ -1,6 +1,5 @@
 package test.framework.simm.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import simm.framework.webutil.model.BizException;
+import test.framework.simm.model.IDCardInfo;
 import test.framework.simm.service.IDCardOcr;
 
 /**
@@ -29,7 +29,7 @@ public class OcrController {
      */
     @RequestMapping("upload")
     @ResponseBody
-    public JSONObject upload(@RequestParam("file") MultipartFile file) throws Exception {
+    public IDCardInfo upload(@RequestParam("file") MultipartFile file) throws Exception {
         if (null == file) {
             throw new BizException("上传文件不能为空");
         }

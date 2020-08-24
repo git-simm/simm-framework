@@ -14,12 +14,22 @@ export default {
     /**
      * 保证身份证信息
      */
-    saveIdCard(files) {
+    saveIdCard(files, callback) {
       this.$httpUtil.post({
         url: "/ocr/upload",
         data: { files: files },
         contentType: "multipart", //
         succ: function(res) {
+          if (callback) {
+            var data = {
+              show: `<p><span>姓名：</span><span>${res.data.name}</span></p>
+              <p><span>性别：</span><span>${res.data.sex}</span></p>
+              <p><span>民族：</span><span>${res.data.nation}</span></p>
+              <p><span>地址：</span><span>${res.data.address}</span></p>
+              <p><span>身份证号：</span><span>${res.data.idNumber}</span></p>`
+            };
+            callback(data);
+          }
           console.log(res);
         }
       });

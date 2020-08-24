@@ -84,6 +84,7 @@
             v-if="previews!=null"
           >分辨率 {{cropInfo.width}} * {{cropInfo.height}}</el-tag>
         </p>
+        <div v-html="info.show"></div>
       </el-col>
     </el-row>
     <div class="layer-footer" style="text-align:center;">
@@ -111,6 +112,7 @@ export default {
   },
   data() {
     return {
+      info: {},
       model: false,
       modelSrc: "",
       crap: false,
@@ -260,7 +262,9 @@ export default {
       var self = this;
       this.$refs.cropper.getCropBlob(data => {
         self.$emit("saveImg", data);
-        self.saveImg(data);
+        self.saveImg(data, info => {
+          self.info = info;
+        });
       });
     },
     closeWin: function() {
