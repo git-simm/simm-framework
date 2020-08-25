@@ -23,7 +23,7 @@ import java.util.function.BiConsumer;
  */
 @Service
 public class BizCardOcrImpl implements BizCardOcr {
-    private static int targetBrightness = 240;
+    private static int targetBrightness = 260;
     private static int targetDifferenceValue = 15;
 
     /**
