@@ -80,7 +80,7 @@ public class IDCardOcrImpl implements IDCardOcr {
         try (OutputStream outputStream = new FileOutputStream(temp)) {
             BufferedImage idImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 200
                     , 354, bufferedImage.getWidth() - 200, bufferedImage.getHeight() - 354);
-            System.out.println("addressImage 辉度处理");
+            System.out.println("idImage 辉度处理");
             handBrightness(idImage, targetIdBrightness);
             saveImg(idImage, outputStream);
             tesseract.setLanguage("eng");
