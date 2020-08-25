@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="营业执照解析">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/test/id-test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/test/license-test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper-panel.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/BizController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="532">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1219">
-              <caret line="226" column="7" lean-forward="true" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+              <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -364,7 +364,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -372,6 +372,12 @@
               <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,12 +405,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\tmp" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\advice" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\configuration" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\common" />
-      <recent name="D:\04test\simm-framework\simm-framework-common\src\main\java\simm\framework\common\file" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.framework.simm.service.impl" />
+      <recent name="multi" />
+      <recent name="interrupt" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.framework.simm.service.impl" />
@@ -412,10 +416,12 @@
       <recent name="test.framework.simm.controller" />
       <recent name="simm.framework.webutil.advice" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test.framework.simm.service.impl" />
-      <recent name="multi" />
-      <recent name="interrupt" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\test" />
+      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\tmp" />
+      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\advice" />
+      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\configuration" />
+      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -544,7 +550,7 @@
       <workItem from="1598019286643" duration="2440000" />
       <workItem from="1598232335354" duration="20062000" />
       <workItem from="1598318281095" duration="10369000" />
-      <workItem from="1598332644498" duration="3755000" />
+      <workItem from="1598332644498" duration="4537000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -707,11 +713,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598335751007</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="营业执照解析">
+      <created>1598337266748</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598337266748</updated>
+    </task>
+    <task id="LOCAL-00025" summary="营业执照解析">
+      <created>1598337469848</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1598337469848</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129168000" />
+    <option name="totallyTimeSpent" value="129950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
@@ -728,7 +748,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33852544" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27102804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1211,14 +1231,14 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1219">
-          <caret line="226" column="7" lean-forward="true" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+          <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/BizController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="532">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

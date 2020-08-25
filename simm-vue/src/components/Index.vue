@@ -25,11 +25,15 @@ export default {
                 succ: function (res) {
                     if (callback) {
                         var data = {
-                            show: `<p><span>姓名：</span><span>${res.data.name}</span></p>
-              <p><span>性别：</span><span>${res.data.sex}</span></p>
-              <p><span>民族：</span><span>${res.data.nation}</span></p>
-              <p><span>地址：</span><span>${res.data.address}</span></p>
-              <p><span>身份证号：</span><span>${res.data.idNumber}</span></p>`
+                            show: `<p><span>统一社会信用代码：</span><span>${res.data.creditCode}</span></p>
+                            <p><span>名称：</span><span>${res.data.name}</span></p>
+                            <p><span>类型：</span><span>${res.data.bizType}</span></p>
+                            <p><span>法定代表人：</span><span>${res.data.juridical}</span></p>
+                            <p><span>注册资本：</span><span>${res.data.capital}</span></p>
+                            <p><span>成立日期：</span><span>${res.data.buildOn}</span></p>
+                            <p><span>营业期限：</span><span>${res.data.bizLimit}</span></p>
+                            <p><span>住所：</span><span>${res.data.address}</span></p>
+                            <p><span>经营范围：</span><span>${res.data.bizScope}</span></p>`
                         };
                         callback(data);
                     }
