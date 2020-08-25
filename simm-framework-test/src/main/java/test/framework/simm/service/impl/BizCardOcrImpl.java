@@ -23,7 +23,7 @@ import java.util.function.BiConsumer;
  */
 @Service
 public class BizCardOcrImpl implements BizCardOcr {
-    private static int targetBrightness = 280;
+    private static int targetBrightness = 240;
     private static int targetDifferenceValue = 15;
 
     /**
@@ -41,7 +41,8 @@ public class BizCardOcrImpl implements BizCardOcr {
         tesseract.setLanguage("chi_sim");
         //读取网络图片
         BufferedImage bufferedImage = ImageFilter.cloneImage(ImageIO.read(inputStream));
-        bufferedImage = ImageFilter.imageRGBDifferenceFilter(bufferedImage, targetDifferenceValue, null);
+        //不过滤部分颜色
+        //bufferedImage = ImageFilter.imageRGBDifferenceFilter(bufferedImage, targetDifferenceValue, null);
         bufferedImage = ImageFilter.convertImageToGrayScale(bufferedImage);
         //缩放到真实身份证大小
         bufferedImage = ImageFilter.imageScale(bufferedImage, 3150, 1920);
@@ -77,11 +78,12 @@ public class BizCardOcrImpl implements BizCardOcr {
     private void getBufferedCreditCodeImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
         try (OutputStream outputStream = new FileOutputStream(path)) {
             BufferedImage idImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 200
-                    , 450, 550, 100);
+                    , 250, 550, 300);
             System.out.println("creditCodeImage 辉度处理");
             handBrightness(idImage, targetBrightness);
             saveImg(idImage, outputStream);
-            tesseract.setLanguage("eng");
+//            tesseract.setLanguage("eng");
+            tesseract.setLanguage("chi_sim");
             // \W 可以配置 非字母和数字，等价于 [^a-zA-Z0-9] (\d \D 小写表示匹配数字，大写表示匹配非数字)
             String idCardNumber = tesseract.doOCR(idImage).replaceAll("[\\W]", "");
             bizLicenseInfo.setCreditCode(idCardNumber);
@@ -99,7 +101,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @param path
      */
     private void getBufferedNameImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 730, 1200, 100);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 700, 1200, 120);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setName 辉度处理");
             bizLicenseInfo.setName(content);
@@ -115,7 +117,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedBizTypeImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 850, 1200, 100);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 820, 1200, 130);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setBizType 辉度处理");
             bizLicenseInfo.setBizType(content);
@@ -131,7 +133,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedJuridicalImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 980, 1200, 100);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 950, 1200, 120);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setJuridical 辉度处理");
             bizLicenseInfo.setJuridical(content);
@@ -148,7 +150,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedBizScopeImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 1100, 1330, bufferedImage.getHeight() - 1200);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 520, 1070, 1330, bufferedImage.getHeight() - 1200);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setBizScope 辉度处理");
             bizLicenseInfo.setBizScope(content);
@@ -165,7 +167,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedCapitalImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 720, bufferedImage.getWidth()-2240, 120);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 720, bufferedImage.getWidth()-2400, 120);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setCapital 辉度处理");
             bizLicenseInfo.setCapital(content);
@@ -182,7 +184,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedBuildOnImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 850, bufferedImage.getWidth()-2240, 80);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 850, bufferedImage.getWidth()-2400, 100);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setBuildOn 辉度处理");
             bizLicenseInfo.setBuildOn(content);
@@ -199,7 +201,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedBizLimitImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 970, bufferedImage.getWidth()-2240, 100);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 970, bufferedImage.getWidth()-2400, 100);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setBizLimit 辉度处理");
             bizLicenseInfo.setBizLimit(content);
@@ -216,7 +218,7 @@ public class BizCardOcrImpl implements BizCardOcr {
      * @throws TesseractException
      */
     private void getBufferedAddressImage(Tesseract tesseract, BufferedImage bufferedImage, BizLicenseInfo bizLicenseInfo, String path) throws IOException, TesseractException {
-        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 1100, bufferedImage.getWidth()-2240, 240);
+        BufferedImage buffered = ImageFilter.subImage(bufferedImage, 2170, 1070, bufferedImage.getWidth()-2240, 270);
         getBufferedImage(tesseract,buffered,path,(img,content)->{
             System.out.println("setAddress 辉度处理");
             bizLicenseInfo.setAddress(content);

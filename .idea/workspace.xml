@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="身份证识别代码提交">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/BizController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/model/BizLicenseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/BizCardOcr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="营业执照解析">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/IDCardOcr.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/IDCardOcr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/src/components/shixh/img/sxh-cropper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/BizController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="154" column="11" lean-forward="true" selection-start-line="154" selection-start-column="11" selection-end-line="154" selection-end-column="11" />
+            <state relative-caret-position="239">
+              <caret line="225" column="5" lean-forward="true" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -373,19 +364,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -557,7 +535,7 @@
       <workItem from="1598019286643" duration="2440000" />
       <workItem from="1598232335354" duration="20062000" />
       <workItem from="1598318281095" duration="10369000" />
-      <workItem from="1598332644498" duration="718000" />
+      <workItem from="1598332644498" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -706,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598256989487</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="营业执照解析">
+      <created>1598333544695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598333544695</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126131000" />
+    <option name="totallyTimeSpent" value="128405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
@@ -767,7 +752,8 @@
     <MESSAGE value="壳子程序测试使用" />
     <MESSAGE value="提交测试代码" />
     <MESSAGE value="身份证识别代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="身份证识别代码提交" />
+    <MESSAGE value="营业执照解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="营业执照解析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,18 +811,6 @@
           <line>35</line>
           <properties />
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java</url>
-          <line>239</line>
-          <properties />
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1173,13 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/BizCardOcr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30016">
@@ -1221,17 +1188,24 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/BizController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/BizCardOcr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BizCardOcrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="154" column="11" lean-forward="true" selection-start-line="154" selection-start-column="11" selection-end-line="154" selection-end-column="11" />
+        <state relative-caret-position="239">
+          <caret line="225" column="5" lean-forward="true" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
         </state>
       </provider>
     </entry>
