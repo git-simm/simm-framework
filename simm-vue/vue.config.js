@@ -48,6 +48,19 @@ module.exports = {
   },
   //链式操作
   chainWebpack: config => {
+    // 发行或运行时启用了压缩时会生效
+    if (process.env.NODE_ENV === 'production') {
+      // debugger;
+      // config.optimization.minimizer('terser').tap(args => {
+      //   const compress = args[0].terserOptions.compress
+      //   // 非 App 平台移除 console 代码
+      //   compress.drop_console = true
+      //   compress.pure_funcs = [
+      //     '__f__' // App 平台 vue 移除日志代码
+      //   ]
+      //   return args
+      // })
+    }
     config.resolve.alias
       .set("@", resolve("src"))
       .set("@c", resolve("src/components"))
