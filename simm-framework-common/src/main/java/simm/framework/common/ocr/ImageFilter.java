@@ -25,7 +25,6 @@ public class ImageFilter {
           darkestPoint = data;
       }
     }
-
     return darkestPoint;
   }
 
