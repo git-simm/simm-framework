@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="docker部署">
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="docker部署文件提交">
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/sources.list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,16 +67,25 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/run.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/sources.list">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="308">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -85,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1137">
-              <caret line="107" column="47" lean-forward="true" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+              <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -103,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -117,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -148,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/BaseElasticServiceImpl.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/common/MyHandlerExceptionResolver.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/model/BizException.java" />
@@ -199,6 +207,7 @@
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/resources/run.sh" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile" />
+        <option value="$PROJECT_DIR$/simm-framework-test/src/main/resources/sources.list" />
       </list>
     </option>
   </component>
@@ -243,8 +252,8 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1461" />
-    <option name="y" value="58" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -266,16 +275,6 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-jsonext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
               <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,6 +289,23 @@
               <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +318,7 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
+              <item name="tesseract" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +338,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-test/src/main/resources/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tesseract" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,10 +348,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test.framework.simm.service.impl" />
-      <recent name="multi" />
-      <recent name="interrupt" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\tesseract" />
+      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\test" />
+      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\tmp" />
+      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\advice" />
+      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\configuration" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.framework.simm.service.impl" />
@@ -343,12 +361,10 @@
       <recent name="test.framework.simm.controller" />
       <recent name="simm.framework.webutil.advice" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\test" />
-      <recent name="D:\04test\simm-framework\simm-framework-test\src\main\resources\tmp" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\advice" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\configuration" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil\common" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.framework.simm.service.impl" />
+      <recent name="multi" />
+      <recent name="interrupt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,7 +509,7 @@
       <workItem from="1598837319136" duration="626000" />
       <workItem from="1598843117304" duration="626000" />
       <workItem from="1598885303738" duration="2346000" />
-      <workItem from="1598924182470" duration="23675000" />
+      <workItem from="1598924182470" duration="37965000" />
     </task>
     <task id="LOCAL-00001" summary="提交丢失的文件">
       <created>1533820383980</created>
@@ -726,17 +742,31 @@
       <option name="project" value="LOCAL" />
       <updated>1598947267346</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="docker部署文件提交">
+      <created>1598957228328</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598957228328</updated>
+    </task>
+    <task id="LOCAL-00035" summary="docker部署文件提交">
+      <created>1598957290637</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1598957290637</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165333000" />
+    <option name="totallyTimeSpent" value="179623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06169666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -746,7 +776,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14537902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36069986" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2990654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,7 +800,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.15874036" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.22334754" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.12532134" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +820,8 @@
     <MESSAGE value="营业执照解析" />
     <MESSAGE value="身份证信息识别" />
     <MESSAGE value="docker部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker部署" />
+    <MESSAGE value="docker部署文件提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker部署文件提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -876,13 +907,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3402">
@@ -1202,7 +1226,7 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1212,14 +1236,14 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1137">
-          <caret line="107" column="47" lean-forward="true" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1233,7 +1257,7 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1250,14 +1274,21 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="168">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/sources.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
