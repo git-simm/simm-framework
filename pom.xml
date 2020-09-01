@@ -104,7 +104,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <skipTests>true</skipTests>    <!--默认关掉单元测试 -->
+                    <!--默认关掉单元测试 -->
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
         </plugins>

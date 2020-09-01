@@ -1,14 +1,14 @@
 package test.framework.simm.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 测试controller
  * @author simm
  */
-@Controller
+@RestController
 @RequestMapping("test")
 public class TestController {
     /**
@@ -17,7 +17,7 @@ public class TestController {
      */
     @RequestMapping("/hello")
     @ResponseBody
-    public Object search() {
+    public String search() {
         return "hello world!";
     }
 }

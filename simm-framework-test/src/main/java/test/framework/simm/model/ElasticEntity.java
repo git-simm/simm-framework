@@ -2,6 +2,7 @@ package test.framework.simm.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
  * @author simm
  */
 @Data
-public class ElasticEntity {
+public class ElasticEntity implements Serializable {
     private String id;
     private String name;
     private Integer age;

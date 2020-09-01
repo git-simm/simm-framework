@@ -2,11 +2,13 @@ package simm.framework.webutil.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author simm
  */
 @Data
-public class JsonResult<T> {
+public class JsonResult<T> implements Serializable {
     public JsonResult(){
         this.resultCode=ERROR;
     }

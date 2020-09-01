@@ -1,9 +1,11 @@
 package simm.framework.webutil.model;
 
+import java.io.Serializable;
+
 /**
  * @author simm
  */
-public class BizException extends RuntimeException {
+public class BizException extends RuntimeException implements Serializable {
 
     private CodeEnum codeEnum;
 

@@ -1,5 +1,6 @@
 package simm.framework.webutil.advice;
 
+import com.alibaba.fastjson.JSON;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.server.ServerHttpRequest;
@@ -36,9 +37,9 @@ public class MyResponseBodyAdvice implements ResponseBodyAdvice {
         //将返回值包装成jsonresult结构
         JsonResult<Object> jsonResult = new JsonResult<>(true);
         jsonResult.setData(body);
-//        if (selectedConverterType.getSimpleName().contains(HTTP_MESSAGE_CONVERTER)) {
-//            return JSON.toJSONString(jsonResult);
-//        }
+        if (selectedConverterType.getSimpleName().contains(HTTP_MESSAGE_CONVERTER)) {
+            return JSON.toJSONString(jsonResult);
+        }
         return jsonResult;
     }
 }

@@ -2,12 +2,14 @@ package test.framework.simm.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 营业执照号信息
  * @author simm
  */
 @Data
-public class BizLicenseInfo {
+public class BizLicenseInfo implements Serializable {
     /**
      * 名称
      */
