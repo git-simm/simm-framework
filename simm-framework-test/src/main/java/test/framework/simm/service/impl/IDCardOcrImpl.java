@@ -3,7 +3,6 @@ package test.framework.simm.service.impl;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ClassUtils;
 import simm.framework.common.ocr.ImageFilter;
 import test.framework.simm.model.IDCardInfo;
 import test.framework.simm.service.IDCardOcr;
@@ -14,6 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URL;
 
 /**
  * 身份证信息识别
@@ -44,7 +44,10 @@ public class IDCardOcrImpl implements IDCardOcr {
     @Override
     public IDCardInfo getInfo(InputStream inputStream) throws Exception {
         IDCardInfo idCardInfo = new IDCardInfo();
-        String rootPath = ClassUtils.getDefaultClassLoader().getResource("").getPath()+"/tmp";
+        URL resource = this.getClass().getResource("/");
+        String rootPath = resource.toString() + "/tmp";
+        System.out.println("临时文件目录：" + rootPath);
+        System.out.println("resource.getPath:" + resource.getPath());
         Tesseract tesseract = new Tesseract();
 //        tesseract.setDatapath("D:\\04test\\tessdata");
         tesseract.setLanguage("chi_sim");
@@ -54,12 +57,12 @@ public class IDCardOcrImpl implements IDCardOcr {
         bufferedImage = ImageFilter.convertImageToGrayScale(bufferedImage);
         //缩放到真实身份证大小
         bufferedImage = ImageFilter.imageScale(bufferedImage, 673, 425);
-        try (OutputStream outputStream = new FileOutputStream(rootPath+"/bg.jpg")) {
-            saveImg(bufferedImage,outputStream);
-            getBufferedContentImage(tesseract, bufferedImage, idCardInfo,rootPath+"/contentImageBefore.jpg");
-            getBufferedBirthImage(tesseract, bufferedImage, idCardInfo,rootPath+"/birthImageBefore.jpg");
-            getBufferedAddressImage(tesseract, bufferedImage, idCardInfo,rootPath+"/addressImageBefore.jpg");
-            getBufferedIdImage(tesseract, bufferedImage, idCardInfo,rootPath+"/idImageBefore.jpg");
+        try (OutputStream outputStream = new FileOutputStream(rootPath + "/bg.jpg")) {
+            saveImg(bufferedImage, outputStream);
+            getBufferedContentImage(tesseract, bufferedImage, idCardInfo, rootPath + "/contentImageBefore.jpg");
+            getBufferedBirthImage(tesseract, bufferedImage, idCardInfo, rootPath + "/birthImageBefore.jpg");
+            getBufferedAddressImage(tesseract, bufferedImage, idCardInfo, rootPath + "/addressImageBefore.jpg");
+            getBufferedIdImage(tesseract, bufferedImage, idCardInfo, rootPath + "/idImageBefore.jpg");
             return idCardInfo;
         }
     }
@@ -76,7 +79,7 @@ public class IDCardOcrImpl implements IDCardOcr {
      */
     private BufferedImage getBufferedIdImage(Tesseract tesseract
             , BufferedImage bufferedImage
-            , IDCardInfo idCardInfo,String temp) throws IOException, TesseractException {
+            , IDCardInfo idCardInfo, String temp) throws IOException, TesseractException {
         try (OutputStream outputStream = new FileOutputStream(temp)) {
             BufferedImage idImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 200
                     , 354, bufferedImage.getWidth() - 200, bufferedImage.getHeight() - 354);
@@ -102,7 +105,7 @@ public class IDCardOcrImpl implements IDCardOcr {
      */
     private BufferedImage getBufferedAddressImage(Tesseract tesseract
             , BufferedImage bufferedImage
-            , IDCardInfo idCardInfo,String temp) throws IOException, TesseractException {
+            , IDCardInfo idCardInfo, String temp) throws IOException, TesseractException {
         try (OutputStream outputStream = new FileOutputStream(temp)) {
             BufferedImage addressImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 90, 208, 340, 144);
 //            addressImage = ImageFilter.imageScale(addressImage, ((int) (addressImage.getWidth() * 2.4) + 1), ((int) (addressImage.getHeight() * 2.4) + 1));
@@ -130,8 +133,8 @@ public class IDCardOcrImpl implements IDCardOcr {
      */
     private BufferedImage getBufferedContentImage(Tesseract tesseract
             , BufferedImage bufferedImage
-            , IDCardInfo idCardInfo,String temp) throws IOException, TesseractException {
-        try (OutputStream outputStream = new FileOutputStream( temp)) {
+            , IDCardInfo idCardInfo, String temp) throws IOException, TesseractException {
+        try (OutputStream outputStream = new FileOutputStream(temp)) {
             BufferedImage contentImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 90, bufferedImage.getMinY(), 323, 154);
             System.out.println("contentImage 辉度处理");
             handBrightness(contentImage, targetContentBrightness);
@@ -156,15 +159,17 @@ public class IDCardOcrImpl implements IDCardOcr {
             throw ex;
         }
     }
+
     /**
      * 获取缓存图片
+     *
      * @param bufferedImage
      * @return
      * @throws IOException
      */
     private BufferedImage getBufferedBirthImage(Tesseract tesseract
             , BufferedImage bufferedImage
-            , IDCardInfo idCardInfo,String temp) throws IOException, TesseractException {
+            , IDCardInfo idCardInfo, String temp) throws IOException, TesseractException {
         try (OutputStream outputStream = new FileOutputStream(temp)) {
             //裁剪图片
             BufferedImage birthImage = ImageFilter.subImage(bufferedImage, bufferedImage.getMinX() + 90, 154, 323, 54);
@@ -177,15 +182,18 @@ public class IDCardOcrImpl implements IDCardOcr {
             return birthImage;
         }
     }
+
     /**
      * 保存图片
+     *
      * @param image
      * @param outputStream
      * @throws IOException
      */
-    private void saveImg(BufferedImage image,OutputStream outputStream) throws IOException {
+    private void saveImg(BufferedImage image, OutputStream outputStream) throws IOException {
         ImageIO.write(image, "jpg", outputStream);
     }
+
     /**
      * 处理图片辉度
      *
