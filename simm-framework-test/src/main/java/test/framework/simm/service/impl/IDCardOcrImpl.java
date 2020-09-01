@@ -9,11 +9,7 @@ import test.framework.simm.service.IDCardOcr;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.URL;
+import java.io.*;
 
 /**
  * 身份证信息识别
@@ -44,10 +40,13 @@ public class IDCardOcrImpl implements IDCardOcr {
     @Override
     public IDCardInfo getInfo(InputStream inputStream) throws Exception {
         IDCardInfo idCardInfo = new IDCardInfo();
-        URL resource = this.getClass().getResource("/");
-        String rootPath = resource.toString() + "/tmp";
+        String home = System.getProperty("catalina.home");
+        String rootPath = home + "/tmp";
+        File file=new File(rootPath);
+        if(!file.exists()){
+            file.mkdir();
+        }
         System.out.println("临时文件目录：" + rootPath);
-        System.out.println("resource.getPath:" + resource.getPath());
         Tesseract tesseract = new Tesseract();
 //        tesseract.setDatapath("D:\\04test\\tessdata");
         tesseract.setLanguage("chi_sim");
