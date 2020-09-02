@@ -46,8 +46,8 @@ public class IDCardOcrImpl implements IDCardOcr {
         if(!file.exists()){
             file.mkdir();
         }
-        System.out.println("临时文件目录:" + rootPath);
-        System.out.println("TESSDATA_PREFIX:" + System.getenv("TESSDATA_PREFIX"));
+//        System.out.println("临时文件目录:" + rootPath);
+//        System.out.println("TESSDATA_PREFIX:" + System.getenv("TESSDATA_PREFIX"));
         Tesseract tesseract = new Tesseract();
 //        tesseract.setDatapath("D:\\04test\\tessdata");
         tesseract.setLanguage("chi_sim");

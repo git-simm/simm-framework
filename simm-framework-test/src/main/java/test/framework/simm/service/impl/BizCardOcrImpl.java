@@ -3,17 +3,13 @@ package test.framework.simm.service.impl;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ClassUtils;
 import simm.framework.common.ocr.ImageFilter;
 import test.framework.simm.model.BizLicenseInfo;
 import test.framework.simm.service.BizCardOcr;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.function.BiConsumer;
 
 /**
@@ -36,7 +32,12 @@ public class BizCardOcrImpl implements BizCardOcr {
     @Override
     public BizLicenseInfo getInfo(InputStream inputStream) throws Exception {
         BizLicenseInfo bizLicenseInfo = new BizLicenseInfo();
-        String rootPath = ClassUtils.getDefaultClassLoader().getResource("").getPath()+"/tmp";
+        String home = System.getProperty("catalina.home");
+        String rootPath = home + "/tmp";
+        File file=new File(rootPath);
+        if(!file.exists()){
+            file.mkdir();
+        }
         Tesseract tesseract = new Tesseract();
         tesseract.setLanguage("chi_sim");
         //读取网络图片
