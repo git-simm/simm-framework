@@ -7,7 +7,7 @@ echo "制作镜像"
 docker build -t ocr-api:v1.0 .
 
 echo "运行镜像"
-docker run -it -v ../tessdata:/usr/local/share/tessdata -p 8080:8080 --name="ocr-api" ocr-api:v1.0
+docker run -it -v /usr/tessdata:/usr/local/share/tessdata -p 8080:8080 --name="ocr-api" ocr-api:v1.0
 
 # sed -i "s/\r//" run.sh 执行此命令进行转格式
 # 追加权限  chmod +x run.sh
