@@ -1,13 +1,18 @@
 package test.framework.simm.service;
 
+import simm.framework.common.model.BizException;
 import test.framework.simm.model.BizLicenseInfo;
-
-import java.io.InputStream;
 
 /**
  * 营业执照号识别
  * @author simm
  */
 public interface BizCardOcr {
-    BizLicenseInfo getInfo(InputStream inputStream) throws Exception;
+    /**
+     * 获取营业执照信息
+     * @param base64
+     * @return
+     * @throws BizException
+     */
+    BizLicenseInfo getInfo(String base64) throws BizException;
 }

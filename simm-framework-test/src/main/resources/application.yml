@@ -41,3 +41,6 @@ spring:
 mybatis:
   mapperLocations: classpath:mapper/**/*.xml
   type-aliases-package: test.framework.simm.model
+
+config:
+  saveTmpImg: true

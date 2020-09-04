@@ -15,10 +15,16 @@
             <artifactId>tess4j</artifactId>
             <version>4.5.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.bytedeco/opencv -->
         <dependency>
-            <groupId>simm.framework</groupId>
-            <artifactId>simm-framework-webutil</artifactId>
-            <version>1.0</version>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.3.0-1.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
         </dependency>
     </dependencies>
 </project>

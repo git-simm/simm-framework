@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import simm.framework.webutil.model.BizException;
+import simm.framework.common.model.BizException;
+import simm.framework.common.utils.MyStreamUtils;
 import test.framework.simm.model.IDCardInfo;
 import test.framework.simm.service.IDCardOcr;
 
@@ -38,6 +39,6 @@ public class OcrController {
 //        String name = fileName.substring(0, fileName.lastIndexOf("."));
 //        String suffix = fileName.substring(fileName.lastIndexOf("."));
 //        fileName = String.format("%s(%s)%s", name, UUID.randomUUID(), suffix);
-        return idCardOcr.getInfo(file.getInputStream());
+        return idCardOcr.getInfo(MyStreamUtils.streamToBase64(file.getInputStream()));
     }
 }

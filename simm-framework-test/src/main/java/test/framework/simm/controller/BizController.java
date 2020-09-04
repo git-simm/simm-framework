@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import simm.framework.webutil.model.BizException;
+import simm.framework.common.model.BizException;
+import simm.framework.common.utils.MyStreamUtils;
 import test.framework.simm.model.BizLicenseInfo;
 import test.framework.simm.service.BizCardOcr;
 
@@ -33,6 +34,6 @@ public class BizController {
         if (null == file) {
             throw new BizException("上传文件不能为空");
         }
-        return bizCardOcr.getInfo(file.getInputStream());
+        return bizCardOcr.getInfo(MyStreamUtils.streamToBase64(file.getInputStream()));
     }
 }
