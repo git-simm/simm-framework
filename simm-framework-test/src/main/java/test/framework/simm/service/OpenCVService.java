@@ -10,7 +10,7 @@ public interface OpenCVService {
      * @param base64
      * @return
      */
-    String correct(String base64);
+    String correct(String base64,String correctPath);
     String getTmpPath();
     Boolean getSaveTmpImg();
 }

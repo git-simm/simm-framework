@@ -5,6 +5,7 @@ import org.apache.poi.util.IOUtils;
 import org.opencv.core.Mat;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import simm.framework.common.utils.ImageOpencvUtils;
 import simm.framework.common.utils.MyStreamUtils;
 import test.framework.simm.service.OpenCVService;
@@ -35,7 +36,7 @@ public class OpenCVServiceImpl implements OpenCVService {
     public void init() throws IOException {
         String os = System.getProperty("os.name").toLowerCase();
         String ext = ".so";
-        if (os.indexOf("win") > 0) {
+        if (os.startsWith("win")) {
             //window系统加载dll文件
             ext = ".dll";
         }
@@ -88,10 +89,13 @@ public class OpenCVServiceImpl implements OpenCVService {
      * @return
      */
     @Override
-    public String correct(String base64) {
+    public String correct(String base64,String correctPath) {
         try {
             Mat src = MyStreamUtils.base642Mat(base64);
             Mat correctMat = ImageOpencvUtils.correct(src, null);
+            if(!StringUtils.isEmpty(correctPath)){
+                ImageOpencvUtils.saveImg(correctMat,correctPath);
+            }
             return MyStreamUtils.catToBase64(correctMat);
         } catch (IOException e) {
             e.printStackTrace();

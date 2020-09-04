@@ -49,7 +49,7 @@ public class IDCardOcrImpl implements IDCardOcr {
         System.out.println("outPartImg:"+outPartImg);
         IDCardInfo idCardInfo = new IDCardInfo();
         try {
-            String base64 = openCVService.correct(base64Img);
+            String base64 = openCVService.correct(base64Img,getImgPath(outPartImg,"/correct.jpg"));
             Tesseract tesseract = new Tesseract();
             tesseract.setLanguage("chi_sim");
             //读取网络图片
@@ -59,15 +59,19 @@ public class IDCardOcrImpl implements IDCardOcr {
             //缩放到真实身份证大小
             bufferedImage = ImageFilter.imageScale(bufferedImage, 673, 425);
             ImageOpencvUtils.saveImage(bufferedImage, outPartImg ? openCVService.getTmpPath() + "/bg.jpg" : null);
-            getBufferedContentImage(tesseract, bufferedImage, idCardInfo, outPartImg ? openCVService.getTmpPath() + "/contentImageBefore.jpg" : null);
-            getBufferedBirthImage(tesseract, bufferedImage, idCardInfo, outPartImg ? openCVService.getTmpPath() + "/birthImageBefore.jpg" : null);
-            getBufferedAddressImage(tesseract, bufferedImage, idCardInfo, outPartImg ? openCVService.getTmpPath() + "/addressImageBefore.jpg" : null);
-            getBufferedIdImage(tesseract, bufferedImage, idCardInfo, outPartImg ? openCVService.getTmpPath() + "/idImageBefore.jpg" : null);
+            getBufferedContentImage(tesseract, bufferedImage, idCardInfo,getImgPath(outPartImg,"/contentImageBefore.jpg"));
+            getBufferedBirthImage(tesseract, bufferedImage, idCardInfo,getImgPath(outPartImg,"/birthImageBefore.jpg"));
+            getBufferedAddressImage(tesseract, bufferedImage, idCardInfo,getImgPath(outPartImg,"/addressImageBefore.jpg"));
+            getBufferedIdImage(tesseract, bufferedImage, idCardInfo,getImgPath(outPartImg,"/idImageBefore.jpg"));
             return idCardInfo;
         } catch (TesseractException e) {
             e.printStackTrace();
             throw new BizException("身份证格式不规范，无法识别");
         }
+    }
+
+    private String getImgPath( boolean outPartImg,String path){
+        return outPartImg ? openCVService.getTmpPath() + path : null;
     }
 
     /**

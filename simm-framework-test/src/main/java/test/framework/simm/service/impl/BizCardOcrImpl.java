@@ -40,7 +40,7 @@ public class BizCardOcrImpl implements BizCardOcr {
         //测试代码，上线需要改成false
         BizLicenseInfo bizLicenseInfo = new BizLicenseInfo();
         try {
-            String base64 = openCVService.correct(base64Img);
+            String base64 = openCVService.correct(base64Img,getImgPath(outPartImg,"/correct.jpg"));
             Tesseract tesseract = new Tesseract();
             tesseract.setLanguage("chi_sim");
             //读取网络图片
