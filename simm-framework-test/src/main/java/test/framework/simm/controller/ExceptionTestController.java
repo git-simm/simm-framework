@@ -3,7 +3,7 @@ package test.framework.simm.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import simm.framework.webutil.model.BizException;
+import simm.framework.common.model.BizException;
 
 /**
  * 测试异常

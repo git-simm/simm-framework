@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import simm.framework.common.file.FileUtils;
-import simm.framework.webutil.model.BizException;
+import simm.framework.common.model.BizException;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

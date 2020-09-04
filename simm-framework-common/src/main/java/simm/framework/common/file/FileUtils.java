@@ -2,7 +2,7 @@ package simm.framework.common.file;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
-import simm.framework.webutil.model.BizException;
+import simm.framework.common.model.BizException;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletOutputStream;
