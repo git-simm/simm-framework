@@ -97,7 +97,7 @@ public class OpenCVServiceImpl implements OpenCVService {
                 ImageOpencvUtils.saveImg(correctMat,correctPath);
             }
             return MyStreamUtils.catToBase64(correctMat);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error("图片扶正失败", e);
             return base64;

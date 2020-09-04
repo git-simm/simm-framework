@@ -57,7 +57,7 @@
         </dependency>
         <dependency>
             <groupId>simm.framework</groupId>
-            <artifactId>simm-framework-common</artifactId>
+            <artifactId>simm-framework-webutil</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

@@ -7,7 +7,7 @@ import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
-import simm.framework.webutil.model.JsonResult;
+import simm.framework.common.model.JsonResult;
 
 /**
  * 数据返回结构统一组装

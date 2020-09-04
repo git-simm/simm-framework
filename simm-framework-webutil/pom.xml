@@ -20,5 +20,11 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.4</version>
         </dependency>
+        <dependency>
+            <groupId>simm.framework</groupId>
+            <artifactId>simm-framework-common</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
