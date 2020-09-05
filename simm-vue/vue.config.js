@@ -1,6 +1,14 @@
-var webpack = require("webpack");
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const webpack = require('webpack');
+const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
+// 导入compression-webpack-plugin
+const CompressionWebpackPlugin = require('compression-webpack-plugin');
+// 定义压缩文件类型
+const productionGzipExtensions = ['js', 'css'];
+const env = process.env.npm_lifecycle_event;
 // vue.config.js文件
 const path = require("path");
+let dllPublishPath = '/vendor';
 
 function resolve(dir) {
   return path.join(__dirname, dir);
@@ -66,6 +74,29 @@ module.exports = {
     config.plugins.push(
       new webpack.DefinePlugin({
         "process.env": process.env
+      }),
+      new webpack.DllReferencePlugin({
+        context: process.cwd(),
+        manifest: require('./public/vendor/vendor-manifest.json')
+      }),
+      // 将 dll 注入到 生成的 html 模板中
+      new AddAssetHtmlPlugin({
+        // dll文件位置
+        filepath: path.resolve(__dirname, './public/vendor/*.js'),
+        // dll 引用路径
+        publicPath: dllPublishPath,
+        // dll最终输出的目录
+        outputPath: './vendor'
+      }),
+      // 开启压缩
+      new CompressionWebpackPlugin({
+        filename: '[path].gz[query]',
+        algorithm: 'gzip',
+        test: new RegExp(
+          '\\.(' + productionGzipExtensions.join('|') + ')$'
+        ),
+        threshold: 10240,
+        minRatio: 0.8
       })
     );
     //webpack-bundle-analyzer
@@ -75,6 +106,9 @@ module.exports = {
         .plugin("webpack-bundle-analyzer")
         .use(require("webpack-bundle-analyzer").BundleAnalyzerPlugin);
     }
+    // if (process.env.npm_lifecycle_event === 'analyze') {
+    //   config.plugins.push(new BundleAnalyzerPlugin())
+    // }
   },
   pluginOptions: {}
 };
