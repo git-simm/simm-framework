@@ -1,10 +1,19 @@
 <template>
 <section class="content-section" style="position:relative;">
     <div>我的测试程序</div>
-    <sxh-cropper :option="{fixedNumber:[673, 425],winName:'身份证识别'}" :save="saveIdCard">
+    <sxh-cropper
+            :option="{fixedNumber:[807, 510],winName:'身份证识别',okText:'识 别',cancelText:'退 出'
+            ,imgurl:'https://branchsxhimg.shixiangyiwei.com/upload/adv/2020/2/27/d9630329-dbda-43af-8cd8-764f46af0f01.png'
+            ,demo:'https://branchsxhimg.shixiangyiwei.com/upload/adv/2020/2/27/d9630329-dbda-43af-8cd8-764f46af0f01.png'}"
+            :save="saveIdCard"
+    >
         <el-button type="primary">身份证识别</el-button>
     </sxh-cropper>
-    <sxh-cropper :option="{fixedNumber:[1640, 1040],winName:'营业执照识别'}" :save="saveBizCard">
+    <sxh-cropper
+            :option="{fixedList:[{ name:`横版`, fixedNumber:[1640, 1040],type:1 },{ name:`竖版`, fixedNumber:[1566, 2256],type:2 }]
+            ,winName:'营业执照识别',okText:'识 别',cancelText:'退 出'}"
+            :save="saveBizCard"
+    >
         <el-button type="primary">营业执照识别</el-button>
     </sxh-cropper>
 </section>
@@ -15,9 +24,10 @@
 export default {
     name: "Index",
     methods: {
-        saveBizCard(files, callback) {
+        saveBizCard({ files, param }, callback) {
+            var type = param.type //1.横屏; 2.竖屏;
             this.$httpUtil.post({
-                url: "/biz/upload",
+                url: `/biz/upload?type=${type}`,
                 data: {
                     files: files
                 },
@@ -44,7 +54,7 @@ export default {
         /**
          * 保证身份证信息
          */
-        saveIdCard(files, callback) {
+        saveIdCard({ files, param }, callback) {
             this.$httpUtil.post({
                 url: "/ocr/upload",
                 data: {
