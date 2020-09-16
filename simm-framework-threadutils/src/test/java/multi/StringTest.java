@@ -22,6 +22,7 @@ public class StringTest {
         String s6 = new StringBuffer("a").append("bc").toString();
         String s7 = s5.intern();
         String s8 = s6.intern();
+
         // 运行时赋值
         String s9 = a + b;
         // final 字符串，在编译期就会直接替换成常量
