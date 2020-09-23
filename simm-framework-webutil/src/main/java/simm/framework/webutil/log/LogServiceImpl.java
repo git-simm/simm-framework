@@ -1,11 +1,7 @@
 package simm.framework.webutil.log;
 
-import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import simm.framework.webutil.config.LogMqConfig;
-
-import java.util.UUID;
 
 /**
  * @author simm
@@ -18,7 +14,7 @@ public class LogServiceImpl implements LogService {
 
     @Override
     public void sendLogByMq(String messageData) {
-        CorrelationData correlationData = new CorrelationData(LogMqConfig.YQM_LOG_PREFIX+UUID.randomUUID().toString());
-        rabbitMQService.send(messageData, LogMqConfig.YQM_XXL_LOG_EXCHANGE,LogMqConfig.YQM_XXL_LOG_ROUTING_KEY,correlationData);
+//        CorrelationData correlationData = new CorrelationData(LogMqConfig.YQM_LOG_PREFIX+UUID.randomUUID().toString());
+//        rabbitMQService.send(messageData, LogMqConfig.YQM_XXL_LOG_EXCHANGE,LogMqConfig.YQM_XXL_LOG_ROUTING_KEY,correlationData);
     }
 }

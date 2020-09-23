@@ -2,7 +2,6 @@ package simm.framework.webutil.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.cors.CorsConfiguration;
@@ -16,7 +15,7 @@ import java.util.List;
 /**
  * @author simm
  */
-@Configuration
+//@Configuration
 public class AutoSpringBeanManager {
 
     @Bean

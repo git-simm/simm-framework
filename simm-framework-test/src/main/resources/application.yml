@@ -27,7 +27,7 @@ spring:
         stat-view-servlet:
           enabled: false
   data:
-#    elasticsearch配置
+    #    elasticsearch配置
     elasticsearch:
       cluster-name: es-cluster
       cluster-nodes: 10.50.4.211:9200,10.50.4.213:9200,10.50.4.214:9200
@@ -37,10 +37,32 @@ spring:
       connect-timeout: 1000
       repositories:
         enabled: true
-
 mybatis:
   mapperLocations: classpath:mapper/**/*.xml
   type-aliases-package: test.framework.simm.model
-
+redis:
+  nodesAddr: 10.50.4.136:6479,10.50.4.136:6480,10.50.4.136:6481,10.50.4.136:6482,10.50.4.136:6483,10.50.4.136:6484
+  maxTotal: 2000
+  maxIdle: 100
+  minIdle: 10
+  maxWaitMillis: 3000
+  numTestsPerEvictionRun: 100
+  timeBetweenEvictionRunsMillis: 3000
+  minEvictableIdleTimeMillis: 1800000
+  softMinEvictableIdleTimeMillis: 10000
+  testOnBorrow: true
+  testWhileIdle: true
+  testOnReturn: true
+  blockWhenExhausted: false
+  password: SXH2016redis
+  maxRedirects: 5
+  cluster:
+    enabled: true
+threadPool:
+  corePoolSize: 5
+  maximumPoolSize: 20
+  keepAliveTime: 10000
+  capacity: 300
 config:
   saveTmpImg: true
+debug: true

@@ -10,17 +10,22 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.data.redis.core.script.RedisScript;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
 import simm.framework.common.lock.redis.RedisLuaScript;
 import simm.framework.webutil.limit.Limit;
 import simm.framework.webutil.limit.LimitType;
 
+import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 /**
  * 流量拦截
@@ -36,7 +41,27 @@ public class LimitInterceptor {
 
     private RedisLuaScript redisLuaScript;
 
-    @Around("execution(public * *(..)) && @annotation(test.framework.simm.controller)")
+    /**
+     * 初始化方案
+     */
+    @PostConstruct
+    public void init() {
+        redisLuaScript = (script, keys, args) -> redisTemplate.execute((RedisCallback) connection -> {
+            Object nativeConnection = connection.getNativeConnection();
+            // 集群模式和单点模式虽然执行脚本的方法一样，但是没有共同的接口，所以只能分开执行
+            // 集群
+            if (nativeConnection instanceof JedisCluster) {
+                return ((JedisCluster) nativeConnection).eval(script, keys, args);
+            }
+            // 单点
+            else if (nativeConnection instanceof Jedis) {
+                return ((Jedis) nativeConnection).eval(script, keys, args);
+            }
+            return null;
+        });
+    }
+
+    @Around("execution(public * *(..)) && @annotation(simm.framework.webutil.limit.Limit)")
     public Object interceptor(ProceedingJoinPoint pjp) {
         MethodSignature signature = (MethodSignature) pjp.getSignature();
         Method method = signature.getMethod();
@@ -60,7 +85,8 @@ public class LimitInterceptor {
         try {
             String luaScript = buildLuaScript();
             RedisScript<Number> redisScript = new DefaultRedisScript<>(luaScript, Number.class);
-            Number count = (Number) redisTemplate.execute(redisScript, keys, limitCount,limitPeriod);
+            Number count = (Number)redisLuaScript.eval(luaScript,keys, Arrays.asList(String.valueOf(limitCount),String.valueOf(limitPeriod)));
+//            Number count = (Number) redisTemplate.execute(redisScript, keys, limitCount,limitPeriod);
             logger.info("Access try count is {} for name={} and key = {}", count, name, key);
             if (count != null && count.intValue() <= limitCount) {
                 return pjp.proceed();
