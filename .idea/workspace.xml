@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="增加统计信息">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/spring/HelloControllerTest.java" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="springboot-单元测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,32 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="378">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/spring/HelloControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -220,9 +200,9 @@
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ErrorSummary.java" />
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/ErrorHandler.java" />
         <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/ProxyJsonUtil.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/pom.xml" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/spring/HelloControllerTest.java" />
+        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" />
       </list>
     </option>
   </component>
@@ -244,10 +224,10 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1807" />
+    <option name="y" value="97" />
+    <option name="width" value="1242" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,25 +304,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -404,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.getHello2">
+  <component name="RunManager" selected="JUnit.UnsafeTest.allocate">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -527,9 +488,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnsafeTest.allocate" />
         <item itemvalue="JUnit.HelloControllerTest.getHello2" />
         <item itemvalue="JUnit.HelloControllerTest.getHello" />
-        <item itemvalue="JUnit.UnsafeTest.allocate" />
         <item itemvalue="Spring Boot.TestApplication" />
         <item itemvalue="JUnit.StatusTest.test" />
       </list>
@@ -602,14 +563,7 @@
       <workItem from="1600654893842" duration="641000" />
       <workItem from="1600738399723" duration="7262000" />
       <workItem from="1600824794796" duration="11387000" />
-      <workItem from="1600918401252" duration="6949000" />
-    </task>
-    <task id="LOCAL-00010" summary="提交我的测试项目">
-      <created>1597546918478</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1597546918478</updated>
+      <workItem from="1600918401252" duration="8130000" />
     </task>
     <task id="LOCAL-00011" summary="异常测试">
       <created>1597549024913</created>
@@ -947,13 +901,17 @@
       <option name="project" value="LOCAL" />
       <updated>1600927788000</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="springboot-单元测试">
+      <created>1600938321032</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1600938321033</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusTest - 2020.09.18 at 12h 30m 08s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StatusTest_test - 2020.09.18 at 12h 31m 58s.xml">
       <configuration name="StatusTest.test" configurationId="JUnit" />
     </history-entry>
@@ -981,9 +939,12 @@
     <history-entry file="HelloControllerTest_getHello2 - 2020.09.24 at 17h 04m 39s.xml">
       <configuration name="HelloControllerTest.getHello2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnsafeTest_allocate - 2020.09.24 at 17h 18m 39s.xml">
+      <configuration name="UnsafeTest.allocate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280641000" />
+    <option name="totallyTimeSpent" value="281822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1000,7 +961,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26168224" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5389408" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3032191" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1030,7 +991,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加多线程协作工具" />
     <MESSAGE value="添加测试主应用项目" />
     <MESSAGE value="查询方式" />
     <MESSAGE value="提交我的测试项目" />
@@ -1055,7 +1015,8 @@
     <MESSAGE value="状态变迁处理" />
     <MESSAGE value="搜集大量的配置信息" />
     <MESSAGE value="增加统计信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加统计信息" />
+    <MESSAGE value="springboot-单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-单元测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1491,23 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE.jar!/org/springframework/test/web/servlet/request/MockMvcRequestBuilders.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1560,8 +1504,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/spring/HelloControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="434">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
