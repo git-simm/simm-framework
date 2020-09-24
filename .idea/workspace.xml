@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="搜集大量的配置信息">
-      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/redis/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/support/RedisClusterPipelineSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-framework-webutil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/LogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/consumer/YqmXxlLogConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/consumer/YqmXxlLogConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-vue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-vue/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,19 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="910">
+              <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -78,11 +62,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+            <state relative-caret-position="1011">
+              <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisDistributedLockTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="308">
               <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="280">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -141,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -209,7 +205,6 @@
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/limit/LimitType.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/limit/Limit.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LogMqConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/LogService.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/RabbitMQServiceImpl.java" />
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/support/RedisClusterPipelineSupport.java" />
@@ -227,6 +222,7 @@
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java" />
+        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java" />
       </list>
     </option>
   </component>
@@ -240,39 +236,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-test - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-test - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-threadutils - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-threadutils - 1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-webutil" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simm-framework-webutil" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -280,10 +244,10 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1904" />
+    <option name="y" value="160" />
+    <option name="width" value="1242" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,8 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,6 +451,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -732,14 +696,8 @@
       <workItem from="1600438902350" duration="591000" />
       <workItem from="1600654893842" duration="641000" />
       <workItem from="1600738399723" duration="7262000" />
-      <workItem from="1600824794796" duration="11180000" />
-    </task>
-    <task id="LOCAL-00006" summary="添加多线程协作工具">
-      <created>1537596667696</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1537596667696</updated>
+      <workItem from="1600824794796" duration="11387000" />
+      <workItem from="1600918401252" duration="921000" />
     </task>
     <task id="LOCAL-00007" summary="添加测试主应用项目">
       <created>1592377353567</created>
@@ -1077,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600744090438</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="搜集大量的配置信息">
+      <created>1600859507910</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600859507910</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1107,13 +1072,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273485000" />
+    <option name="totallyTimeSpent" value="274613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1124,7 +1089,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26168224" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23883697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23883697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1136,7 +1101,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" weight="0.32917964" />
       <window_info anchor="bottom" id="Statistic" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49946696" weight="0.21079959" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.49946696" visible="true" weight="0.21079959" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.20758355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1245,22 +1210,10 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java</url>
           <line>66</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1530,13 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
@@ -1629,13 +1575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -1643,37 +1582,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state relative-caret-position="826">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisReentrantLock.java">
+    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1689,25 +1615,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisDistributedLockTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="308">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        <state relative-caret-position="1011">
+          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
