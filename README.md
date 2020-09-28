@@ -23,3 +23,6 @@ JSON不对称反序列化映射方案: 利用反射+注解的方式，让程序�
 
 
 ##### # docker build -t ocr-api:v1.0 .
+
+-verbose:gc
+-XX:+PrintGCDetails

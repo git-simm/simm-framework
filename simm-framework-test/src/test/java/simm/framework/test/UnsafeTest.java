@@ -1,5 +1,6 @@
 package simm.framework.test;
 
+import cn.hutool.core.lang.Assert;
 import org.junit.Test;
 import sun.misc.Unsafe;
 
@@ -23,5 +24,16 @@ public class UnsafeTest {
         while (true) {
             unsafe.allocateMemory(_1MB);
         }
+    }
+
+    /**
+     * 大对象直接分配在老年代
+     */
+    @Test
+    public void testPretenureSizeThreshold(){
+        byte[] allocation;
+        //直接分配在老年代中
+        allocation = new byte[4*_1MB];
+        Assert.isTrue(true);
     }
 }
