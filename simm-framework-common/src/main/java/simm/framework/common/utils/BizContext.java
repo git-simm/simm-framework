@@ -19,7 +19,7 @@ public class BizContext {
      */
     public static <V> void putValue(String key, V value) {
         if (null == local.get()) {
-            local.set(new HashMap<String, Object>());
+            local.set(new HashMap<>());
         }
         Map<String, Object> context = local.get();
         context.put(key, value);
