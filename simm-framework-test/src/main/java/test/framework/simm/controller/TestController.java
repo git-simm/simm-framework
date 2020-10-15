@@ -11,6 +11,7 @@ import simm.framework.webutil.limit.Limit;
  */
 @RestController
 @RequestMapping("test")
+//@Profile("dev")
 public class TestController {
     /**
      * 查询
@@ -20,7 +21,17 @@ public class TestController {
     @ResponseBody
     @Limit(name="search",prefix = "search",key="lock",period = 60,count = 2)
     public String search() {
+        return "hello world!";
+    }
 
+    /**
+     * 查询
+     * @return
+     */
+    @RequestMapping("/async")
+    @ResponseBody
+//    @Limit(name="async",prefix = "async",key="lock",period = 60,count = 2)
+    public String async() {
         return "hello world!";
     }
 }
