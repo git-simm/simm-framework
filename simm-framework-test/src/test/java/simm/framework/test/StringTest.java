@@ -9,6 +9,7 @@ import org.junit.Test;
 public class StringTest {
     @Test
     public void test(){
+//        ManagementFactory.getThreadMXBean();
         String s3 = "123" + "123";
         // 数据会放到heap(堆)上的 常量区
         s3.intern();
