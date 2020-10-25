@@ -18,6 +18,9 @@ import java.io.IOException;
 /**
  * 身份证信息识别
  *
+ * @PostConstruct,ApplicationListener 都是Spring的初始化机制，要求class申明为bean时才有用
+ * PostConstruct 在创建bean完成后，由BeanPostProcessor触发调用
+ * ApplicationListener<ApplicationContextEvent> 在spring容器 上下文准备完成后，依据ApplicationContextEvent发生调用
  * @author simm
  */
 @Service
