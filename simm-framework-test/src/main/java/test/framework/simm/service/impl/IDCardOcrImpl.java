@@ -21,7 +21,9 @@ import java.io.IOException;
  * @author simm
  */
 @Service
-public class IDCardOcrImpl implements IDCardOcr {
+public class IDCardOcrImpl implements IDCardOcr
+//        , ApplicationListener<ApplicationContextEvent>
+{
 
     private static int[] WHITE = new int[]{255, 255, 255};
     private static int[] BLACK = new int[]{0, 0, 0};
@@ -36,6 +38,16 @@ public class IDCardOcrImpl implements IDCardOcr {
 
     @Autowired
     private OpenCVService openCVService;
+      // 先执行
+//    @PostConstruct
+//    public void init(){
+//        System.out.println("PostConstruct 的 调用时机");
+//    }
+// 后执行
+//    @Override
+//    public void onApplicationEvent(ApplicationContextEvent applicationContextEvent) {
+//        System.out.println("IDCardOcrImpl.ApplicationContextEvent 的 调用时机");
+//    }
 
     /**
      * 解析身份证信息
@@ -198,4 +210,6 @@ public class IDCardOcrImpl implements IDCardOcr {
         }
         System.out.println("after brightness = " + ImageFilter.imageBrightness(subImage));
     }
+
+
 }
