@@ -8,15 +8,15 @@ import javax.annotation.PostConstruct;
 
 /**
  * 我的bean生命周期测试
+ *
  * @author simm
  */
 @Service
-public class MybeanService
-        implements ApplicationListener<ApplicationContextEvent>
-{
-    public MybeanService(){
+public class MybeanService implements ApplicationListener<ApplicationContextEvent> {
+    public MybeanService() {
         System.out.println("我是构造函数");
     }
+
     /**
      * 先执行
      */
@@ -27,6 +27,7 @@ public class MybeanService
 
     /**
      * 后执行
+     *
      * @param applicationContextEvent
      */
     @Override
