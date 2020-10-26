@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import simm.framework.webutil.limit.Limit;
+import test.framework.simm.service.impl.MybeanService;
 
 /**
  * 测试controller
@@ -13,6 +14,8 @@ import simm.framework.webutil.limit.Limit;
 @RequestMapping("test")
 //@Profile("dev")
 public class TestController {
+    //@Autowired
+    private MybeanService mybeanService;
     /**
      * 查询
      * @return

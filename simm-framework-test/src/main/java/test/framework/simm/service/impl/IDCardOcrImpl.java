@@ -3,6 +3,7 @@ package test.framework.simm.service.impl;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import simm.framework.common.model.BizException;
 import simm.framework.common.ocr.ImageFilter;
@@ -18,15 +19,14 @@ import java.io.IOException;
 /**
  * 身份证信息识别
  *
+ * @author simm
  * @PostConstruct,ApplicationListener 都是Spring的初始化机制，要求class申明为bean时才有用
  * PostConstruct 在创建bean完成后，由BeanPostProcessor触发调用
  * ApplicationListener<ApplicationContextEvent> 在spring容器 上下文准备完成后，依据ApplicationContextEvent发生调用
- * @author simm
  */
 @Service
-public class IDCardOcrImpl implements IDCardOcr
-//        , ApplicationListener<ApplicationContextEvent>
-{
+@Lazy
+public class IDCardOcrImpl implements IDCardOcr{
 
     private static int[] WHITE = new int[]{255, 255, 255};
     private static int[] BLACK = new int[]{0, 0, 0};
@@ -41,17 +41,6 @@ public class IDCardOcrImpl implements IDCardOcr
 
     @Autowired
     private OpenCVService openCVService;
-      // 先执行
-//    @PostConstruct
-//    public void init(){
-//        System.out.println("PostConstruct 的 调用时机");
-//    }
-// 后执行
-//    @Override
-//    public void onApplicationEvent(ApplicationContextEvent applicationContextEvent) {
-//        System.out.println("IDCardOcrImpl.ApplicationContextEvent 的 调用时机");
-//    }
-
     /**
      * 解析身份证信息
      *
