@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="并发集合">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="并发集合收到手动挡所">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/services/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/services/request.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -86,16 +87,7 @@
         <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -150,6 +142,19 @@
               <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,8 +265,8 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="263" />
-    <option name="y" value="147" />
+    <option name="x" value="121" />
+    <option name="y" value="133" />
     <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
@@ -283,17 +288,59 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
               <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-wechat-muchen" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,21 +609,7 @@
       <workItem from="1603637373683" duration="1202000" />
       <workItem from="1603676795993" duration="12872000" />
       <workItem from="1603717381982" duration="1527000" />
-      <workItem from="1603788300511" duration="1777000" />
-    </task>
-    <task id="LOCAL-00030" summary="docker部署">
-      <created>1598941678349</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1598941678349</updated>
-    </task>
-    <task id="LOCAL-00031" summary="docker部署">
-      <created>1598942259043</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1598942259043</updated>
+      <workItem from="1603788300511" duration="4263000" />
     </task>
     <task id="LOCAL-00032" summary="docker部署">
       <created>1598946278446</created>
@@ -907,7 +940,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603790067853</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="并发集合">
+      <created>1603790116532</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1603790116532</updated>
+    </task>
+    <task id="LOCAL-00080" summary="并发集合收到手动挡所">
+      <created>1603790151372</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1603790151372</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -943,7 +990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349996000" />
+    <option name="totallyTimeSpent" value="352482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,7 +1005,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19087404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19087404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -969,7 +1016,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26583594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25396827" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25302827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
@@ -999,7 +1046,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="异常测试" />
     <MESSAGE value="OCR测试代码整理" />
     <MESSAGE value="壳子程序测试使用" />
     <MESSAGE value="提交测试代码" />
@@ -1024,7 +1070,8 @@
     <MESSAGE value="springboot-单元测试" />
     <MESSAGE value="提交微信小程序的代码" />
     <MESSAGE value="并发集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="并发集合" />
+    <MESSAGE value="并发集合收到手动挡所" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发集合收到手动挡所" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,13 +1450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1528,7 +1568,7 @@
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1538,14 +1578,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1553,6 +1586,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
