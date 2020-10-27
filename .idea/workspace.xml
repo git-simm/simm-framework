@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="并发集合">
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/images/icons/sun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/images/icons/useHelp.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.wxml" afterDir="false" />
@@ -206,25 +204,14 @@
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/icon/weui-icon.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/weui.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/company/company.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/company/company.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/company/company.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/company/company.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/style/weui.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/daily/schedule.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -262,15 +249,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ESTestController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -321,14 +299,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+            <state relative-caret-position="245">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -401,7 +388,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simm-framework-common/pom.xml" />
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisDistributedLockTemplate.java" />
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisLockInternals.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java" />
@@ -452,6 +438,7 @@
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/OcrController.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/MybeanService.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -472,9 +459,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="95" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="134" />
+    <option name="y" value="88" />
     <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
@@ -780,14 +767,7 @@
       <workItem from="1603637373683" duration="1202000" />
       <workItem from="1603676795993" duration="12872000" />
       <workItem from="1603717381982" duration="1527000" />
-      <workItem from="1603788300511" duration="241000" />
-    </task>
-    <task id="LOCAL-00025" summary="营业执照解析">
-      <created>1598337469848</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1598337469848</updated>
+      <workItem from="1603788300511" duration="401000" />
     </task>
     <task id="LOCAL-00026" summary="身份证信息识别">
       <created>1598338087331</created>
@@ -1125,7 +1105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603723233125</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="提交微信小程序的代码">
+      <created>1603788617028</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1603788617029</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1161,7 +1148,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348460000" />
+    <option name="totallyTimeSpent" value="348620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1173,10 +1160,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="95" width="1200" height="646" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26052633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19087404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1217,7 +1204,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交我的测试项目" />
     <MESSAGE value="异常测试" />
     <MESSAGE value="OCR测试代码整理" />
     <MESSAGE value="壳子程序测试使用" />
@@ -1242,7 +1228,8 @@
     <MESSAGE value="ReentrantLock测试" />
     <MESSAGE value="springboot-单元测试" />
     <MESSAGE value="并发集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="并发集合" />
+    <MESSAGE value="提交微信小程序的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交微信小程序的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1393,13 +1380,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/ThreadPoolConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1787,11 +1767,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+        <state relative-caret-position="245">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
