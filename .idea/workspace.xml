@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="并发集合">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" afterDir="false" />
@@ -53,18 +49,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/handler/WebExceptionHandle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
@@ -88,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -96,6 +80,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -188,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java" />
         <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ResponseJson.java" />
         <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/handler/WebExceptionHandle.java" />
         <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/StatusTest.java" />
@@ -239,6 +240,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/simm-wechat-muchen/pom.xml" />
+        <option value="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,8 +262,8 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="134" />
-    <option name="y" value="88" />
+    <option name="x" value="263" />
+    <option name="y" value="147" />
     <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
@@ -283,7 +285,7 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-framework-webutil" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-framework-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest.testIntern">
+  <component name="RunManager" selected="Spring Boot.TestApplication">
     <configuration name="OcrTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simm.framework.common.OcrTest" />
       <module name="simm-framework-common" />
@@ -557,21 +559,7 @@
       <workItem from="1603637373683" duration="1202000" />
       <workItem from="1603676795993" duration="12872000" />
       <workItem from="1603717381982" duration="1527000" />
-      <workItem from="1603788300511" duration="1263000" />
-    </task>
-    <task id="LOCAL-00027" summary="docker部署">
-      <created>1598924996251</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1598924996252</updated>
-    </task>
-    <task id="LOCAL-00028" summary="docker部署">
-      <created>1598926425287</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1598926425287</updated>
+      <workItem from="1603788300511" duration="1719000" />
     </task>
     <task id="LOCAL-00029" summary="docker部署">
       <created>1598936030709</created>
@@ -902,7 +890,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603788750704</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="并发集合">
+      <created>1603789647852</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1603789647852</updated>
+    </task>
+    <task id="LOCAL-00077" summary="并发集合">
+      <created>1603790023235</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1603790023235</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -938,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349482000" />
+    <option name="totallyTimeSpent" value="349938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,7 +989,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.12596402" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.14974293" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.14974293" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1428,24 +1430,10 @@
     <entry file="file://$PROJECT_DIR$/simm-vue/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="66" lean-forward="true" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1548,6 +1536,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
