@@ -9,6 +9,7 @@
         <module name="simm-framework-webutil" />
         <module name="simm-framework-threadutils" />
         <module name="simm-framework-test" />
+        <module name="simm.study.xmind" />
         <module name="simm-framework-jsonext" />
         <module name="simm-framework-common" />
         <module name="simm-wechat-muchen" />
@@ -27,6 +28,7 @@
       <module name="simm-framework-threadutils" options="-parameters" />
       <module name="simm-framework-webutil" options="-parameters" />
       <module name="simm-wechat-muchen" options="-parameters" />
+      <module name="simm.study.xmind" options="-parameters" />
     </option>
   </component>
 </project>
