@@ -1,1 +1,0 @@
-kubectl create configmap supplyui-nginx-conf --from-file=nginx.conf -n prod

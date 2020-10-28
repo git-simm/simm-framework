@@ -1,1 +1,0 @@
-kubectl -n prod create secret generic order --from-file="apiclient_key.pem,apiclient_cert.pem,apiclient_cert.p12"
