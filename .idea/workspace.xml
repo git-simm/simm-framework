@@ -204,13 +204,40 @@
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/icon/weui-icon.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/weui.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/config/spring-redis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/app.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/servers.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/simsun.ttc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/config/spring-redis - 副本.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/config/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/db - 副本.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/301140880629503.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/BocompayMerchant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_cert.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/test_root.cer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/301140880629503.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/BocompayMerchant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/test_root.cer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/config/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/addressInfo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/servers.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-provider/client.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-provider/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-ui/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/config/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/servers.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/config/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/apiclient_cert.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/servers.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -274,16 +301,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantConditionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fws-single-ui/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/website/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/xxl-job-executor.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-ui/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -456,6 +507,22 @@
               <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
               <item name="nginx-conf" type="462c0819:PsiDirectoryNode" />
               <item name="config-mit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx-conf" type="462c0819:PsiDirectoryNode" />
+              <item name="config-mit" type="462c0819:PsiDirectoryNode" />
+              <item name="gongmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx-conf" type="462c0819:PsiDirectoryNode" />
+              <item name="config-mit" type="462c0819:PsiDirectoryNode" />
+              <item name="yqm_xxl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -725,14 +792,7 @@
       <workItem from="1603676795993" duration="12872000" />
       <workItem from="1603717381982" duration="1527000" />
       <workItem from="1603788300511" duration="4333000" />
-      <workItem from="1603863222031" duration="4722000" />
-    </task>
-    <task id="LOCAL-00036" summary="docker部署文件提交">
-      <created>1598981718373</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1598981718373</updated>
+      <workItem from="1603863222031" duration="5078000" />
     </task>
     <task id="LOCAL-00037" summary="docker部署文件提交">
       <created>1599013688885</created>
@@ -1070,7 +1130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603874836125</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="删除配置信息">
+      <created>1603875076937</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1603875076937</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1106,7 +1173,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357274000" />
+    <option name="totallyTimeSpent" value="357630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,7 +1228,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="营业执照解析" />
     <MESSAGE value="身份证信息识别" />
     <MESSAGE value="docker部署" />
     <MESSAGE value="docker部署文件提交" />
@@ -1186,7 +1252,8 @@
     <MESSAGE value="保存一些配置信息" />
     <MESSAGE value="添加可重入锁的测试" />
     <MESSAGE value="删除代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除代码" />
+    <MESSAGE value="删除配置信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除配置信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1307,76 +1374,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2422">
-          <caret line="214" column="33" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="659" selection-start-line="659" selection-end-line="659" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="247" selection-start-line="247" selection-end-line="247" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="490" column="32" lean-forward="true" selection-start-line="490" selection-start-column="32" selection-end-line="490" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/Lazy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1677,15 +1674,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/app.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantConditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/app.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fws-single-ui/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-ui/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/app.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/website/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/xxl-job-executor.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-ui/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
