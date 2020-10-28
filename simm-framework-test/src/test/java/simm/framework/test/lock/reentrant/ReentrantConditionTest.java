@@ -14,9 +14,11 @@ public class ReentrantConditionTest {
     public AtomicInteger atomicInteger = new AtomicInteger(0);
 
     public void go(int type) {
+        System.out.println();
         // condition 必须在lock内执行，否则会抛错 诡异的java.lang.IllegalMonitorStateException
         lock.lock();
         try {
+            //竞争为非公平竞争
             if (type == 1) {
                 signal.signal();
             } else {
@@ -34,7 +36,8 @@ public class ReentrantConditionTest {
         //等待计数完成后，所有任务一起跑
         signal.await();
         try {
-            System.out.print("1.[" + System.currentTimeMillis() + "]当前锁获得线程：" + Thread.currentThread().getId() + "\r\n");
+            System.out.print("1.[" + System.currentTimeMillis() + "]当前锁获得线程name:" + Thread.currentThread().getName()
+                    + ",id：" + Thread.currentThread().getId() + "\r\n");
             //不安全
             num++;
             System.out.print("2.当前num：" + num + "\r\n");
@@ -53,14 +56,18 @@ public class ReentrantConditionTest {
         ReentrantConditionTest testObj = new ReentrantConditionTest();
         ExecutorService executorService = Executors.newCachedThreadPool();
         for (int i = 0; i < 5; i++) {
+            int finalI = i;
+            System.out.println("准备线程:"+("u" + finalI));
             executorService.submit(() -> {
                 try {
+                    Thread.currentThread().setName("u" + finalI);
                     testObj.test();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             });
         }
+        System.out.println();
         //10s后，准备好的线程一起运行(第一名)
         TimeUnit.SECONDS.sleep(2);
         testObj.go(1);
