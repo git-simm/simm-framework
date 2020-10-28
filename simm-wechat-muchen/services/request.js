@@ -1,5 +1,4 @@
 // 对微信网络请求的异步封装
-
 module.exports = (options) => {
     return new Promise((resolve, reject) => {
         options = Object.assign(options, {
@@ -10,10 +9,8 @@ module.exports = (options) => {
                     reject(result);
                 }
             },
-
             fail: reject,
         });
-
         wx.request(options);
     });
 };

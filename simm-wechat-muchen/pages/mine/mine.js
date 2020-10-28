@@ -2,8 +2,7 @@
 
 // 自定义标签
 var iconPath = "../../images/icons/"
-var tabs = [
-    {
+var tabs = [{
         "icon": iconPath + "mark.png",
         "iconActive": iconPath + "markHL.png",
         "title": "日记",
@@ -30,8 +29,8 @@ var tabs = [
 ]
 var userInfo = {
     avatar: "https://pic4.zhimg.com/e515adf3b_xl.jpg",
-    nickname: "小闹钟",
-    sex: "♂",  // 0, male; 1, female
+    nickname: "司沐晨",
+    sex: "♀", // 0, male; 1, female
     meta: '1篇日记',
 }
 
@@ -57,33 +56,40 @@ Page({
 
         // TODO 用户信息
         userInfo: userInfo,
+
+        //家庭图片
+        familyImg: iconPath + "family1.jpg",
     },
 
     // 隐藏模态框
     hideModal() {
-        this.setData({modalShowStyle: ""});
+        this.setData({
+            modalShowStyle: ""
+        });
     },
 
     // 清除日记标题
     clearTitle() {
-        this.setData({diaryTitle: ""});
+        this.setData({
+            diaryTitle: ""
+        });
     },
 
-    onShow: function() {
+    onShow: function () {
         this.hideModal();
         this.clearTitle();
     },
 
     // 点击tab项事件
-    touchTab: function(event){
+    touchTab: function (event) {
         var tabIndex = parseInt(event.currentTarget.id);
         var template = "tab" + (tabIndex + 1).toString();
 
         this.setData({
             currentTab: template,
+            familyImg: iconPath + "family" + (tabIndex+1) + ".jpg",
             highLightIndex: tabIndex.toString()
-        }
-        );
+        });
     },
 
     // 点击新建日记按钮
@@ -94,7 +100,7 @@ Page({
     },
 
     // 新建日记
-    touchAddNew: function(event) {
+    touchAddNew: function (event) {
         this.hideModal();
 
         wx.navigateTo({
@@ -103,13 +109,13 @@ Page({
     },
 
     // 取消标题输入
-    touchCancel: function(event) {
+    touchCancel: function (event) {
         this.hideModal();
         this.clearTitle();
-    }, 
+    },
 
     // 标题输入事件
-    titleInput: function(event) {
+    titleInput: function (event) {
         this.setData({
             diaryTitle: event.detail.value,
         })

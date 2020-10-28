@@ -1,14 +1,17 @@
 {
-  "pages":[
+  "pages": [
+    "pages/login/login",
+    "pages/company/company",
+    "pages/daily/schedule",
     "pages/list/list",
     "pages/mine/mine",
     "pages/new/new",
     "pages/entry/entry"
   ],
-  "window":{
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#39b5de",
-    "navigationBarTitleText": "小熊の日记",
+    "navigationBarTitleText": "一日之计 - 沐浴晨光",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#eceff4"
   },
@@ -17,7 +20,12 @@
     "selectedColor": "#39b5de",
     "backgroundColor": "#ffffff",
     "borderStyle": "black",
-    "list":[
+    "list": [{
+        "pagePath": "pages/daily/schedule",
+        "iconPath": "images/icons/strategy.png",
+        "selectedIconPath": "images/icons/strategyHL.png",
+        "text": "打卡"
+      },
       {
         "pagePath": "pages/list/list",
         "iconPath": "images/icons/mark.png",
@@ -32,5 +40,21 @@
       }
     ]
   },
-  "debug": true
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "mp-col": "@miniprogram-component-plus/col",
+    "mp-row": "@miniprogram-component-plus/row",
+    "mp-toptips": "/miniprogram_npm/weui-miniprogram/toptips/toptips",
+    "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells",
+    "mp-cell": "/miniprogram_npm/weui-miniprogram/cell/cell",
+    "mp-checkbox": "/miniprogram_npm/weui-miniprogram/checkbox/checkbox",
+    "mp-checkbox-group": "/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group",
+    "mp-form": "/miniprogram_npm/weui-miniprogram/form/form"
+  }
 }

@@ -6,7 +6,7 @@ var diaries = [
       title: "此刻静好，愿幸福长存",
       meta: "2016.10.17",
       create_time: "2016.10.18 11:57:27",
-      nickName: "肥肥的小狗熊",
+      nickName: "司沐晨",
     },
     list: [
       {
