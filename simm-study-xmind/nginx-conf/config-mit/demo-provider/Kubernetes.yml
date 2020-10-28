@@ -1,0 +1,60 @@
+# nginx.c0e83bcb5eb2648b5bd34de62a09d58a1.cn-beijing.alicontainer.com
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx
+spec:
+  rules:
+  - host: www.jfbadmin.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: nginx
+          servicePort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: nginx
+---
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        imagePullPolicy: IfNotPresent
+        image: nginx:1.9.9
+        resources:
+          limits:
+            memory: 1000Mi
+        ports:
+          - containerPort: 80
+#          volumeMounts:
+#            - name: pvc-nas
+#              mountPath: "/data"
+#      volumes:
+#        - name: pvc-nas
+#          persistentVolumeClaim:
+#            claimName: pvc-nas

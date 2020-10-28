@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOCOM>
+    <Setting>T</Setting>	<!-- T为测试环境，P为生产环境 -->
+   	
+   	<MerCerts>
+		<CertInf>
+			<MerchantCertFile>/config/301140880629503.pfx</MerchantCertFile>	<!-- 绝对路径，请按实际情况修改。测试环境商户证书文件,商户上线时该证书换为商户生产证书  -->
+			<MerchantCertPassword>12345678</MerchantCertPassword> 		<!-- 测试环境商户证书私钥加密密码,商户上线时该密码换为商户生产证书密码 -->
+		</CertInf>
+		<CertInf>
+			<MerchantCertFile>/config/301140880629503.pfx</MerchantCertFile>	<!-- 绝对路径，请按实际情况修改。测试环境商户证书文件,商户上线时该证书换为商户生产证书  -->
+			<MerchantCertPassword>12345678</MerchantCertPassword> 		<!-- 测试环境商户证书私钥加密密码,商户上线时该密码换为商户生产证书密码 -->
+		</CertInf>
+	</MerCerts>
+	
+	<RootCert>
+		<RootCertFile>/config/test_root.cer</RootCertFile><!-- 绝对路径，请按实际情况修改。测试环境根证书文件,商户上线时该证书换为生产根证书pro_root.cer  -->
+	</RootCert>
+	
+	<LogPath>D:/bocommjava/log</LogPath><!-- 绝对路径，请按实际情况修改 -->
+</BOCOM>

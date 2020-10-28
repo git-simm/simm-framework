@@ -1,0 +1,1 @@
+kubectl -n prod create secret generic signing --from-file="client.p12,server_crt"

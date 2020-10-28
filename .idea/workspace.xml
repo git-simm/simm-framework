@@ -2,27 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="微信小程序的统一请求处理">
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/simm-study-xmind.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/struct/我的学习Https.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/struct/我的学习nginx.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/07.03~07.17迭代内容.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.10.9~2020.10.16.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.5.18~2020.5.29.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.5.29~2020.6.11.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.6.18~2020.7.2.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.7.17~2020.7.31.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.8.17~2020.8.28.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/2020.8.3~2020.8.14 迭代.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/三季度重点工作规划.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/个人待办中心.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/十一前需求.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/引导式建品方案.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/数据库-独立.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/类目调整方案.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/采购平台升级.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/采购组发展历程.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/采购组季度规划.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/sxh-work/采购销售流程.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/account-h5-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/addressInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/bank-provider/301140880629503.pfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/bank-provider/BocompayMerchant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/bank-provider/test_root.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/config/spring-redis - 副本.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/addressInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/callback/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/cms-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/cpps-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/demo-provider/Kubernetes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/demo-provider/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo-front-admin/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo-front-admin/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_admin/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_api/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_baseapi/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_mq/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_xxl/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_xxl/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_xxl/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_xxl/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/dinghuo_xxl/properties/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fahuo-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fws-center-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fws-single-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/gongmall/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/gongmall/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/gongmall/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/gongmall/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/gongmall/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/config/spring-redis - 副本.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/h5-web/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/config/spring-redis - 副本.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/img/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/oms-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/301140880629503.pfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/BocompayMerchant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/apiclient_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/order-provider/test_root.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/301140880629503.pfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/BocompayMerchant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay-notify-web/test_root.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/addressInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/portal-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/purchase/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/purchase/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/purchase/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/purchase/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/purchase/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/config/spring-redis - 副本.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/addressInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/quartz/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-provider/client.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-provider/server.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/stock-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-h5-ui/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-h5-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-ui/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/website/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/website/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/config/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/properties/simsun.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm-front-admin/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm-front-admin/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/cos.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_admin/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_api/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_api/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_api/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_api/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_api/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_baseapi/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_baseapi/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_baseapi/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_baseapi/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_baseapi/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/servers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/db - 副本.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/xxl-job-executor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/排查项.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.wxml" afterDir="false" />
@@ -225,28 +371,7 @@
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/icon/weui-icon.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/weui.wxss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/services/userApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/services/wx-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/simm-wechat-muchen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/utils/tips.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/demo/diaries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/pages/mine/mine.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-wechat-muchen/services/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/simm-wechat-muchen/services/request.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -371,17 +496,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="28">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
               <folding>
                 <element signature="e#706#707#0" expanded="true" />
                 <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/config/spring-redis.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -489,10 +619,10 @@
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="121" />
-    <option name="y" value="133" />
-    <option name="width" value="1200" />
-    <option name="height" value="646" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -509,6 +639,17 @@
             <path>
               <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx-conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,7 +669,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/struct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-study-xmind/nginx-conf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -543,11 +684,11 @@
       <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\simm-study-xmind\nginx-conf" />
       <recent name="D:\04test\simm-framework\struct" />
       <recent name="D:\04test\simm-framework\simm-wechat-muchen" />
       <recent name="D:\04test\simm-framework\simm-framework-common\src\main\java\simm\framework\common\utils" />
       <recent name="D:\04test\simm-framework\simm-framework-test" />
-      <recent name="D:\04test\simm-framework\simm-framework-webutil\src\main\java\simm\framework\webutil" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="simm.framework.common.excel" />
@@ -781,7 +922,7 @@
       <workItem from="1603676795993" duration="12872000" />
       <workItem from="1603717381982" duration="1527000" />
       <workItem from="1603788300511" duration="4333000" />
-      <workItem from="1603863222031" duration="550000" />
+      <workItem from="1603863222031" duration="1664000" />
     </task>
     <task id="LOCAL-00033" summary="docker部署">
       <created>1598947267346</created>
@@ -1162,7 +1303,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353102000" />
+    <option name="totallyTimeSpent" value="354216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1175,6 +1316,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19344473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1363,16 +1505,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/ReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/MutiThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1756,14 +1888,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="28">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
             <element signature="e#706#707#0" expanded="true" />
             <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/config/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
