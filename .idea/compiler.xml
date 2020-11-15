@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simm-framework-jsonext" />
+        <module name="simm.study.xmind" />
+        <module name="simm-framework-test" />
+        <module name="simm-wechat-muchen" />
         <module name="simm-framework-webutil" />
         <module name="simm-framework-threadutils" />
-        <module name="simm-framework-test" />
-        <module name="simm.study.xmind" />
-        <module name="simm-framework-jsonext" />
         <module name="simm-framework-common" />
-        <module name="simm-wechat-muchen" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

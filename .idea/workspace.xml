@@ -1,223 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:simm-vue" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="微信小程序的统一请求处理">
-      <change afterPath="$PROJECT_DIR$/simm-study-xmind/struct/信息安全专题.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/col/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/row/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/row/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/row/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/@miniprogram-component-plus/row/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/actionsheet/actionsheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/actionsheet/actionsheet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/actionsheet/actionsheet.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/actionsheet/actionsheet.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/badge/badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/badge/badge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/badge/badge.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/badge/badge.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cell/cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cell/cell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cell/cell.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cell/cell.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cells/cells.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cells/cells.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cells/cells.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/cells/cells.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox/checkbox.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox/checkbox.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/checkbox/checkbox.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/dialog/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/dialog/dialog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/dialog/dialog.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/dialog/dialog.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form-page/form-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form-page/form-page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form-page/form-page.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form-page/form-page.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form/form.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/form/form.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/gallery/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/gallery/gallery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/gallery/gallery.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/gallery/gallery.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/grids/grids.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/grids/grids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/grids/grids.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/grids/grids.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/icon/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/icon/icon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/icon/icon.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/icon/icon.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/loading/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/loading/loading.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/loading/loading.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/loading/loading.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/msg/msg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/msg/msg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/msg/msg.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/msg/msg.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/navigation-bar/navigation-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/navigation-bar/navigation-bar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/navigation-bar/navigation-bar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/navigation-bar/navigation-bar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/searchbar/searchbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/searchbar/searchbar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/searchbar/searchbar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/searchbar/searchbar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/slideview/slideview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/slideview/slideview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/slideview/slideview.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/slideview/slideview.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/slideview/slideview.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/static/icon/s-arrow-back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/static/icon/s-arrow-back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/tabbar/tabbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/tabbar/tabbar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/tabbar/tabbar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/tabbar/tabbar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/toptips/toptips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/toptips/toptips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/toptips/toptips.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/toptips/toptips.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/uploader/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/uploader/uploader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/uploader/uploader.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/uploader/uploader.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/icon/weui-icon.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/col/miniprogram_dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/col/miniprogram_dist/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/col/miniprogram_dist/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/col/miniprogram_dist/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/col/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/row/miniprogram_dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/row/miniprogram_dist/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/row/miniprogram_dist/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/row/miniprogram_dist/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/@miniprogram-component-plus/row/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/actionsheet/actionsheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/actionsheet/actionsheet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/actionsheet/actionsheet.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/actionsheet/actionsheet.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/badge/badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/badge/badge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/badge/badge.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/badge/badge.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cell/cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cell/cell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cell/cell.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cell/cell.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cells/cells.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cells/cells.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cells/cells.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/cells/cells.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox-group/checkbox-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox-group/checkbox-group.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox-group/checkbox-group.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox-group/checkbox-group.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox/checkbox.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox/checkbox.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/checkbox/checkbox.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/dialog/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/dialog/dialog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/dialog/dialog.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/dialog/dialog.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form-page/form-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form-page/form-page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form-page/form-page.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form-page/form-page.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form/form.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/form/form.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/gallery/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/gallery/gallery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/gallery/gallery.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/gallery/gallery.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/grids/grids.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/grids/grids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/grids/grids.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/grids/grids.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/half-screen-dialog/half-screen-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/half-screen-dialog/half-screen-dialog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/half-screen-dialog/half-screen-dialog.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/half-screen-dialog/half-screen-dialog.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/icon/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/icon/icon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/icon/icon.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/icon/icon.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/loading/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/loading/loading.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/loading/loading.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/loading/loading.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/msg/msg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/msg/msg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/msg/msg.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/msg/msg.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/navigation-bar/navigation-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/navigation-bar/navigation-bar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/navigation-bar/navigation-bar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/navigation-bar/navigation-bar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/searchbar/searchbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/searchbar/searchbar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/searchbar/searchbar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/searchbar/searchbar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/slideview/slideview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/slideview/slideview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/slideview/slideview.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/slideview/slideview.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/slideview/slideview.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/static/icon/s-arrow-back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/static/icon/s-arrow-back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/tabbar/tabbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/tabbar/tabbar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/tabbar/tabbar.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/tabbar/tabbar.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/toptips/toptips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/toptips/toptips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/toptips/toptips.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/toptips/toptips.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/uploader/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/uploader/uploader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/uploader/uploader.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/uploader/uploader.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/icon/weui-icon.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/weui.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-wechat-muchen/node_modules/weui-miniprogram/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/LockSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/simm-framework-jsonext/target/" />
-    <ignored path="$PROJECT_DIR$/simm.framework.threadutils/target/" />
-    <ignored path="$PROJECT_DIR$/simm-framework-threadutils/target/" />
-    <ignored path="$PROJECT_DIR$/simm-framework-test/target/" />
-    <ignored path="$PROJECT_DIR$/simm-framework-webutil/target/" />
-    <ignored path="$PROJECT_DIR$/simm-framework-common/target/" />
-    <ignored path="$PROJECT_DIR$/simm-wechat-muchen/target/" />
-    <ignored path="$PROJECT_DIR$/simm-study-xmind/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,25 +59,8 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -256,14 +72,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>targetDifferenceValue</find>
-      <find>nodesAddr</find>
-      <find>redis.</find>
-      <find>segmentFor</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -274,119 +82,28 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/handler/WebExceptionHandle.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/StatusTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/limit/LimitType.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/limit/Limit.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LogMqConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/LogService.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/RabbitMQServiceImpl.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/support/RedisClusterPipelineSupport.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/redis/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/ThreadPoolConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/ElasticsearchConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/XxlJobConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/LogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/log/consumer/YqmXxlLogConsumer.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/pom.xml" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/RedisClusterAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/LimitInterceptor.java" />
-        <option value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/MybatisConfig.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/SguPlanImpFileInfo.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/SguPlanBaseInfo.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/SguPlanProdInfo.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/ErrorSummary.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ErrorSummary.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/excel/ErrorHandler.java" />
-        <option value="$PROJECT_DIR$/simm-framework-jsonext/src/main/java/simm/framework/jsonext/ProxyJsonUtil.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/pom.xml" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/spring/HelloControllerTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/gc-test.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/UnsafeTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/ReferenceTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/BizContext.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/entity/Car.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/StringTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/MutiThreadTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/thread/Piped.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/IDCardOcrImpl.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/OcrController.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/service/impl/MybeanService.java" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/simm-wechat-muchen/pom.xml" />
-        <option value="$PROJECT_DIR$/simm-wechat-muchen/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantConditionTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/simm-vue/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
-    <option name="y" value="366" />
-    <option name="width" value="1051" />
-    <option name="height" value="669" />
-  </component>
+  <component name="ProjectId" id="1k0IhzxHPr9uXE1D7bxdIAR2eJx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simm-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simm-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simm-study-xmind" type="462c0819:PsiDirectoryNode" />
-              <item name="struct" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -400,18 +117,32 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-study-xmind/struct" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.37586206" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.framework.simm.service.impl" />
+      <recent name="multi" />
+      <recent name="interrupt" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\04test\simm-framework\simm-study-xmind\struct" />
@@ -421,38 +152,25 @@
       <recent name="D:\04test\simm-framework\simm-framework-common\src\main\java\simm\framework\common\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simm.framework.test.lock.reentrant" />
       <recent name="simm.framework.common.excel" />
       <recent name="simm.framework.webutil.log.consumer" />
       <recent name="simm.framework.webutil.log" />
       <recent name="simm.framework.common.model" />
-      <recent name="simm.framework.common.utils" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test.framework.simm.service.impl" />
-      <recent name="multi" />
-      <recent name="interrupt" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ReentrantConditionTest">
-    <configuration name="OcrTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.common.OcrTest" />
-      <module name="simm-framework-common" />
+  <component name="RunManager" selected="Application.ReentrantLockTest2">
+    <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.LockSupportTest" />
+      <module name="simm-framework-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simm.framework.common.*" />
+          <option name="PATTERN" value="simm.framework.test.lock.reentrant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,8 +192,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReentrantLockTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.ReentrantLockTest2" />
+      <module name="simm-framework-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.lock.reentrant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -535,32 +278,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resources/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="simm-framework-test/src/main/resources/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.OcrTest" />
-      <item itemvalue="Docker.resources/Dockerfile" />
+      <item itemvalue="Application.ReentrantConditionTest" />
       <item itemvalue="JUnit.StringTest.testIntern" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Application.ReentrantConditionTest" />
+      <item itemvalue="Application.LockSupportTest" />
+      <item itemvalue="Application.ReentrantLockTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLockTest2" />
+        <item itemvalue="Application.LockSupportTest" />
         <item itemvalue="Application.ReentrantConditionTest" />
         <item itemvalue="Spring Boot.TestApplication" />
         <item itemvalue="JUnit.StringTest.testIntern" />
-        <item itemvalue="Docker.resources/Dockerfile" />
-        <item itemvalue="Application.OcrTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -650,6 +386,15 @@
       <workItem from="1603717381982" duration="1527000" />
       <workItem from="1603788300511" duration="4333000" />
       <workItem from="1603863222031" duration="6077000" />
+      <workItem from="1604842308181" duration="3472000" />
+      <workItem from="1604846873250" duration="2560000" />
+      <workItem from="1604850112352" duration="1945000" />
+      <workItem from="1605025028651" duration="630000" />
+      <workItem from="1605030183574" duration="625000" />
+      <workItem from="1605103096713" duration="1564000" />
+      <workItem from="1605191059166" duration="1867000" />
+      <workItem from="1605276956794" duration="751000" />
+      <workItem from="1605431557772" duration="5881000" />
     </task>
     <task id="LOCAL-00039" summary="制作镜像文件">
       <created>1599024263254</created>
@@ -1029,9 +774,6 @@
       <configuration name="ConcurrentHashMapTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358629000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1041,50 +783,25 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80479455" visible="true" weight="0.18123393" />
-      <window_info id="Structure" order="1" sideWeight="0.19520548" side_tool="true" visible="true" weight="0.18123393" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.1615074" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26583594" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2139973" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2606438" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32917964" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" weight="0.32917964" />
-      <window_info anchor="bottom" id="Statistic" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49946696" weight="0.21079959" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.20758355" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1260745" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.12596402" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.14974293" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/simm-wechat-muchen" />
+    </ignored-roots>
     <MESSAGE value="docker部署" />
     <MESSAGE value="docker部署文件提交" />
     <MESSAGE value="制作镜像文件" />
@@ -1112,62 +829,157 @@
     <MESSAGE value="微信小程序的统一请求处理" />
     <option name="LAST_COMMIT_MESSAGE" value="微信小程序的统一请求处理" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="653" key="#ESLint" timestamp="1604842360442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="653" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604842360442" />
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1605432305994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1605432305994" />
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1605432429702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605432429702" />
+    <state width="1493" height="232" key="GridCell.Tab.0.bottom" timestamp="1605449300064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
+    <state width="1493" height="232" key="GridCell.Tab.0.center" timestamp="1605449300064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
+    <state width="1493" height="232" key="GridCell.Tab.0.left" timestamp="1605449300064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
+    <state width="1493" height="232" key="GridCell.Tab.0.right" timestamp="1605449300064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
+    <state width="1493" height="232" key="GridCell.Tab.1.bottom" timestamp="1605449292524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
+    <state width="1493" height="232" key="GridCell.Tab.1.center" timestamp="1605449292524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
+    <state width="1493" height="232" key="GridCell.Tab.1.left" timestamp="1605449292524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
+    <state width="1493" height="232" key="GridCell.Tab.1.right" timestamp="1605449292524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="232" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831304446" />
+    <state x="369" y="114" key="SettingsEditor" timestamp="1604850142607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
+    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605191156842" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604831264433" />
+    <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604831288746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831288746" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/ExceptionTestController.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
           <line>999</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java</url>
           <line>280</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java</url>
           <line>290</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java</url>
           <line>287</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java</url>
           <line>940</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java</url>
           <line>884</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class</url>
           <line>327</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simm-framework-threadutils/src/test/java/multi/StringTest.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java</url>
+          <line>1717</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1952</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantConditionTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1199</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1175,381 +987,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>100 &gt;&gt; 7</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt; 7</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt; 6</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt; 5</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt; 5</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt;5</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt;6</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt;4</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;&gt;3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>100 &gt;&gt;》3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5866">
-          <caret line="487" column="29" selection-start-line="487" selection-start-column="29" selection-end-line="487" selection-end-column="29" />
-          <folding>
-            <element signature="e#44347#44348#0" expanded="true" />
-            <element signature="e#44395#44396#0" expanded="true" />
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final-sources.jar!/org/hibernate/validator/internal/util/ConcurrentReferenceHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2954">
-          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="251" selection-end-column="5" />
-          <folding>
-            <element signature="e#10429#10430#0" expanded="true" />
-            <element signature="e#10490#10491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-vue/simm-vue.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/simm-wechat-muchen.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-vue/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisDistributedLockTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/handler/WebExceptionHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ResponseJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/cors/SXHCorsProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-wechat-muchen/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/configuration/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/AutoSpringBeanManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
-          <folding>
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4793#4794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3752">
-          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/lock/redis/RedisLockInternals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/wx/config/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/wx/config/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/admin/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/admin/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/admin/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/admin/properties/servers.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/yqm-front-admin/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/concurrent/ConcurrentHashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="333" column="33" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="33" />
-          <folding>
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-prod/wx/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/pay/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supplyer/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/fws-single-ui/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/signing-ui/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_mq/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/website/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/yqm_xxl/properties/xxl-job-executor.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/supply-ui/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/servers.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/baseapi/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/api/properties/addressInfo.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/account-h5-ui/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simm-study-xmind/nginx-conf/config-mit/admin/properties/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
