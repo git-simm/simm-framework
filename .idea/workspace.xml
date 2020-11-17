@@ -43,12 +43,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="微信小程序的统一请求处理">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/LockSupportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="可重入锁的理解">
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/schedule/DelayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/schedule/TimeSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +107,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -163,7 +161,21 @@
       <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockTest2">
+  <component name="RunManager" selected="Application.DelayQueueTest">
+    <configuration name="DelayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.schedule.DelayQueueTest" />
+      <module name="simm-framework-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.LockSupportTest" />
       <module name="simm-framework-test" />
@@ -206,36 +218,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.schedule.TimeSchedule" />
+      <module name="simm-framework-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.testIntern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simm-framework-threadutils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="multi" />
-      <option name="MAIN_CLASS_NAME" value="multi.StringTest" />
-      <option name="METHOD_NAME" value="testIntern" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,19 +267,6 @@
       <option name="AUTO_RESTART" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="simm-framework-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.framework.simm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="test.framework.simm.TestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -280,19 +278,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReentrantConditionTest" />
-      <item itemvalue="JUnit.StringTest.testIntern" />
-      <item itemvalue="Remote.openjdk" />
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.LockSupportTest" />
       <item itemvalue="Application.ReentrantLockTest2" />
+      <item itemvalue="Remote.openjdk" />
+      <item itemvalue="Application.TimeSchedule" />
+      <item itemvalue="Application.DelayQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelayQueueTest" />
+        <item itemvalue="Application.TimeSchedule" />
         <item itemvalue="Application.ReentrantLockTest2" />
         <item itemvalue="Application.LockSupportTest" />
         <item itemvalue="Application.ReentrantConditionTest" />
-        <item itemvalue="Spring Boot.TestApplication" />
-        <item itemvalue="JUnit.StringTest.testIntern" />
       </list>
     </recent_temporary>
   </component>
@@ -394,14 +392,8 @@
       <workItem from="1605103096713" duration="1564000" />
       <workItem from="1605191059166" duration="1867000" />
       <workItem from="1605276956794" duration="751000" />
-      <workItem from="1605431557772" duration="5881000" />
-    </task>
-    <task id="LOCAL-00039" summary="制作镜像文件">
-      <created>1599024263254</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1599024263254</updated>
+      <workItem from="1605431557772" duration="9609000" />
+      <workItem from="1605622475986" duration="4235000" />
     </task>
     <task id="LOCAL-00040" summary="测试代码">
       <created>1599033554234</created>
@@ -739,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603875553921</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="可重入锁的理解">
+      <created>1605449534890</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1605449534900</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +801,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/simm-wechat-muchen" />
     </ignored-roots>
-    <MESSAGE value="docker部署" />
     <MESSAGE value="docker部署文件提交" />
     <MESSAGE value="制作镜像文件" />
     <MESSAGE value="测试代码" />
@@ -827,7 +825,8 @@
     <MESSAGE value="删除配置信息" />
     <MESSAGE value="删除多余配置" />
     <MESSAGE value="微信小程序的统一请求处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="微信小程序的统一请求处理" />
+    <MESSAGE value="可重入锁的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="可重入锁的理解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="653" key="#ESLint" timestamp="1604842360442">
@@ -838,42 +837,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1605432305994" />
-    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1605432429702">
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1605625465790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605432429702" />
-    <state width="1493" height="232" key="GridCell.Tab.0.bottom" timestamp="1605449300064">
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605625465790" />
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
-    <state width="1493" height="232" key="GridCell.Tab.0.center" timestamp="1605449300064">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
-    <state width="1493" height="232" key="GridCell.Tab.0.left" timestamp="1605449300064">
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
-    <state width="1493" height="232" key="GridCell.Tab.0.right" timestamp="1605449300064">
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605449300064" />
-    <state width="1493" height="232" key="GridCell.Tab.1.bottom" timestamp="1605449292524">
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
-    <state width="1493" height="232" key="GridCell.Tab.1.center" timestamp="1605449292524">
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.center" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
-    <state width="1493" height="232" key="GridCell.Tab.1.left" timestamp="1605449292524">
+    <state width="1493" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.left" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
-    <state width="1493" height="232" key="GridCell.Tab.1.right" timestamp="1605449292524">
+    <state width="1493" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="232" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605449292524" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
     <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -883,6 +882,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605449536991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605449536991" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -892,6 +895,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831288746" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605628190515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605628190515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -962,16 +969,6 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>205</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
           <line>1199</line>
           <option name="timeStamp" value="34" />
@@ -980,6 +977,21 @@
           <url>file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/lock/reentrant/ReentrantLockTest2.java</url>
           <line>23</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/DelayQueue.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>2076</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
