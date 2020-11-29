@@ -44,9 +44,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="可重入锁的理解">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/schedule/DelayQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/schedule/TimeSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-study-xmind/struct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yysc-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -238,15 +237,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,6 +264,13 @@
       <option name="AUTO_RESTART" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simm-framework-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="test.framework.simm.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -280,9 +284,10 @@
       <item itemvalue="Application.ReentrantConditionTest" />
       <item itemvalue="Application.LockSupportTest" />
       <item itemvalue="Application.ReentrantLockTest2" />
-      <item itemvalue="Remote.openjdk" />
       <item itemvalue="Application.TimeSchedule" />
       <item itemvalue="Application.DelayQueueTest" />
+      <item itemvalue="Remote.openjdk" />
+      <item itemvalue="Spring Boot.TestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -393,14 +398,10 @@
       <workItem from="1605191059166" duration="1867000" />
       <workItem from="1605276956794" duration="751000" />
       <workItem from="1605431557772" duration="9609000" />
-      <workItem from="1605622475986" duration="4235000" />
-    </task>
-    <task id="LOCAL-00040" summary="测试代码">
-      <created>1599033554234</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1599033554234</updated>
+      <workItem from="1605622475986" duration="4299000" />
+      <workItem from="1606046589324" duration="4350000" />
+      <workItem from="1606051537991" duration="76000" />
+      <workItem from="1606661944213" duration="670000" />
     </task>
     <task id="LOCAL-00041" summary="保存测试代码">
       <created>1599033646045</created>
@@ -738,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605449534900</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="可重入锁的理解">
+      <created>1605628712668</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628712668</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -841,38 +849,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605625465790" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1605628110413">
+    <state x="564" y="123" key="FileChooserDialogImpl" timestamp="1606049036170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1605628110413">
+    <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606049036170" />
+    <state width="1173" height="276" key="GridCell.Tab.0.bottom" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1605628110413">
+    <state width="1173" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.0.center" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1605628110413">
+    <state width="1173" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.0.left" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
-    <state width="1493" height="244" key="GridCell.Tab.1.bottom" timestamp="1605627937692">
+    <state width="1173" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.0.right" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
-    <state width="1493" height="244" key="GridCell.Tab.1.center" timestamp="1605627937692">
+    <state width="1173" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.1.bottom" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
-    <state width="1493" height="244" key="GridCell.Tab.1.left" timestamp="1605627937692">
+    <state width="1173" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.1.center" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
-    <state width="1493" height="244" key="GridCell.Tab.1.right" timestamp="1605627937692">
+    <state width="1173" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.1.left" timestamp="1605628767959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1173" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1173" height="276" key="GridCell.Tab.1.right" timestamp="1605628767959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1173" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
     <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -882,10 +894,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605449536991">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605628749019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605449536991" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605628749019" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
