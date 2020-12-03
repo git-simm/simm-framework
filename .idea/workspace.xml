@@ -44,8 +44,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="可重入锁的理解">
+      <change afterPath="$PROJECT_DIR$/simm-study-xmind/source/FeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,13 +237,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -401,14 +403,8 @@
       <workItem from="1605622475986" duration="4299000" />
       <workItem from="1606046589324" duration="4350000" />
       <workItem from="1606051537991" duration="76000" />
-      <workItem from="1606661944213" duration="670000" />
-    </task>
-    <task id="LOCAL-00041" summary="保存测试代码">
-      <created>1599033646045</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1599033646046</updated>
+      <workItem from="1606661944213" duration="708000" />
+      <workItem from="1607014244397" duration="1078000" />
     </task>
     <task id="LOCAL-00042" summary="调整代码结构，引用opencv">
       <created>1599184217629</created>
@@ -746,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605628712668</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="可重入锁的理解">
+      <created>1606662625658</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1606662625659</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -894,10 +897,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605628749019">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606662627427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605628749019" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606662627427" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -907,10 +910,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831288746" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605628190515">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607015191077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605628190515" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607015191077" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
