@@ -44,8 +44,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="可重入锁的理解">
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/exception/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/exception/IExceptionCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ObjectWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/StringWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/TokenConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/httpbase/BaseClientOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/date/MyDateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/BizContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/ClientTokenTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/ClientTokenTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/GatewayTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/model/IMethodFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/model/IServiceFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/model/ValidTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/reflect/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/security/AesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/serializer/RdcDateDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/valid/AssertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/valid/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/valid/constraint/NotRepetitiveConstraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/ClientTokenAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/GatewayAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/RestTemplateAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/MallAutoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +147,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yysc-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,17 +170,16 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test.framework.simm.service.impl" />
-      <recent name="multi" />
-      <recent name="interrupt" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\02javawork\simm-framework-webutil\src\main\java\simm\framework\webutil" />
+      <recent name="D:\workspace\02javawork\simm-framework-common\src\main\java\simm\framework\common\model" />
+      <recent name="D:\workspace\02javawork\simm-framework-common\src\main\java\simm\framework\common" />
+      <recent name="D:\workspace\02javawork\simm-framework-common\src\main\java\simm\framework\common\utils" />
       <recent name="D:\04test\simm-framework\simm-study-xmind\struct" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind\nginx-conf" />
-      <recent name="D:\04test\simm-framework\struct" />
-      <recent name="D:\04test\simm-framework\simm-wechat-muchen" />
-      <recent name="D:\04test\simm-framework\simm-framework-common\src\main\java\simm\framework\common\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="simm.framework.test.lock.reentrant" />
@@ -155,9 +188,10 @@
       <recent name="simm.framework.webutil.log" />
       <recent name="simm.framework.common.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.framework.simm.service.impl" />
+      <recent name="multi" />
+      <recent name="interrupt" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DelayQueueTest">
@@ -281,21 +315,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReentrantConditionTest" />
+      <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Application.LockSupportTest" />
+      <item itemvalue="Application.ReentrantConditionTest" />
       <item itemvalue="Application.ReentrantLockTest2" />
       <item itemvalue="Application.TimeSchedule" />
-      <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelayQueueTest" />
         <item itemvalue="Application.TimeSchedule" />
         <item itemvalue="Application.ReentrantLockTest2" />
-        <item itemvalue="Application.LockSupportTest" />
         <item itemvalue="Application.ReentrantConditionTest" />
+        <item itemvalue="Application.LockSupportTest" />
+        <item itemvalue="Application.DelayQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -398,10 +432,21 @@
       <workItem from="1605191059166" duration="1867000" />
       <workItem from="1605276956794" duration="751000" />
       <workItem from="1605431557772" duration="9609000" />
-      <workItem from="1605622475986" duration="4299000" />
-      <workItem from="1606046589324" duration="4350000" />
-      <workItem from="1606051537991" duration="76000" />
-      <workItem from="1606661944213" duration="670000" />
+      <workItem from="1605622475986" duration="4235000" />
+      <workItem from="1606358733211" duration="680000" />
+      <workItem from="1606722572393" duration="615000" />
+      <workItem from="1606784555458" duration="59000" />
+      <workItem from="1606784647364" duration="2258000" />
+      <workItem from="1606871258678" duration="1250000" />
+      <workItem from="1606957503347" duration="618000" />
+      <workItem from="1606987705867" duration="1493000" />
+    </task>
+    <task id="LOCAL-00040" summary="测试代码">
+      <created>1599033554234</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1599033554234</updated>
     </task>
     <task id="LOCAL-00041" summary="保存测试代码">
       <created>1599033646045</created>
@@ -739,14 +784,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605449534900</updated>
     </task>
-    <task id="LOCAL-00089" summary="可重入锁的理解">
-      <created>1605628712668</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1605628712668</updated>
-    </task>
-    <option name="localTasksCounter" value="90" />
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -849,68 +887,71 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605625465790" />
-    <state x="564" y="123" key="FileChooserDialogImpl" timestamp="1606049036170">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606049036170" />
-    <state width="1173" height="276" key="GridCell.Tab.0.bottom" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.center" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.left" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1605628110413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.right" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628110413" />
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.bottom" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.center" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.center" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.left" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.left" timestamp="1605628767959">
+    <state width="1493" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right" timestamp="1605627937692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.right" timestamp="1605628767959">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605627937692" />
+    <state x="380" y="139" key="Maven.ArtifactSearchDialog" timestamp="1606988504451">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="380" y="139" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1606988504451" />
+    <state x="196" y="92" key="MergeDialog" timestamp="1606785202185">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831304446" />
+    <state x="196" y="92" key="MergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1606785202185" />
     <state x="369" y="114" key="SettingsEditor" timestamp="1604850142607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605628749019">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605449536991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605628749019" />
-    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605449536991" />
+    <state x="813" y="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606987762817">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605191156842" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604831264433" />
+    <state x="813" y="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606987762817" />
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604831288746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831288746" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605628190515">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="575" y="196" width="896" height="915" key="search.everywhere.popup" timestamp="1606877980259">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605628190515" />
+    <state x="575" y="196" width="896" height="915" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1606877980259" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

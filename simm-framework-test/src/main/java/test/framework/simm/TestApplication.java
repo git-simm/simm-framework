@@ -31,10 +31,10 @@ public class TestApplication {
     @Bean
     public MultipartConfigElement multipartConfigElement() {
         MultipartConfigFactory factory = new MultipartConfigFactory();
-        // 单个数据大小
-        factory.setMaxFileSize(DataSize.of(50, DataUnit.MEGABYTES));
+        // 单个数据大小(插件版本允许2G,因此这里配成2G)
+        factory.setMaxFileSize(DataSize.of(2, DataUnit.GIGABYTES));
         //总上传数据大小
-        factory.setMaxRequestSize(DataSize.of(10,DataUnit.MEGABYTES));
+        factory.setMaxRequestSize(DataSize.of(2,DataUnit.GIGABYTES));
         return factory.createMultipartConfig();
     }
     //    @Bean(name = "multipartResolver")
