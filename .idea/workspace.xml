@@ -44,13 +44,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="提交学习的代码">
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/AiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ObjectWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ObjectWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/MallAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/WorkflowAutoConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,21 @@
       <recent name="interrupt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelayQueueTest">
+  <component name="RunManager" selected="Application.CategoryTest">
+    <configuration name="CategoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.huaweicloud.CategoryTest" />
+      <module name="simm-huaweicloud-ai-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.huaweicloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DelayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simm.framework.test.schedule.DelayQueueTest" />
       <module name="simm-framework-test" />
@@ -182,20 +195,6 @@
     </configuration>
     <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.LockSupportTest" />
-      <module name="simm-framework-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simm.framework.test.lock.reentrant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantConditionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.ReentrantConditionTest" />
       <module name="simm-framework-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -286,21 +285,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReentrantConditionTest" />
       <item itemvalue="Application.LockSupportTest" />
       <item itemvalue="Application.ReentrantLockTest2" />
       <item itemvalue="Application.TimeSchedule" />
       <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Application.CategoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CategoryTest" />
         <item itemvalue="Application.DelayQueueTest" />
         <item itemvalue="Application.TimeSchedule" />
         <item itemvalue="Application.ReentrantLockTest2" />
         <item itemvalue="Application.LockSupportTest" />
-        <item itemvalue="Application.ReentrantConditionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +408,7 @@
       <workItem from="1606661944213" duration="708000" />
       <workItem from="1607014244397" duration="1715000" />
       <workItem from="1607085599540" duration="318000" />
-      <workItem from="1607149717894" duration="575000" />
+      <workItem from="1607149717894" duration="1967000" />
     </task>
     <task id="LOCAL-00043" summary="调整代码结构，引用opencv">
       <created>1599184373912</created>

@@ -9,6 +9,6 @@ import java.io.Serializable;
  * @author simm
  */
 @Data
-public class ObjectWrapper<T> extends com.mingyuanyun.rdc.framework.core.model.StringWrapper implements Serializable {
+public class ObjectWrapper<T> extends StringWrapper implements Serializable {
     private T data;
 }
