@@ -1,7 +1,7 @@
 package simm.framework.common.utils.oauth2;
 
+import cn.hutool.core.lang.func.Func0;
 import org.springframework.util.MultiValueMap;
-import rx.functions.Func0;
 import simm.framework.common.utils.oauth2.model.IMethodFeature;
 
 import java.util.function.Consumer;

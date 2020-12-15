@@ -4,8 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.sun.org.glassfish.gmbal.Description;
 import lombok.Data;
+import org.springframework.data.rest.core.annotation.Description;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

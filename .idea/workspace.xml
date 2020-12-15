@@ -44,12 +44,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="提交学习的代码">
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ObjectWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/ObjectWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/MallAutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/WorkflowAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/SguPlanBaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/SguPlanBaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/SguPlanProdInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/model/SguPlanProdInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/GatewayTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/GatewayTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/GatewayTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-common/src/main/java/simm/framework/common/utils/oauth2/GatewayTemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/oauth2-server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -164,7 +166,7 @@
       <recent name="interrupt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CategoryTest">
+  <component name="RunManager" selected="Spring Boot.TestApplication">
     <configuration name="CategoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ai.huaweicloud.CategoryTest" />
       <module name="simm-huaweicloud-ai-test" />
@@ -289,9 +291,9 @@
       <item itemvalue="Application.ReentrantLockTest2" />
       <item itemvalue="Application.TimeSchedule" />
       <item itemvalue="Application.DelayQueueTest" />
+      <item itemvalue="Application.CategoryTest" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Application.CategoryTest" />
     </list>
     <recent_temporary>
       <list>
@@ -408,14 +410,11 @@
       <workItem from="1606661944213" duration="708000" />
       <workItem from="1607014244397" duration="1715000" />
       <workItem from="1607085599540" duration="318000" />
-      <workItem from="1607149717894" duration="1967000" />
-    </task>
-    <task id="LOCAL-00043" summary="调整代码结构，引用opencv">
-      <created>1599184373912</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1599184373912</updated>
+      <workItem from="1607149717894" duration="2720000" />
+      <workItem from="1607524120093" duration="630000" />
+      <workItem from="1607856599464" duration="1286000" />
+      <workItem from="1607954165843" duration="32000" />
+      <workItem from="1608038758683" duration="1380000" />
     </task>
     <task id="LOCAL-00044" summary="优化代码">
       <created>1599185514827</created>
@@ -753,40 +752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1607015340039</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="提交学习的代码">
+      <created>1607155368604</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1607155368604</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="UnsafeTest_testPretenureSizeThreshold - 2020.09.28 at 15h 25m 00s.xml">
-      <configuration name="UnsafeTest.testPretenureSizeThreshold" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnsafeTest_testPretenureSizeThreshold - 2020.09.28 at 15h 33m 18s.xml">
-      <configuration name="UnsafeTest.testPretenureSizeThreshold" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnsafeTest_testTenuringThreshold - 2020.09.28 at 15h 36m 49s.xml">
-      <configuration name="UnsafeTest.testTenuringThreshold" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test - 2020.10.10 at 14h 02m 46s.xml">
-      <configuration name="StringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test - 2020.10.10 at 14h 05m 36s.xml">
-      <configuration name="StringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test - 2020.10.10 at 14h 12m 26s.xml">
-      <configuration name="StringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentHashMapTest_test - 2020.10.26 at 15h 50m 18s.xml">
-      <configuration name="ConcurrentHashMapTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentHashMapTest_test - 2020.10.26 at 15h 53m 35s.xml">
-      <configuration name="ConcurrentHashMapTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentHashMapTest_test - 2020.10.26 at 16h 01m 01s.xml">
-      <configuration name="ConcurrentHashMapTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentHashMapTest_test - 2020.10.26 at 16h 41m 42s.xml">
-      <configuration name="ConcurrentHashMapTest.test" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,42 +830,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605625465790" />
-    <state x="564" y="123" key="FileChooserDialogImpl" timestamp="1606049036170">
+    <state x="564" y="123" key="FileChooserDialogImpl" timestamp="1607856639914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606049036170" />
-    <state width="1173" height="276" key="GridCell.Tab.0.bottom" timestamp="1605628767959">
+    <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607856639914" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608040086195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.center" timestamp="1605628767959">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608040086195" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608040086195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.left" timestamp="1605628767959">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608040086195" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608040086194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.0.right" timestamp="1605628767959">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608040086194" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608040086195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.bottom" timestamp="1605628767959">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608040086195" />
+    <state width="1493" height="89" key="GridCell.Tab.1.bottom" timestamp="1608039755119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.center" timestamp="1605628767959">
+    <state width="1493" height="89" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.1.center" timestamp="1608039755119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.left" timestamp="1605628767959">
+    <state width="1493" height="89" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.1.left" timestamp="1608039755119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
-    <state width="1173" height="276" key="GridCell.Tab.1.right" timestamp="1605628767959">
+    <state width="1493" height="89" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.1.right" timestamp="1608039755119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1173" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605628767959" />
+    <state width="1493" height="89" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.2.bottom" timestamp="1608039755120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="89" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608039755120" />
+    <state width="1493" height="89" key="GridCell.Tab.2.center" timestamp="1608039755119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="89" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.2.left" timestamp="1608039755119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="89" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
+    <state width="1493" height="89" key="GridCell.Tab.2.right" timestamp="1608039755119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="89" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608039755119" />
     <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -905,10 +895,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1607015342158">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1607155446385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607015342158" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607155446385" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -981,11 +971,6 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>1952</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>223</line>
           <option name="timeStamp" value="28" />
@@ -1006,19 +991,14 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java</url>
-          <line>324</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/DelayQueue.java</url>
           <line>219</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>2076</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
