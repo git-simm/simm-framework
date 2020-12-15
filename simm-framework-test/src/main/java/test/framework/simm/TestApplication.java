@@ -4,11 +4,14 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.util.unit.DataSize;
 import org.springframework.util.unit.DataUnit;
+import test.framework.simm.servlet.MyServlet;
 
 import javax.servlet.MultipartConfigElement;
 
@@ -18,7 +21,13 @@ import javax.servlet.MultipartConfigElement;
 @SpringBootApplication(scanBasePackages = {"test.framework.simm","simm.framework.webutil"})
 @EnableAsync
 @EnableAspectJAutoProxy(exposeProxy = true)
+@ServletComponentScan
 public class TestApplication {
+    @Bean
+    public ServletRegistrationBean servletRegistrationBean() {
+        return new ServletRegistrationBean(new MyServlet(), "/my1/*");
+    }
+
     public static void main(String[] args) throws Exception {
         new SpringApplicationBuilder(TestApplication.class).web(WebApplicationType.SERVLET).run(args);
     }
