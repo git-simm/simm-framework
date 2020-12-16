@@ -44,14 +44,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="源码跑通了">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/servlet/MyScanServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/servlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/autoconfig/sdks/FeignConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-webutil/src/main/java/simm/framework/webutil/config/XxlJobConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +160,7 @@
       <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestApplication">
+  <component name="RunManager" selected="JUnit.ObjectMapperTest">
     <configuration name="CategoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ai.huaweicloud.CategoryTest" />
       <module name="simm-huaweicloud-ai-test" />
@@ -188,34 +182,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="simm.framework.test.schedule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.LockSupportTest" />
-      <module name="simm-framework-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simm.framework.test.lock.reentrant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.test.lock.reentrant.ReentrantLockTest2" />
-      <module name="simm-framework-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simm.framework.test.lock.reentrant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,6 +216,39 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simm-framework-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simm.framework.test.jpa" />
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.jpa.ObjectMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectMapperTest.writer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simm-framework-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simm.framework.test.jpa" />
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.jpa.ObjectMapperTest" />
+      <option name="METHOD_NAME" value="writer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,21 +288,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LockSupportTest" />
-      <item itemvalue="Application.ReentrantLockTest2" />
       <item itemvalue="Application.TimeSchedule" />
       <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Application.CategoryTest" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="JUnit.ObjectMapperTest.writer" />
+      <item itemvalue="JUnit.ObjectMapperTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ObjectMapperTest" />
+        <item itemvalue="JUnit.ObjectMapperTest.writer" />
         <item itemvalue="Application.CategoryTest" />
         <item itemvalue="Application.DelayQueueTest" />
         <item itemvalue="Application.TimeSchedule" />
-        <item itemvalue="Application.ReentrantLockTest2" />
-        <item itemvalue="Application.LockSupportTest" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +416,8 @@
       <workItem from="1607856599464" duration="1286000" />
       <workItem from="1607954165843" duration="32000" />
       <workItem from="1608038758683" duration="4093000" />
+      <workItem from="1608127897573" duration="895000" />
+      <workItem from="1608133909389" duration="571000" />
     </task>
     <task id="LOCAL-00045" summary="优化代码">
       <created>1599188786792</created>
