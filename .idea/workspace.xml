@@ -44,8 +44,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="源码跑通了">
-      <change afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,7 @@
       <recent name="D:\04test\simm-framework\simm-study-xmind" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObjectMapperTest">
+  <component name="RunManager" selected="JUnit.ObjectMapperTest.writer">
     <configuration name="CategoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ai.huaweicloud.CategoryTest" />
       <module name="simm-huaweicloud-ai-test" />
@@ -189,20 +191,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.test.schedule.TimeSchedule" />
-      <module name="simm-framework-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simm.framework.test.schedule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -216,6 +204,23 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloControllerTest.getHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simm-framework-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.framework.test.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simm.framework.test.spring" />
+      <option name="MAIN_CLASS_NAME" value="simm.framework.test.spring.HelloControllerTest" />
+      <option name="METHOD_NAME" value="getHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,21 +293,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeSchedule" />
       <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Application.CategoryTest" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="JUnit.ObjectMapperTest.writer" />
       <item itemvalue="JUnit.ObjectMapperTest" />
+      <item itemvalue="JUnit.HelloControllerTest.getHello" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ObjectMapperTest" />
         <item itemvalue="JUnit.ObjectMapperTest.writer" />
+        <item itemvalue="JUnit.ObjectMapperTest" />
+        <item itemvalue="JUnit.HelloControllerTest.getHello" />
         <item itemvalue="Application.CategoryTest" />
         <item itemvalue="Application.DelayQueueTest" />
-        <item itemvalue="Application.TimeSchedule" />
       </list>
     </recent_temporary>
   </component>
@@ -417,14 +422,7 @@
       <workItem from="1607954165843" duration="32000" />
       <workItem from="1608038758683" duration="4093000" />
       <workItem from="1608127897573" duration="895000" />
-      <workItem from="1608133909389" duration="571000" />
-    </task>
-    <task id="LOCAL-00045" summary="优化代码">
-      <created>1599188786792</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1599188786792</updated>
+      <workItem from="1608133909389" duration="1319000" />
     </task>
     <task id="LOCAL-00046" summary="优化代码">
       <created>1599278774035</created>
@@ -762,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608040205707</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="源码跑通了">
+      <created>1608134661786</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1608134661787</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TodoView">
@@ -825,10 +830,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="653" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604842360442" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608041114372">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608135084143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608041114372" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608135084143" />
     <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1605432305994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -841,38 +846,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607856639914" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1608042254388">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1608135120043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608042254388" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1608042254388">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
+    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1608135120043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608042254388" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1608042254388">
+    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
+    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1608135120043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608042254388" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1608042254388">
+    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1608135120043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608042254388" />
-    <state width="1493" height="345" key="GridCell.Tab.1.bottom" timestamp="1608041553101">
+    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1608135119842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608041553101" />
-    <state width="1493" height="345" key="GridCell.Tab.1.center" timestamp="1608041553101">
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
+    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1608135119842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608041553101" />
-    <state width="1493" height="345" key="GridCell.Tab.1.left" timestamp="1608041553101">
+    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
+    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1608135119842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608041553101" />
-    <state width="1493" height="345" key="GridCell.Tab.1.right" timestamp="1608041553101">
+    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
+    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1608135119842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608041553101" />
+    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
     <state width="1493" height="166" key="GridCell.Tab.2.bottom" timestamp="1608041510856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -902,14 +907,14 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608040410813">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608134663345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608040410813" />
-    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605191156842">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608134663345" />
+    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608134637912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605191156842" />
+    <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608134637912" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604831264433" />
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604831288746">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1051,6 +1056,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
           <line>483</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

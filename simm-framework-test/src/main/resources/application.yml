@@ -7,6 +7,10 @@ spring:
     name: ${app.id}
   datasource:
     druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://60.205.226.96:3306/smart-industry?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+      username: simm
+      password: Smart@industry123
       initial-size: 5
       min-idle: 5
       max-active: 20
