@@ -45,8 +45,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="AutoService项目学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/docs/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-autoservice-sdk/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
   <component name="RunManager" selected="Spring Boot.AutoServiceTestApplication">
     <configuration name="JavaPoetStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simm.autoservice.test.javafile.JavaPoetStudy" />
-      <module name="simm-huaweicloud-ai-test (1)" />
+      <module name="simm-autoservice-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -180,19 +178,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,7 +249,7 @@
       <method v="2" />
     </configuration>
     <configuration name="AutoServiceTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="simm-huaweicloud-ai-test (1)" />
+      <module name="simm-autoservice-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="simm.autoservice.test.*" />
@@ -295,12 +280,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JavaPoetStudy" />
       <item itemvalue="JUnit.ObjectMapperTest.writer" />
       <item itemvalue="JUnit.ObjectMapperTest" />
       <item itemvalue="JUnit.HelloControllerTest.getHello" />
       <item itemvalue="Remote.openjdk" />
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Application.JavaPoetStudy" />
       <item itemvalue="Spring Boot.AutoServiceTestApplication" />
     </list>
     <recent_temporary>
@@ -425,14 +410,7 @@
       <workItem from="1608038758683" duration="4093000" />
       <workItem from="1608127897573" duration="895000" />
       <workItem from="1608133909389" duration="3171000" />
-      <workItem from="1608211947371" duration="8343000" />
-    </task>
-    <task id="LOCAL-00048" summary="remark修改">
-      <created>1599814338744</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1599814338744</updated>
+      <workItem from="1608211947371" duration="8376000" />
     </task>
     <task id="LOCAL-00049" summary="remark修改">
       <created>1600238420089</created>
@@ -770,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608228855487</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="AutoService项目学习">
+      <created>1608229035194</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1608229035194</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TodoView">
@@ -858,54 +843,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607856639914" />
-    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1608228678137">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1608229047630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
-    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1608228678137">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608229047630" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1608229047630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
-    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1608228678137">
+    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608229047630" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1608229047629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
-    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1608228678137">
+    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608229047629" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1608229047630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1608227117170">
+    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608229047630" />
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1608229047624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608229047624" />
+    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1608229047624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608229047624" />
+    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1608229047624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608229047624" />
+    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1608229047624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.2.bottom" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608229047624" />
+    <state width="1493" height="303" key="GridCell.Tab.2.bottom" timestamp="1608229047625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.2.center" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608229047625" />
+    <state width="1493" height="303" key="GridCell.Tab.2.center" timestamp="1608229047625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.2.left" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608229047625" />
+    <state width="1493" height="303" key="GridCell.Tab.2.left" timestamp="1608229047625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
-    <state width="1493" height="303" key="GridCell.Tab.2.right" timestamp="1608227117170">
+    <state width="1493" height="303" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608229047625" />
+    <state width="1493" height="303" key="GridCell.Tab.2.right" timestamp="1608229047625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="303" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608229047625" />
     <state x="0" y="135" key="Maven.ArtifactSearchDialog" timestamp="1608223738504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -923,10 +908,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608228859938">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608229036575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608228859938" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608229036575" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608134637912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
