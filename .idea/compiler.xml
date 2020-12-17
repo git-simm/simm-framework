@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simm-autoservice-sdk" />
         <module name="simm-framework-jsonext" />
         <module name="simm.study.xmind" />
+        <module name="simm-huaweicloud-ai-test (1)" />
         <module name="simm-framework-test" />
         <module name="simm-huaweicloud-ai-test" />
         <module name="simm-wechat-muchen" />
@@ -24,12 +26,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="simm-autoservice-sdk" options="-parameters" />
       <module name="simm-framework-common" options="-parameters" />
       <module name="simm-framework-jsonext" options="-parameters" />
       <module name="simm-framework-test" options="-parameters" />
       <module name="simm-framework-threadutils" options="-parameters" />
       <module name="simm-framework-webutil" options="-parameters" />
       <module name="simm-huaweicloud-ai-test" options="-parameters" />
+      <module name="simm-huaweicloud-ai-test (1)" options="-parameters" />
       <module name="simm-wechat-muchen" options="-parameters" />
       <module name="simm.study.xmind" options="-parameters" />
     </option>

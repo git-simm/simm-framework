@@ -43,11 +43,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="源码跑通了">
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="单元测试代码跑通">
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/annotations/AutoSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/interfaces/ISay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/processor/SayProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/AutoServiceTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/javafile/ChineseSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/javafile/JavaPoetStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/autoservice/test/docs/tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/AiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/autoservice/test/AiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/docs/tools.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +79,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,7 +131,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/simm-framework-test/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/oauth2-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -138,52 +154,39 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\simm-framework\simm-autoservice-sdk" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\simm-framework" />
+      <recent name="D:\workspace\simm-framework\simm-huaweicloud-ai-test\src\main\resources" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind\struct" />
+      <recent name="D:\04test\simm-framework\simm-study-xmind\nginx-conf" />
+      <recent name="D:\04test\simm-framework\struct" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simm.autoservice.annotations" />
+      <recent name="test.framework.simm.servlet" />
+      <recent name="simm.huaweicloud.ai" />
+      <recent name="simm.framework.test.lock.reentrant" />
+      <recent name="simm.framework.common.excel" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test.framework.simm.service.impl" />
       <recent name="multi" />
       <recent name="interrupt" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\simm-framework\simm-huaweicloud-ai-test\src\main\resources" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind\struct" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind\nginx-conf" />
-      <recent name="D:\04test\simm-framework\struct" />
-      <recent name="D:\04test\simm-framework\simm-wechat-muchen" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.framework.simm.servlet" />
-      <recent name="simm.huaweicloud.ai" />
-      <recent name="simm.framework.test.lock.reentrant" />
-      <recent name="simm.framework.common.excel" />
-      <recent name="simm.framework.webutil.log.consumer" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\04test\simm-framework\simm-study-xmind\sxh-work" />
-      <recent name="D:\04test\simm-framework\simm-study-xmind" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObjectMapperTest.writer">
-    <configuration name="CategoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ai.huaweicloud.CategoryTest" />
-      <module name="simm-huaweicloud-ai-test" />
+  <component name="RunManager" selected="Spring Boot.AutoServiceTestApplication">
+    <configuration name="JavaPoetStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simm.autoservice.test.javafile.JavaPoetStudy" />
+      <module name="simm-huaweicloud-ai-test (1)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ai.huaweicloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simm.framework.test.schedule.DelayQueueTest" />
-      <module name="simm-framework-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simm.framework.test.schedule.*" />
+          <option name="PATTERN" value="simm.autoservice.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,13 +200,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,6 +279,19 @@
       <option name="AUTO_RESTART" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="AutoServiceTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="simm-huaweicloud-ai-test (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simm.autoservice.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="simm.autoservice.test.AutoServiceTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="simm-framework-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="test.framework.simm.TestApplication" />
@@ -293,21 +311,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DelayQueueTest" />
-      <item itemvalue="Application.CategoryTest" />
-      <item itemvalue="Remote.openjdk" />
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="JUnit.ObjectMapperTest.writer" />
       <item itemvalue="JUnit.ObjectMapperTest" />
       <item itemvalue="JUnit.HelloControllerTest.getHello" />
+      <item itemvalue="Remote.openjdk" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Application.JavaPoetStudy" />
+      <item itemvalue="Spring Boot.AutoServiceTestApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AutoServiceTestApplication" />
+        <item itemvalue="Application.JavaPoetStudy" />
         <item itemvalue="JUnit.ObjectMapperTest.writer" />
         <item itemvalue="JUnit.ObjectMapperTest" />
         <item itemvalue="JUnit.HelloControllerTest.getHello" />
-        <item itemvalue="Application.CategoryTest" />
-        <item itemvalue="Application.DelayQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,14 +440,8 @@
       <workItem from="1607954165843" duration="32000" />
       <workItem from="1608038758683" duration="4093000" />
       <workItem from="1608127897573" duration="895000" />
-      <workItem from="1608133909389" duration="1319000" />
-    </task>
-    <task id="LOCAL-00046" summary="优化代码">
-      <created>1599278774035</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1599278774035</updated>
+      <workItem from="1608133909389" duration="3171000" />
+      <workItem from="1608211947371" duration="8159000" />
     </task>
     <task id="LOCAL-00047" summary="优化代码:营业执照增加竖版模式的识别">
       <created>1599814165098</created>
@@ -767,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608134661787</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="单元测试代码跑通">
+      <created>1608135505455</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1608135505455</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView">
@@ -798,7 +817,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/simm-wechat-muchen" />
     </ignored-roots>
-    <MESSAGE value="测试代码" />
     <MESSAGE value="保存测试代码" />
     <MESSAGE value="调整代码结构，引用opencv" />
     <MESSAGE value="优化代码" />
@@ -823,7 +841,8 @@
     <MESSAGE value="可重入锁的理解" />
     <MESSAGE value="提交学习的代码" />
     <MESSAGE value="源码跑通了" />
-    <option name="LAST_COMMIT_MESSAGE" value="源码跑通了" />
+    <MESSAGE value="单元测试代码跑通" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试代码跑通" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="653" key="#ESLint" timestamp="1604842360442">
@@ -834,66 +853,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608135084143" />
-    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1605432305994">
+    <state x="35" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1608223706750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1605432305994" />
-    <state width="514" height="466" key="DebuggerActiveHint" timestamp="1608042247827">
+    <state x="35" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608223706750" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608228089704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="514" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1608042247827" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608228089704" />
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1608135314935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1608135314935" />
+    <state width="515" height="466" key="DebuggerActiveHint" timestamp="1608135468066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="515" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1608135468066" />
     <state x="564" y="123" key="FileChooserDialogImpl" timestamp="1607856639914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607856639914" />
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1608135120043">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1608228678137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
-    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1608135120043">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1608228678137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
-    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1608135120043">
+    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1608228678137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
-    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1608135120043">
+    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1608228678137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608135120043" />
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1608135119842">
+    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608228678137" />
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
-    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1608135119842">
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
-    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1608135119842">
+    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
-    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1608135119842">
+    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608135119842" />
-    <state width="1493" height="166" key="GridCell.Tab.2.bottom" timestamp="1608041510856">
+    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.2.bottom" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608041510856" />
-    <state width="1493" height="166" key="GridCell.Tab.2.center" timestamp="1608041510856">
+    <state width="1493" height="303" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.2.center" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608041510856" />
-    <state width="1493" height="166" key="GridCell.Tab.2.left" timestamp="1608041510856">
+    <state width="1493" height="303" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.2.left" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608041510856" />
-    <state width="1493" height="166" key="GridCell.Tab.2.right" timestamp="1608041510856">
+    <state width="1493" height="303" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state width="1493" height="303" key="GridCell.Tab.2.right" timestamp="1608227117170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608041510856" />
+    <state width="1493" height="303" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608227117170" />
+    <state x="0" y="135" key="Maven.ArtifactSearchDialog" timestamp="1608223738504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="135" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1608223738504" />
     <state x="184" y="86" key="MergeDialog" timestamp="1604831304446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -907,10 +938,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608134663345">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608135506863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608134663345" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608135506863" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608134637912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -920,10 +951,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604831288746" />
-    <state x="178" y="73" key="new project wizard" timestamp="1607149930449">
+    <state x="168" y="146" key="new project wizard" timestamp="1608227843811">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607149930449" />
+    <state x="168" y="146" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1608227843811" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607015191077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1023,11 +1054,6 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/TestApplication.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simm-framework-test/src/main/java/test/framework/simm/servlet/MyServlet.java</url>
           <line>21</line>
           <option name="timeStamp" value="48" />
@@ -1061,6 +1087,11 @@
           <url>file://$PROJECT_DIR$/simm-framework-test/src/test/java/simm/framework/test/jpa/ObjectMapperTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/processor/SayProcessor.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
