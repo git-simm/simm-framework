@@ -89,7 +89,9 @@ public class ProxyJsonUtil {
         Map<String,String> map = msg.getMapConfig();
         for (Map.Entry<String, Object> entry : source.entrySet()){
             //映射实体不包含该属性，则退出代理赋值
-            if(!map.containsKey(entry.getKey()))continue;
+            if(!map.containsKey(entry.getKey())) {
+                continue;
+            }
             //获取映射实体的字段名
             String fieldName = map.get(entry.getKey());
             Object value = entry.getValue();
@@ -167,9 +169,13 @@ public class ProxyJsonUtil {
         ProxyMsg msg = ProxyResolveUtil.getProxyMsg(target.getClass());
         for (Pair<String, String> pair : msg.getListConfig()) {
             String key = pair.getFirst();
-            if(!source.containsKey(key)) continue;
+            if(!source.containsKey(key)) {
+                continue;
+            }
             Object value = source.get(key);
-            if(value instanceof JSONArray || value instanceof JSONObject) continue;
+            if(value instanceof JSONArray || value instanceof JSONObject) {
+                continue;
+            }
             ReflectUtil.setFieldVal(target, pair.getSecond(),value);
         }
     }

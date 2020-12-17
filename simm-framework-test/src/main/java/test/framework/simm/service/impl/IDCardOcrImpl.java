@@ -3,6 +3,7 @@ package test.framework.simm.service.impl;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import simm.framework.common.model.BizException;
 import simm.framework.common.ocr.ImageFilter;
@@ -19,9 +20,13 @@ import java.io.IOException;
  * 身份证信息识别
  *
  * @author simm
+ * @PostConstruct,ApplicationListener 都是Spring的初始化机制，要求class申明为bean时才有用
+ * PostConstruct 在创建bean完成后，由BeanPostProcessor触发调用
+ * ApplicationListener<ApplicationContextEvent> 在spring容器 上下文准备完成后，依据ApplicationContextEvent发生调用
  */
 @Service
-public class IDCardOcrImpl implements IDCardOcr {
+@Lazy
+public class IDCardOcrImpl implements IDCardOcr{
 
     private static int[] WHITE = new int[]{255, 255, 255};
     private static int[] BLACK = new int[]{0, 0, 0};
@@ -36,7 +41,6 @@ public class IDCardOcrImpl implements IDCardOcr {
 
     @Autowired
     private OpenCVService openCVService;
-
     /**
      * 解析身份证信息
      *
@@ -198,4 +202,6 @@ public class IDCardOcrImpl implements IDCardOcr {
         }
         System.out.println("after brightness = " + ImageFilter.imageBrightness(subImage));
     }
+
+
 }

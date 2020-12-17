@@ -1,0 +1,15 @@
+{
+  "name": "muchen",
+  "version": "1.0.0",
+  "description": "沐晨小屋",
+  "main": "app.js",
+  "author": "simm",
+  "license": "ISC",
+  "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0",
+    "weui-miniprogram": "^1.0.5",
+    "wx-http-axios": "^1.1.4",
+    "wx-tips": "^1.0.5"
+  }
+}

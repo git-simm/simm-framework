@@ -1,3 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 target
+/simm-wechat-muchen/miniprogram_npm/
+/simm-wechat-muchen/node_modules/
+/.idea/workspace.xml
