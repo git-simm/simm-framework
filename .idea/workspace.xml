@@ -43,27 +43,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="单元测试代码跑通">
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/annotations/AutoSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/interfaces/ISay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/java/simm/autoservice/processor/SayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-sdk/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/AutoServiceTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/javafile/ChineseSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/javafile/JavaPoetStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-autoservice-test/src/test/java/ai/huaweicloud/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/autoservice/test/docs/tools.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="57eb1eb3-eaca-4657-9552-b6e38ee3496e" name="Default" comment="AutoService项目学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/AiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/autoservice/test/AiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simm-huaweicloud-ai-test/src/main/java/simm/huaweicloud/ai/docs/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/docs/tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simm-autoservice-test/src/main/java/simm/autoservice/test/docs/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/simm-autoservice-sdk/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +103,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -441,14 +425,7 @@
       <workItem from="1608038758683" duration="4093000" />
       <workItem from="1608127897573" duration="895000" />
       <workItem from="1608133909389" duration="3171000" />
-      <workItem from="1608211947371" duration="8159000" />
-    </task>
-    <task id="LOCAL-00047" summary="优化代码:营业执照增加竖版模式的识别">
-      <created>1599814165098</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1599814165098</updated>
+      <workItem from="1608211947371" duration="8343000" />
     </task>
     <task id="LOCAL-00048" summary="remark修改">
       <created>1599814338744</created>
@@ -786,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608135505455</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="AutoService项目学习">
+      <created>1608228855486</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1608228855487</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView">
@@ -814,10 +798,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/simm-wechat-muchen" />
     </ignored-roots>
-    <MESSAGE value="保存测试代码" />
     <MESSAGE value="调整代码结构，引用opencv" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="优化代码:营业执照增加竖版模式的识别" />
@@ -842,7 +826,8 @@
     <MESSAGE value="提交学习的代码" />
     <MESSAGE value="源码跑通了" />
     <MESSAGE value="单元测试代码跑通" />
-    <option name="LAST_COMMIT_MESSAGE" value="单元测试代码跑通" />
+    <MESSAGE value="AutoService项目学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="AutoService项目学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="653" key="#ESLint" timestamp="1604842360442">
@@ -938,10 +923,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604850142607" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604842389323" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608135506863">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1608228859938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608135506863" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608228859938" />
     <state x="610" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608134637912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
