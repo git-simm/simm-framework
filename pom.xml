@@ -42,6 +42,8 @@
         <module>simm-framework-webutil</module>
         <module>simm-framework-common</module>
         <module>simm-huaweicloud-ai-test</module>
+        <module>simm-autoservice-sdk</module>
+        <module>simm-autoservice-test</module>
     </modules>
     <!-- dependencyManagement用于声明依赖，管理版本，不会自动下载。 如果需要使用具体的jar，则在dependencies中声明-->
     <dependencyManagement>

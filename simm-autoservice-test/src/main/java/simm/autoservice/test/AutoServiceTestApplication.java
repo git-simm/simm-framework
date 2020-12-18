@@ -1,4 +1,4 @@
-package simm.huaweicloud.ai;
+package simm.autoservice.test;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,12 +15,12 @@ import javax.servlet.MultipartConfigElement;
 /**
  * @author simm
  */
-@SpringBootApplication(scanBasePackages = {"simm.huaweicloud.ai","simm.framework.webutil"})
+@SpringBootApplication(scanBasePackages = {"simm.autoservice.test"})
 @EnableAsync
 @EnableAspectJAutoProxy(exposeProxy = true)
-public class AiApplication {
+public class AutoServiceTestApplication {
     public static void main(String[] args) throws Exception {
-        new SpringApplicationBuilder(AiApplication.class).web(WebApplicationType.SERVLET).run(args);
+        new SpringApplicationBuilder(AutoServiceTestApplication.class).web(WebApplicationType.SERVLET).run(args);
     }
 
     /**

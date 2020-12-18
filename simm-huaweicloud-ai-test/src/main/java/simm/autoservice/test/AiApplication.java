@@ -1,35 +1,26 @@
-package test.framework.simm;
+package simm.autoservice.test;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
-import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.util.unit.DataSize;
 import org.springframework.util.unit.DataUnit;
-import test.framework.simm.servlet.MyServlet;
 
 import javax.servlet.MultipartConfigElement;
 
 /**
  * @author simm
  */
-@SpringBootApplication(scanBasePackages = {"test.framework.simm","simm.framework.webutil"})
+@SpringBootApplication(scanBasePackages = {"simm.huaweicloud.ai","simm.framework.webutil"})
 @EnableAsync
 @EnableAspectJAutoProxy(exposeProxy = true)
-@ServletComponentScan
-public class TestApplication {
-    @Bean
-    public ServletRegistrationBean servletRegistrationBean() {
-        return new ServletRegistrationBean(new MyServlet(), "/my1/*");
-    }
-
+public class AiApplication {
     public static void main(String[] args) throws Exception {
-        new SpringApplicationBuilder(TestApplication.class).web(WebApplicationType.SERVLET).run(args);
+        new SpringApplicationBuilder(AiApplication.class).web(WebApplicationType.SERVLET).run(args);
     }
 
     /**
@@ -46,14 +37,4 @@ public class TestApplication {
         factory.setMaxRequestSize(DataSize.of(2,DataUnit.GIGABYTES));
         return factory.createMultipartConfig();
     }
-    //    @Bean(name = "multipartResolver")
-//    public MultipartResolver multipartResolver() {
-//        CommonsMultipartResolver resolver = new CommonsMultipartResolver();
-//        resolver.setDefaultEncoding("UTF-8");
-//        resolver.setResolveLazily(true);
-//        resolver.setMaxInMemorySize(40960);
-//        //上传文件大小 50M 50*1024*1024
-//        resolver.setMaxUploadSize(50 * 1024 * 1024);
-//        return resolver;
-//    }
 }
