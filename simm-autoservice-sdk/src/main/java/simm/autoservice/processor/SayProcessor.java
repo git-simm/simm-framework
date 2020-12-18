@@ -54,10 +54,10 @@ public class SayProcessor extends AbstractProcessor {
             AutoSay annotation = x.getAnnotation(AutoSay.class);
 
             TypeSpec.Builder clazz = TypeSpec.classBuilder(x.getSimpleName() + "Impl")
-                    .addModifiers(new Modifier[]{Modifier.PUBLIC, Modifier.FINAL})
+                    .addModifiers(Modifier.PUBLIC, Modifier.FINAL)
 //                    .addAnnotation(AnnotationSpec.builder(Converter.class)
 //                            .addMember("autoApply", CodeBlock.builder().add("$L", new Object[]{annotation.autoApply()}).build()).build())
-                    .addJavadoc(" This codes are generated automatically. Do not modify!", new Object[0])
+                    .addJavadoc(" This codes are generated automatically. Do not modify!")
 //                    .superclass(ParameterizedTypeName.get(ClassName.get(AbstractJsonConverter.class),new TypeName[]{ClassName.get((TypeElement)x)})).build()
                     .addSuperinterface(ISay.class);
 
