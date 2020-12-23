@@ -2,7 +2,6 @@ server:
   port: 8080
 app:
   id: simm-framework-test
-spring:
   application:
     name: ${app.id}
   datasource:

@@ -2,3 +2,8 @@
 ``` shell script
 git rm -rf --cached .idea
 ```
+
+###### 二、移除git管理
+``` shell script
+find . -name ".git" | xargs rm -rf
+```
