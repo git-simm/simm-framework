@@ -14,7 +14,7 @@ public class InstallCallbackReceiver {
      * 消息监听
      * @param message
      */
-    @StreamListener(InstallCallbackInputChannel.installCallback)
+    @StreamListener(InstallCallbackInputChannel.INPUT)
     private void receiver(Object message){
         System.out.println(message.toString());
     }

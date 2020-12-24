@@ -2,6 +2,7 @@ package simm.test.message.rabbit.channels;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
+import org.springframework.stereotype.Component;
 
 /**
  * 安装状态回调接收通道
@@ -11,12 +12,12 @@ public interface InstallCallbackInputChannel {
     /**
      * 定义通道的名称
      */
-    String installCallback = "installCallback";
+    String INPUT = "install-consumer";
 
     /**
      * 定义为输入通道
      * @return
      */
-    @Input(installCallback)
+    @Input(INPUT)
     SubscribableChannel input();
 }
