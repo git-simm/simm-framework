@@ -19,7 +19,7 @@ public class TestController {
     private MessageChannel messageChannel;
 
     @GetMapping("/send")
-    private void sendMessage(){
+    public void sendMessage(){
         messageChannel.send(MessageBuilder.withPayload("服务已经启动，准备安装消息").build());
     }
 }
