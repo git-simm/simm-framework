@@ -23,6 +23,8 @@ import java.util.Objects;
 public class ElasticsearchConfig {
 
     private static final int ADDRESS_LENGTH = 2;
+//    @Value("#{'${spring.data.elasticsearch.scheme:http}'.split(',')}")
+//    private String test;
     @Value("${spring.data.elasticsearch.scheme:http}")
     private String scheme;
     @Value("${spring.data.elasticsearch.cluster-nodes:192.168.0.1:9200}")
