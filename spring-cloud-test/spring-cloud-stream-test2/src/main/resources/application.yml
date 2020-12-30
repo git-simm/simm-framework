@@ -8,7 +8,7 @@
 # spring.rabbitmq.password:                                  密码
 # spring.rabbitmq.virtual-host:                              虚拟主机
 server:
-  port: 8080
+  port: 8082
 spring:
   rabbitmq:
     addresses: 192.168.0.114:5672
@@ -19,16 +19,8 @@ spring:
       default-binder: rabbit
       bindings:
         # 生产-消费者 指向同一个topic
-        install-producter:
-          destination: yysc-template-install
-#          group: yysc-queue
-        install-consumer:
+        bizunit-install-producter:
           destination: yysc-bizunit-install
-          group: template
-          consumer:
-            concurrency: 5
-        bizunit-install-consumer:
-          destination: yysc-bizunit-install
-          group: main
+#          group: bizunit-queue
           consumer:
             concurrency: 5
