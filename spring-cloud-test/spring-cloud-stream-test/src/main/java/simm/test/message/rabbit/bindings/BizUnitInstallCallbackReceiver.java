@@ -2,6 +2,7 @@ package simm.test.message.rabbit.bindings;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
+import simm.test.message.rabbit.channels.BizUnitInstallCallbackInputChannel;
 import simm.test.message.rabbit.channels.InstallCallbackInputChannel;
 
 /**
@@ -9,15 +10,15 @@ import simm.test.message.rabbit.channels.InstallCallbackInputChannel;
  *
  * @author miscr
  */
-@EnableBinding(InstallCallbackInputChannel.class)
-public class InstallCallbackReceiver {
+@EnableBinding(BizUnitInstallCallbackInputChannel.class)
+public class BizUnitInstallCallbackReceiver {
     /**
      * 消息监听
      *
      * @param message
      */
-    @StreamListener(InstallCallbackInputChannel.INPUT)
+    @StreamListener(BizUnitInstallCallbackInputChannel.INPUT)
     private void receiver(Object message) {
-        System.out.println("template" + message.toString());
+        System.out.println("bizunit-install" + message.toString());
     }
 }
