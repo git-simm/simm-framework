@@ -1,0 +1,8 @@
+server:
+  port: 8080
+app:
+  id: simm-byte-buddy
+spring:
+  application:
+    name: ${app.id}
+debug: true
