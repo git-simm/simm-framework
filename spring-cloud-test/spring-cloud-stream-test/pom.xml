@@ -8,8 +8,7 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>spring.cloud.test</groupId>
-    <artifactId>spring.cloud.stream.test</artifactId>
+    <artifactId>spring-cloud-stream-test</artifactId>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
