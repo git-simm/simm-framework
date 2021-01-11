@@ -1,0 +1,63 @@
+# 数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 2342345345
+    username: root
+    url: jdbc:mysql://10.34.111.222:3307/ApplicationExchange?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+  # redis配置
+  redis:
+    host: 10.5.10.118
+    port: 6379
+    password: Mysoft95938
+    database: 12
+    jedis:
+      pool:
+        maxTotal: 2000
+        maxIdle: 100
+        minIdle: 10
+        maxWaitMillis: 300
+        numTestsPerEvictionRun: 10
+        timeBetweenEvictionRunsMillis: 300
+        minEvictableIdleTimeMillis: 1800000
+        softMinEvictableIdleTimeMillis: 10000
+        testOnBorrow: true
+        testWhileIdle: true
+        testOnReturn: true
+        blockWhenExhausted: false
+  # rabbitmq配置
+  rabbitmq:
+    addresses: 10.5.10.67:31672,10.5.10.68:31672,10.5.10.69:31672
+    username: admin
+    password: rdc@2019!
+  cloud:
+    stream:
+      default-binder: rabbit
+      bindings:
+        # 生产-消费者 指向同一个topic
+        install-producter:
+          destination: yysc-install
+        install-consumer:
+          destination: yysc-install
+          group: biztemplate
+          consumer:
+            concurrency: 5
+# 外部系统
+mall:
+  base-address: http://mall.mingyuanyun.com
+# 应用市场后台地址配置
+yysc-admin:
+  base-address: "http://10.5.11.139:13984"
+# 线程池配置
+threadPool:
+  corePoolSize: 5
+  maximumPoolSize: 20
+  keepAliveTime: 10000
+  capacity: 300
+
+# druid的监控配置
+#druid:
+#  monitor:
+#    enable: true
+#    user: admin
+#    password: dev@MY_95938
