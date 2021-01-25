@@ -6,6 +6,6 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.2.13:8848
-        service: ${spring.application.name}
-debug: true
+#        server-addr:  127.0.0.1:9876
+        server-addr: 10.5.113.38:8848
+#        service: ${spring.application.name}
