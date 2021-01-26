@@ -7,6 +7,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
+          <factory-entry name="simm-framework-common" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

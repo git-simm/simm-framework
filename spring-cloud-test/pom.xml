@@ -15,5 +15,6 @@
         <module>spring-cloud-stream-test2</module>
         <module>spring-cloud-nacos-provider</module>
         <module>spring-cloud-nacos-consumer</module>
+        <module>spring-cloud-nacos-feign-consumer</module>
     </modules>
 </project>

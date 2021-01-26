@@ -1,11 +1,17 @@
 server:
   port: 8070
 spring:
+  profiles:
+    active: dev
   application:
    name: service-provider
   cloud:
     nacos:
+      server-addr: 10.5.113.38:8848
+      username: app-exchange
+      password: 123456
       discovery:
+        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
+        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
 #        server-addr:  127.0.0.1:9876
-        server-addr: 10.5.113.38:8848
 #        service: ${spring.application.name}
