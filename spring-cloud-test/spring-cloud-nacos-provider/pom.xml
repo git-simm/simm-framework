@@ -35,6 +35,10 @@
     </dependencies>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <!-- maven编译src与class的JDK版本指定 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

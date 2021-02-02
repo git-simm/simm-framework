@@ -1,5 +1,6 @@
 package simm.test.nacos.provider;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -20,9 +21,12 @@ public class NacosProviderApplication {
 
 	@RestController
 	class EchoController {
+		@Value("${server.port}")
+		private int port;
+
 		@RequestMapping(value = "/echo/{string}", method = RequestMethod.GET)
 		public String echo(@PathVariable String string) {
-			return "Hello Nacos Discovery " + string;
+			return "Hello Nacos["+ port +"] Discovery " + string;
 		}
 	}
 }
