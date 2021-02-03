@@ -1,5 +1,6 @@
-package simm.test.nacos.provider;
+package simm.test.nacos.consumer.config;
 
+import com.alibaba.cloud.nacos.ribbon.NacosRule;
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +17,6 @@ public class NacosConfig {
      */
     @Bean
     public IRule loadBalanceRule(){
-        return new NacosWeightLoadBalancerRule();
+        return new NacosRule();
     }
 }
