@@ -15,7 +15,7 @@ public class TestController {
     private final TestClient testClient;
     private final IConfigService configService;
 
-    @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
+    @GetMapping(value = "/echo/{str}")
     public String echo(@PathVariable String str) {
         return testClient.echo(str);
     }
