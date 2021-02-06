@@ -6,7 +6,8 @@
 | rabbit | http://192.168.0.114:15672 | simm/test，guest/常用 |
 | mysql(主)  | http://192.168.2.10:3306  | simm/test  root/123456  canal/canal  slave/123456|
 | mysql(从)  | http://192.168.2.10:3306  | root/123456|
-| canal  | http://192.168.2.10:8089  | admin/123456 |
+| canal-admin  | http://192.168.2.10:8089  | admin/123456  path: /canal/download |
+| elastic  | http://192.168.2.10:9200/  |  |
 | nacos-1  | http://192.168.2.11:8848  | admin/123456 |
 | nacos-2  | http://192.168.2.12:8848  | admin/123456 |
 | nacos-3  | http://192.168.2.13:8848  | admin/123456 |
