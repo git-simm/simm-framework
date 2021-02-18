@@ -9,8 +9,8 @@
 | canal-admin  | http://192.168.2.10:8089  | admin/123456  path: /canal/download |
 | elastic  | http://192.168.2.10:9200/  |  |
 | elastic-head  | http://192.168.2.20:9100/  |  |
-| nacos-1  | http://192.168.2.11:8848  | admin/123456 |
-| nacos-2  | http://192.168.2.12:8848  | admin/123456 |
-| nacos-3  | http://192.168.2.13:8848  | admin/123456 |
+| nacos-1  | http://192.168.2.11:8848  | nacos/nacos |
+| nacos-2  | http://192.168.2.12:8848  | nacos/nacos |
+| nacos-3  | http://192.168.2.13:8848  | nacos/nacos |
 | prometheus  | http://192.168.2.10:9090  |  |
 | grafana  | http://192.168.2.10:3000  |  admin/123456 |
