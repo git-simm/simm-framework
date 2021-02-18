@@ -12,4 +12,6 @@ public interface IConfigService {
     String getUser();
 
     String getDb();
+
+    String getRefreshVal();
 }

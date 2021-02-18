@@ -15,6 +15,8 @@ public class ConfigServiceImpl implements IConfigService {
     private String user;
     @Value("${db:未知}")
     private String db;
+    @Value("${base-refresh:未知}")
+    private String refreshKey;
     @Override
     public String getUser() {
         return user;
@@ -23,5 +25,10 @@ public class ConfigServiceImpl implements IConfigService {
     @Override
     public String getDb() {
         return db;
+    }
+
+    @Override
+    public String getRefreshVal() {
+        return refreshKey;
     }
 }

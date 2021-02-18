@@ -20,13 +20,18 @@ public class TestController {
         return testClient.echo(str);
     }
 
-    @GetMapping(value = "/config")
-    public String config() {
+    @GetMapping(value = "/user")
+    public String user() {
         return configService.getUser();
     }
 
     @GetMapping(value = "/db")
     public String db() {
         return configService.getDb();
+    }
+
+    @GetMapping(value = "/base")
+    public String fresh() {
+        return configService.getRefreshVal();
     }
 }
