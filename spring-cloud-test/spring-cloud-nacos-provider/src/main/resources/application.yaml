@@ -7,7 +7,7 @@ spring:
    name: service-provider
   cloud:
     nacos:
-      server-addr: 10.20.25.20:8848
+      server-addr: 10.20.25.11:8848
       username: app-exchange
       password: 123456
       discovery:
