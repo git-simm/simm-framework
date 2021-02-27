@@ -4,10 +4,11 @@ spring:
   profiles:
     active: dev
   application:
-   name: service-provider
+   name: service-study-provider
   cloud:
     nacos:
-      server-addr: 10.20.25.20:8848
+#      server-addr: 10.20.25.20:8848
+      server-addr: 127.0.0.1:8848
       username: app-exchange
       password: 123456
       discovery:

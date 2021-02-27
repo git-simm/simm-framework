@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author xiaojing
+ * @author simm
+ * test: http://localhost:8070/echo/simm
  */
 @SpringBootApplication
 @EnableDiscoveryClient
