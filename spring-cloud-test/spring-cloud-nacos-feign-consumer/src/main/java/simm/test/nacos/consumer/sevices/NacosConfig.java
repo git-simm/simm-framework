@@ -1,4 +1,4 @@
-package simm.test.nacos.provider;
+package simm.test.nacos.consumer.sevices;
 
 import com.alibaba.cloud.nacos.ribbon.NacosRule;
 import com.netflix.loadbalancer.IRule;
@@ -18,6 +18,5 @@ public class NacosConfig {
     @Bean
     public IRule loadBalanceRule(){
         return new NacosRule();
-        //return new NacosWeightLoadBalancerRule();
     }
 }
