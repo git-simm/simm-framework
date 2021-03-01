@@ -2,17 +2,13 @@ package simm.test.nacos.gateway;
 
 import com.alibaba.nacos.api.annotation.NacosInjected;
 import com.alibaba.nacos.api.naming.NamingService;
-import com.alibaba.nacos.api.naming.listener.NamingEvent;
 import com.alibaba.nacos.client.config.impl.ServerlistChangeEvent;
 import com.alibaba.nacos.common.notify.Event;
 import com.alibaba.nacos.common.notify.NotifyCenter;
 import com.alibaba.nacos.common.notify.listener.Subscriber;
 import com.google.common.collect.Lists;
-import com.netflix.loadbalancer.ILoadBalancer;
-import com.netflix.loadbalancer.ServerStatusChangeListener;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
