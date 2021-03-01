@@ -12,5 +12,5 @@ public interface TestClient {
      * @return
      */
     @GetMapping(value = "/echo/{str}")
-    String echo(@PathVariable String str);
+    String echo(@PathVariable("str") String str);
 }
