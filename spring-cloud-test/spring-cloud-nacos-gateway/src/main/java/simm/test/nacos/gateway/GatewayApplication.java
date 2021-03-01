@@ -10,6 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author miscr
  * docs: https://blog.csdn.net/weixin_43517302/article/details/109701269
  * nacos: https://cloud.tencent.com/developer/article/1517117
+ * gateway: https://cnblogs.com/crazymakercircle/p/11704077.html
  * test: http://localhost:8888/service-study-provider/echo/simm
  * qestion: https://blog.csdn.net/csdn2100/article/details/103580286
  * gateway采用webflux架构，与web-starter冲突，需要排除web-starter的引入

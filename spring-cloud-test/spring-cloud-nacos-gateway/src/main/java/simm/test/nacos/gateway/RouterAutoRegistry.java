@@ -34,6 +34,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 自动注册 discovery 服务到 gateway中
  *
+ *
  * @author miscr
  */
 @Slf4j
