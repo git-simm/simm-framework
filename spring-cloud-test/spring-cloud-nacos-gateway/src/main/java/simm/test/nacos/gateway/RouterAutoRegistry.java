@@ -1,5 +1,7 @@
 package simm.test.nacos.gateway;
 
+import com.alibaba.nacos.api.annotation.NacosInjected;
+import com.alibaba.nacos.api.naming.NamingService;
 import com.alibaba.nacos.api.naming.listener.NamingEvent;
 import com.alibaba.nacos.client.config.impl.ServerlistChangeEvent;
 import com.alibaba.nacos.common.notify.Event;
@@ -43,6 +45,9 @@ public class RouterAutoRegistry implements InitializingBean {
     @Resource
     private DiscoveryClient discoveryClient;
 
+    @NacosInjected
+    private NamingService namingService;
+
     @Resource
     private RouteDefinitionWriter routeDefinitionWriter;
 
@@ -56,6 +61,7 @@ public class RouterAutoRegistry implements InitializingBean {
 
     @Scheduled(cron = "0/30 * * * * ? ")
     public void registryRouter() {
+//        namingService.subscribe();
         log.info("refresh gateway routers");
         discoveryClient.getServices()
                 .stream()
@@ -92,7 +98,6 @@ public class RouterAutoRegistry implements InitializingBean {
                 });
 
         publisher.publishEvent(new RefreshRoutesEvent(this));
-
     }
 
 
