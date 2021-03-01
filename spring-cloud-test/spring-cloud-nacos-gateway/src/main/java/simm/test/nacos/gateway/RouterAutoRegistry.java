@@ -1,8 +1,16 @@
 package simm.test.nacos.gateway;
 
+import com.alibaba.nacos.api.naming.listener.NamingEvent;
+import com.alibaba.nacos.client.config.impl.ServerlistChangeEvent;
+import com.alibaba.nacos.common.notify.Event;
+import com.alibaba.nacos.common.notify.NotifyCenter;
+import com.alibaba.nacos.common.notify.listener.Subscriber;
 import com.google.common.collect.Lists;
+import com.netflix.loadbalancer.ILoadBalancer;
+import com.netflix.loadbalancer.ServerStatusChangeListener;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
@@ -29,6 +37,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 @Component
 public class RouterAutoRegistry implements InitializingBean {
+//    @Autowired
+//    private ILoadBalancer loadBalancer;
 
     @Resource
     private DiscoveryClient discoveryClient;
@@ -39,7 +49,7 @@ public class RouterAutoRegistry implements InitializingBean {
     @Resource
     private ApplicationEventPublisher publisher;
 
-    @Value("${server.pattern:service-([\\s\\S]*?)-provider}")
+    @Value("${server.pattern:service-([\\s\\S]*?)provider}")
     private String serverPattern;
 
     private static Map<String, RouteDefinition> definitions = new ConcurrentHashMap<>();
@@ -47,7 +57,6 @@ public class RouterAutoRegistry implements InitializingBean {
     @Scheduled(cron = "0/30 * * * * ? ")
     public void registryRouter() {
         log.info("refresh gateway routers");
-
         discoveryClient.getServices()
                 .stream()
                 .filter(x -> x.matches(serverPattern))
@@ -89,6 +98,18 @@ public class RouterAutoRegistry implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() {
+        // nacos 通知中心
+        NotifyCenter.registerSubscriber(new Subscriber(){
+            @Override
+            public void onEvent(Event event) {
+                Event tmp = event;
+            }
+
+            @Override
+            public Class<? extends Event> subscribeType() {
+                return ServerlistChangeEvent.class;
+            }
+        });
         registryRouter();
     }
 }

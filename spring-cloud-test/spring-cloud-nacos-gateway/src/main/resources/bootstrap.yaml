@@ -10,14 +10,14 @@ spring:
     nacos:
 #      server-addr:10.20.25.20:8848
       server-addr: 127.0.0.1:8848
-      username: app-exchange
-      password: 123456
+      username: nacos
+      password: nacos
       discovery:
         namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
         group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
-#      config:
-#        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
-#        file-extension: yaml
+      config:
+        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
+        file-extension: yaml
 #        extension-configs[0]:
 #          data-id: db.yaml
 #          group: ${spring.profiles.active:prod}   # group分成 dev/test/prod
