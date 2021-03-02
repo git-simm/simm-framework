@@ -2,6 +2,8 @@ package test.simm.webflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.reactive.config.EnableWebFlux;
 
 /**
@@ -11,6 +13,8 @@ import org.springframework.web.reactive.config.EnableWebFlux;
  */
 @SpringBootApplication
 @EnableWebFlux
+@EnableAsync
+@EnableAspectJAutoProxy(exposeProxy = true)
 public class MyApplication {
     public static void main(String[] args) {
         //异步非阻塞网络IO

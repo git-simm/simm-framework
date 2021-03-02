@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import test.simm.webflux.service.IWarningService;
 
+import javax.annotation.Resource;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
@@ -22,12 +24,18 @@ import java.util.stream.IntStream;
 @RestController
 @Slf4j
 public class HomeController {
+    @Resource
+    IWarningService warningService;
+
     @GetMapping({"", "/"})
     public Mono<String> hello() {
         log.info("开始接待");
         // Mono<String> result = Mono.just(getInfo()); 阻塞式
         //非阻塞式
         Mono<String> result = Mono.fromSupplier(() -> getInfo());
+
+        warningService.run("flux发出报警信息");
+
         log.info("接待完毕");
         return result;
     }
