@@ -28,6 +28,12 @@ public class HomeController {
     IWarningService warningService;
 
     @GetMapping({"", "/"})
+    public Mono<String> say() {
+        //非阻塞式
+        return Mono.fromSupplier(() -> "hello,flux");
+    }
+
+    @GetMapping({"", "/hello"})
     public Mono<String> hello() {
         log.info("开始接待");
         // Mono<String> result = Mono.just(getInfo()); 阻塞式
