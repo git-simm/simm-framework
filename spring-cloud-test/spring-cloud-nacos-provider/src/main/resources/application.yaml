@@ -2,7 +2,7 @@ server:
   port: 8070
 spring:
   profiles:
-    active: dev
+    active: prod
   application:
    name: service-study-provider
   cloud:

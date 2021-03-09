@@ -16,5 +16,6 @@
         <module>spring-cloud-nacos-provider</module>
         <module>spring-cloud-nacos-consumer</module>
         <module>spring-cloud-nacos-feign-consumer</module>
+        <module>spring-cloud-nacos-dubbo-provider</module>
     </modules>
 </project>
