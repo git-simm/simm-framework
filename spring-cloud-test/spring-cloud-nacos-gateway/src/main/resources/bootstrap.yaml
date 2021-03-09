@@ -18,14 +18,14 @@ spring:
       config:
         namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
         file-extension: yaml
-#        extension-configs[0]:
-#          data-id: db.yaml
-#          group: ${spring.profiles.active:prod}   # group分成 dev/test/prod
-#          refresh: true
-#        extension-configs[1]:
-#          data-id: auth.yaml
-#          group: ${spring.profiles.active:prod}
-#          refresh: true
-#        shared-configs[0]:
-#          data-id: base.yaml
-#          group: common
+        extension-configs[0]:
+          data-id: db.yaml
+          group: ${spring.profiles.active:prod}   # group分成 dev/test/prod
+          refresh: true
+        extension-configs[1]:
+          data-id: auth.yaml
+          group: ${spring.profiles.active:prod}
+          refresh: true
+        shared-configs[0]:
+          data-id: base.yaml
+          group: common
