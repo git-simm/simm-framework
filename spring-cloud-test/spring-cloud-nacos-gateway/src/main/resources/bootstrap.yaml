@@ -13,9 +13,11 @@ spring:
       username: nacos
       password: nacos
       discovery:
-        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
-        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
+        namespace: 71efc714-a6d7-4a21-8180-614e38a33403
+        # 服务使用 namespace（dev/test/prod） 进行隔离, group使用默认分组
+#        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
       config:
+        # 配置使用 namespace（子系统维度） 进行隔离
         namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
         file-extension: yaml
         extension-configs[0]:
