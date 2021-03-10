@@ -8,13 +8,13 @@ spring:
 ##dubbo config
 dubbo:
   registry:
-#    use-as-config-center: false
-#    use-as-metadata-center: true
+    #    use-as-config-center: false
+    #    use-as-metadata-center: true
     address: nacos://127.0.0.1:8848
     username: nacos
     password: nacos
     parameters:
-      namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
+      namespace: 71efc714-a6d7-4a21-8180-614e38a33403
     group: dubbo-${spring.profiles.active}
   protocol:
     port: -1 # -1 表示端口自增
