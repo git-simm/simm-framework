@@ -16,9 +16,9 @@ import java.util.Date;
  */
 @EnableBinding(InstallCallbackOutputChannel.class)
 public class InstallCallbackSender {
-    @Bean
-    @InboundChannelAdapter(value = InstallCallbackOutputChannel.OUTPUT,poller = @Poller(fixedDelay = "2000"))
-    public MessageSource<Date> timerMessagaSource(){
-        return ()->new GenericMessage<>(new Date());
-    }
+//    @Bean
+//    @InboundChannelAdapter(value = InstallCallbackOutputChannel.OUTPUT,poller = @Poller(fixedDelay = "2000"))
+//    public MessageSource<Date> timerMessagaSource(){
+//        return ()->new GenericMessage<>(new Date());
+//    }
 }

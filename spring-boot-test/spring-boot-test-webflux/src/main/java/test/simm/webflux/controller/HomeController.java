@@ -1,6 +1,7 @@
 package test.simm.webflux.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +10,9 @@ import reactor.core.publisher.Mono;
 import test.simm.webflux.service.IWarningService;
 
 import javax.annotation.Resource;
+import java.lang.management.ManagementFactory;
 import java.time.Duration;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
@@ -26,9 +29,37 @@ import java.util.stream.IntStream;
 public class HomeController {
     @Resource
     IWarningService warningService;
+    private String country;
+    private String country2;
+    @Value("${random.int底3,4顶}")
+    private String random;
+    @Value("${spring.profiles.active}")
+    private String active;
+//    @Value("${user.country2}")
+//    private void setCountry2(String country){
+//        this.country2 = country;
+//    }
+//    @Value("${user.country}")
+//    private void setCountry(String country){
+//        this.country = country;
+//    }
 
     @GetMapping({"", "/"})
     public Mono<String> say() {
+        System.out.println("random："+random);
+        System.out.println("spring.profiles.active："+active);
+//        System.out.println("user.country："+ country);
+        System.out.println("------ 系统变量 --------");
+        System.getProperties().forEach((pKey,pVal)->{
+            System.out.println(String.format("%s：%s",pKey,pVal));
+        });
+        System.out.println("------ 环境变量 --------");
+        System.getenv().forEach((pKey,pVal)->{
+            System.out.println(String.format("%s：%s",pKey,pVal));
+        });
+        System.out.println("------ JVM变量 --------");
+        List<String> inputArguments = ManagementFactory.getRuntimeMXBean().getInputArguments();
+        System.out.println(inputArguments);
         //非阻塞式
         return Mono.fromSupplier(() -> "hello,flux");
     }

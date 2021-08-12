@@ -11,7 +11,7 @@ server:
   port: 8080
 spring:
   rabbitmq:
-    addresses: 192.168.0.114:5672
+    addresses: 192.168.2.29:5672
     username: simm
     password: test
   cloud:
@@ -32,3 +32,13 @@ spring:
           group: main
           consumer:
             concurrency: 5
+      rabbit:
+        bindings:
+          install-consumer:
+            consumer:
+              exchangeType: direct
+              bindingRoutingKey: info
+          bizunit-install-consumer:
+            consumer:
+              exchangeType: direct
+              bindingRoutingKey: info
