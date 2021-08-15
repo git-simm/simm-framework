@@ -1,0 +1,21 @@
+server:
+  port: 9020
+spring:
+  application:
+    name: server-dubbo-provider
+  profiles:
+    active: dev
+##dubbo config
+dubbo:
+  registry:
+    #    use-as-config-center: false
+    #    use-as-metadata-center: true
+    address: nacos://127.0.0.1:8848
+    username: nacos
+    password: nacos
+    parameters:
+      namespace: 71efc714-a6d7-4a21-8180-614e38a33403
+    group: dubbo-${spring.profiles.active}
+  protocol:
+    port: -1 # -1 表示端口自增
+    name: dubbo

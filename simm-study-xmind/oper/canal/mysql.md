@@ -1,15 +1,14 @@
 - [canal v1.1.4 文档手册](https://www.bookstack.cn/read/canal-v1.1.4/e015ba3570152b7a.md)
 - [CentOS7利用docker安装MySQL5.7](https://www.cnblogs.com/wjw1014/p/12149399.html)
 - [canal-admin的高可用使用，单机使用，HA使用，阿里的canal的UI界面，管理canal的实例](https://www.icode9.com/content-4-454188.html)
+- [mysql主从复制](https://baijiahao.baidu.com/s?id=1685556899002728376&wfr=spider&for=pc)
 ```shell script
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 docker pull daocloud.io/library/mysql:5.7
 ```
 ```shell script
 mkdir -p /mysql/data   /mysql/logs  /mysql/conf
-
 cd /mysql/conf
-
 touch my.cnf
 ```
 

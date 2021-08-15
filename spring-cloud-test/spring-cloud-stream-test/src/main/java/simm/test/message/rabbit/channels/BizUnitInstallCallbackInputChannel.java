@@ -1,5 +1,7 @@
 package simm.test.message.rabbit.channels;
 
+import org.springframework.amqp.rabbit.annotation.Exchange;
+import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
 

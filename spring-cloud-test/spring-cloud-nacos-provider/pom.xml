@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring.cloud.test</artifactId>
+        <artifactId>spring-cloud-test</artifactId>
         <groupId>simm.framework</groupId>
         <version>1.0</version>
     </parent>
@@ -35,6 +35,10 @@
     </dependencies>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <!-- maven编译src与class的JDK版本指定 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -1,0 +1,3 @@
+grpc:
+  port: 8588
+  enable-reflection: true
