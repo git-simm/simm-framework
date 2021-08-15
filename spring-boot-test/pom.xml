@@ -14,5 +14,7 @@
     <modules>
         <module>spring-boot-test-websocket</module>
         <module>spring-boot-test-webflux</module>
+        <module>spring-boot-test-grpc-server</module>
+        <module>spring-boot-test-grpc-client</module>
     </modules>
 </project>
