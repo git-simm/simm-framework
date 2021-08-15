@@ -1,8 +1,17 @@
 package simm.test.message.rabbit.bindings;
 
+import com.alibaba.fastjson.JSON;
+import com.rabbitmq.client.Channel;
+import org.apache.tomcat.jni.User;
+import org.springframework.amqp.support.AmqpHeaders;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
+import org.springframework.messaging.handler.annotation.Header;
+import org.springframework.messaging.handler.annotation.Payload;
 import simm.test.message.rabbit.channels.InstallCallbackInputChannel;
+
+import java.io.IOException;
+import java.util.List;
 
 /**
  * 消费者服务
@@ -17,8 +26,19 @@ public class InstallCallbackReceiver {
      * @param message
      */
     @StreamListener(value = InstallCallbackInputChannel.INPUT, condition = "headers['msgType']=='install'")
-    private void receiver(Object message) {
-        System.out.println("template1:" + message.toString());
+    private void receiver(@Payload List<String> message,
+                          @Header(AmqpHeaders.CHANNEL) Channel channel,
+                          @Header(AmqpHeaders.DELIVERY_TAG) Long deliveryTag) {
+        try{
+            System.out.println("template1:" + JSON.toJSONString(message));
+            channel.basicAck(deliveryTag,true);
+        }catch (Exception e){
+            try {
+                channel.basicAck(deliveryTag,false);
+            } catch (IOException ioException) {
+                System.out.println("确认失败");
+            }
+        }
     }
 
     /**

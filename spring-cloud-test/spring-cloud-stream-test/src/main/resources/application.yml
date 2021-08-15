@@ -21,7 +21,7 @@ spring:
         # 生产-消费者 指向同一个topic
         install-producter:
           destination: yysc-template-install
-#          group: yysc-queue
+        #          group: yysc-queue
         install-consumer:
           destination: yysc-bizunit-install
           group: template
@@ -38,7 +38,9 @@ spring:
             consumer:
               exchangeType: direct
               bindingRoutingKey: info
+              acknowledgeMode: manual  # 手动ack
           bizunit-install-consumer:
             consumer:
               exchangeType: direct
               bindingRoutingKey: info
+              acknowledgeMode: manual # 手动ack
