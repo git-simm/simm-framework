@@ -1,6 +1,2 @@
-# Created by .ignore support plugin (hsz.mobi)
-target
-/simm-wechat-muchen/miniprogram_npm/
-/simm-wechat-muchen/node_modules/
-/.idea/
-simm-framework.iml
+spring-boot-test.iml
+.idea/*
