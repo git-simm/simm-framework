@@ -1,0 +1,8 @@
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\bindings\InstallCallbackSender.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\channels\InstallCallbackInputChannel.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\controller\TestController.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\bindings\InstallCallbackReceiver.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\channels\InstallCallbackOutputChannel.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\channels\BizUnitInstallCallbackInputChannel.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\RabbitTestApplication.java
+D:\workspace\simm-framework\spring-cloud-test\spring-cloud-stream-test\src\main\java\simm\test\message\rabbit\bindings\BizUnitInstallCallbackReceiver.java

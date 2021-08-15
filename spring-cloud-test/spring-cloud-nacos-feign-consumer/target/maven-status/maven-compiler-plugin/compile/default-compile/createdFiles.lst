@@ -1,0 +1,8 @@
+simm\test\nacos\consumer\sevices\ConfigServiceImpl.class
+simm\test\nacos\consumer\sevices\TestClient.class
+simm\test\nacos\consumer\controller\TestController.class
+simm\test\nacos\consumer\listeners\ConfigListener.class
+simm\test\nacos\consumer\NacosConsumerApplication.class
+simm\test\nacos\consumer\sevices\NacosConfig.class
+simm\test\nacos\consumer\listeners\ConfigListener$1.class
+simm\test\nacos\consumer\sevices\IConfigService.class

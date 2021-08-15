@@ -1,0 +1,4 @@
+simm\test\message\rabbit\RabbitTest2Application.class
+simm\test\message\rabbit\channels\InstallCallbackOutputChannel.class
+simm\test\message\rabbit\bindings\InstallCallbackSender.class
+simm\test\message\rabbit\controller\TestController.class

@@ -1,0 +1,104 @@
+# 数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: b2XaolhcqX6lvkq
+    username: root
+    url: jdbc:mysql://10.5.11.220:3307/ApplicationExchange?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+  # redis配置
+  redis:
+    host: 10.5.10.118
+    port: 6379
+    password: Mysoft95938
+    database: 12
+    jedis:
+      pool:
+        maxTotal: 2000
+        maxIdle: 100
+        minIdle: 10
+        maxWaitMillis: 300
+        numTestsPerEvictionRun: 10
+        timeBetweenEvictionRunsMillis: 300
+        minEvictableIdleTimeMillis: 1800000
+        softMinEvictableIdleTimeMillis: 10000
+        testOnBorrow: true
+        testWhileIdle: true
+        testOnReturn: true
+        blockWhenExhausted: false
+  rabbitmq:
+    addresses: 192.168.0.114:5672
+    username: simm
+    password: test
+  cloud:
+    stream:
+      default-binder: rabbit
+      bindings:
+        # 生产-消费者 指向同一个topic
+        install-producter:
+          destination: yysc-install
+          group: yysc-queue
+        install-consumer:
+          destination: yysc-install
+          group: yysc-queue
+          consumer:
+            concurrency: 5
+# 授权服务
+auth-server:
+  api-name: rdc-exchange-admin-service
+  authority: https://auth-test.mingyuanyun.com
+  app-key: rdc-exchange-admin-service-client
+  app-secret: secret
+  scope: defaultApi rdc-file-service
+# 网关配置
+gateway:
+  host: https://rdc-test.mingyuanyun.com
+  apis:
+    file-service: rdc-file-service
+    rdc-service: rdc-service
+
+# xxl-job的配置
+xxl:
+  job:
+    #启动xxl
+    enabled: true
+    admin:
+      addresses: http://10.5.11.220:8080/xxl-job-admin
+    executor:
+      appName: rdc-exchange-job-executor
+      # 多网卡需要指定ip,port会自动分配 ip: 10.5.106.144
+      # 日志保留30天
+      logretentiondays: 30
+
+# 流程中心的配置
+flow-center:
+  enabled: true
+  base-address: "http://10.5.10.166:4001"
+  org-id: A85779A3-E0B9-49CB-66EA-08D7FC689FEC
+  app-id: 5fbf087c14d5f6438347502763992720
+  jwt-key: 123456
+  tester: zengql
+  approval:
+    on-sale: true
+
+# 商城配置
+mall:
+  enabled: true
+  base-address: "http://mall.mingyuanyun.com"
+yysc:
+  base-address: "http://10.5.11.139:13987"
+# 应用市场后台配置
+yysc-admin:
+  base-address: "http://10.5.11.139:13984"
+
+# 线程池配置
+threadPool:
+  corePoolSize: 5
+  maximumPoolSize: 20
+  keepAliveTime: 10000
+  capacity: 300
+# druid的监控配置
+druid:
+  monitor:
+    enable: true
+    user: admin
+    password: dev@MY_95938

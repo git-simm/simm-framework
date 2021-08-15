@@ -1,0 +1,4 @@
+simm\test\nacos\provider\NacosProviderApplication.class
+simm\test\nacos\provider\NacosWeightLoadBalancerRule.class
+simm\test\nacos\provider\NacosConfig.class
+simm\test\nacos\provider\NacosProviderApplication$EchoController.class

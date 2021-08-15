@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true # 启动服务发现功能
+    nacos:
+#      server-addr:10.20.25.20:8848
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      discovery:
+        namespace: service-namespace-${spring.profiles.active:prod}
+        # 服务使用 namespace（dev/test/prod） 进行隔离, group使用默认分组
+#        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
+      config:
+        # 配置使用 namespace（子系统维度） 进行隔离
+        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
+        file-extension: yaml
+        extension-configs[0]:
+          data-id: db.yaml
+          group: ${spring.profiles.active:prod}   # group分成 dev/test/prod
+          refresh: true
+        extension-configs[1]:
+          data-id: auth.yaml
+          group: ${spring.profiles.active:prod}
+          refresh: true
+        shared-configs[0]:
+          data-id: base.yaml
+          group: common

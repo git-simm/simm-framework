@@ -1,0 +1,3 @@
+simm\test\nacos\dubbo\provider\service\IHelloDubbo.class
+simm\test\nacos\dubbo\provider\service\impl\HelloDubboImpl.class
+simm\test\nacos\dubbo\provider\NacosDubboProviderApplication.class

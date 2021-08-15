@@ -1,0 +1,72 @@
+server:
+  port: 8080
+app:
+  id: simm-framework-test
+spring:
+  application:
+    name: ${app.id}
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://60.205.226.96:3306/smart-industry?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+      username: simm
+      password: Smart@industry123
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 30000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select 1
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size:    20
+      filter:
+        stat:
+          enabled: false
+        web-stat-filter:
+          enabled: false
+        stat-view-servlet:
+          enabled: false
+  data:
+    #    elasticsearch配置
+    elasticsearch:
+      cluster-name: es-cluster
+      cluster-nodes: 10.50.4.211:9200,10.50.4.213:9200,10.50.4.214:9200
+      scheme: http
+      connection-request-timeout: 30000
+      socket-timeout: 30000
+      connect-timeout: 1000
+      repositories:
+        enabled: true
+mybatis:
+  mapperLocations: classpath:mapper/**/*.xml
+  type-aliases-package: test.framework.simm.model
+redis:
+  nodesAddr: 10.50.4.136:6479,10.50.4.136:6480,10.50.4.136:6481,10.50.4.136:6482,10.50.4.136:6483,10.50.4.136:6484
+  maxTotal: 2000
+  maxIdle: 100
+  minIdle: 10
+  maxWaitMillis: 3000
+  numTestsPerEvictionRun: 100
+  timeBetweenEvictionRunsMillis: 3000
+  minEvictableIdleTimeMillis: 1800000
+  softMinEvictableIdleTimeMillis: 10000
+  testOnBorrow: true
+  testWhileIdle: true
+  testOnReturn: true
+  blockWhenExhausted: false
+  password: SXH2016redis
+  maxRedirects: 5
+  cluster:
+    enabled: true
+threadPool:
+  corePoolSize: 5
+  maximumPoolSize: 20
+  keepAliveTime: 10000
+  capacity: 300
+config:
+  saveTmpImg: true
+debug: true

@@ -1,0 +1,21 @@
+server:
+  port: 8070
+spring:
+  profiles:
+    active: prod
+  application:
+   name: service-study-provider
+  cloud:
+    nacos:
+#      server-addr: 10.20.25.20:8848
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      discovery:
+        # 方案一：所有的环境服务均注册到 public下，服务名中携带环境信息
+        # service: service-study-${spring.profiles.active:prod}-provider
+        # 方案二：服务按照(dev/test/prod)注册到不同的命名空间下，可以管控一下权限。这样比较容易代理
+        namespace: service-namespace-${spring.profiles.active:prod}
+#        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
+#        server-addr:  127.0.0.1:9876
+#        service: ${spring.application.name}

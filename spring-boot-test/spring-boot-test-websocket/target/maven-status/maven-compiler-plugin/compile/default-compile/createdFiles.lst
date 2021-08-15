@@ -1,0 +1,7 @@
+simm\boot\test\controller\WebSocketController.class
+simm\boot\test\websocket\WebSocketDecoratorFactory.class
+simm\boot\test\websocket\WebSocketConfig.class
+simm\boot\test\websocket\PrincipalHandshakeHandler.class
+simm\boot\test\websocket\WebSocketDecoratorFactory$1.class
+WebSocketApplication.class
+simm\boot\test\websocket\SocketManager.class

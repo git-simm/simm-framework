@@ -1,0 +1,122 @@
+{
+  "groups": [
+    {
+      "name": "druid.monitor",
+      "type": "simm.framework.webutil.autoconfig.DruidConfig",
+      "sourceType": "simm.framework.webutil.autoconfig.DruidConfig"
+    },
+    {
+      "name": "redis",
+      "type": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "druid.monitor.password",
+      "type": "java.lang.String",
+      "description": "登录密码",
+      "sourceType": "simm.framework.webutil.autoconfig.DruidConfig"
+    },
+    {
+      "name": "druid.monitor.user",
+      "type": "java.lang.String",
+      "description": "登录用户",
+      "sourceType": "simm.framework.webutil.autoconfig.DruidConfig"
+    },
+    {
+      "name": "redis.block-when-exhausted",
+      "type": "java.lang.Boolean",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": true
+    },
+    {
+      "name": "redis.expiration",
+      "type": "java.lang.Long",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 8
+    },
+    {
+      "name": "redis.max-redirects",
+      "type": "java.lang.Integer",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration"
+    },
+    {
+      "name": "redis.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 8
+    },
+    {
+      "name": "redis.max-wait-millis",
+      "type": "java.lang.Long",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": -1
+    },
+    {
+      "name": "redis.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 1800000
+    },
+    {
+      "name": "redis.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.nodes-addr",
+      "type": "java.lang.String",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration"
+    },
+    {
+      "name": "redis.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": 3
+    },
+    {
+      "name": "redis.password",
+      "type": "java.lang.String",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration"
+    },
+    {
+      "name": "redis.soft-min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": -1
+    },
+    {
+      "name": "redis.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "redis.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "redis.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "redis.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "simm.framework.webutil.config.RedisClusterAutoConfiguration",
+      "defaultValue": -1
+    }
+  ],
+  "hints": []
+}
