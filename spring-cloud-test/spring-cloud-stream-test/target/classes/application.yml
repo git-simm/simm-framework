@@ -1,0 +1,46 @@
+# spring.cloud.stream.bindings.[output].destination:         交换机的名称
+# spring.cloud.stream.bindings.[output].group:               组，用于生成队列，组名相同时可以实现分布式
+# spring.cloud.stream.bindings.[input].destination:          交换机的名称
+# spring.cloud.stream.bindings.[input].group:                组，用于生成队列，组名相同时可以实现分布式
+# spring.cloud.stream.bindings.[input].consumer.concurrency: 消费者的并发量
+# spring.rabbitmq.addresses:                                 服务器地址
+# spring.rabbitmq.username:                                  账号
+# spring.rabbitmq.password:                                  密码
+# spring.rabbitmq.virtual-host:                              虚拟主机
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    addresses: 192.168.2.29:5672
+    username: simm
+    password: test
+  cloud:
+    stream:
+      default-binder: rabbit
+      bindings:
+        # 生产-消费者 指向同一个topic
+        install-producter:
+          destination: yysc-template-install
+        #          group: yysc-queue
+        install-consumer:
+          destination: yysc-bizunit-install
+          group: template
+          consumer:
+            concurrency: 5
+        bizunit-install-consumer:
+          destination: yysc-bizunit-install
+          group: main
+          consumer:
+            concurrency: 5
+      rabbit:
+        bindings:
+          install-consumer:
+            consumer:
+              exchangeType: direct
+              bindingRoutingKey: info
+              acknowledgeMode: manual  # 手动ack
+          bizunit-install-consumer:
+            consumer:
+              exchangeType: direct
+              bindingRoutingKey: info
+              acknowledgeMode: manual # 手动ack
