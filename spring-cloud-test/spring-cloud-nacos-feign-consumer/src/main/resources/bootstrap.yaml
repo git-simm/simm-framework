@@ -10,7 +10,7 @@ spring:
       username: app-exchange
       password: 123456
       discovery:
-        namespace: 71efc714-a6d7-4a21-8180-614e38a33403
+        namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
 #        group: ${spring.profiles.active:prod}  # group分成 dev/test/prod
       config:
         namespace: 745f3022-9c9e-4795-9217-040aaf6f18d9
