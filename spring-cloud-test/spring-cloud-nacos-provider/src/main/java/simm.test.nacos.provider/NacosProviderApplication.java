@@ -1,5 +1,6 @@
 package simm.test.nacos.provider;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,7 +25,7 @@ public class NacosProviderApplication {
 	class EchoController {
 		@Value("${server.port}")
 		private int port;
-
+		@SentinelResource(value="echo")
 		@RequestMapping(value = "/echo/{string}", method = RequestMethod.GET)
 		public String echo(@PathVariable String string) {
 			return "Hello Nacos["+ port +"] Discovery " + string;
