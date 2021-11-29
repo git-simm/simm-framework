@@ -10,6 +10,5 @@ import org.springframework.core.annotation.Order;
  */
 @Order(0)
 @Configuration
-//@EnableFeignClients(basePackages = "com.mingyuanyun")
 public class FeignConfiguration {
 }
