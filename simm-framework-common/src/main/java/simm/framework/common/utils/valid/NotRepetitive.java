@@ -20,7 +20,7 @@ import java.lang.annotation.*;
 )
 public @interface NotRepetitive {
 
-    String message() default "{com.mingyuanyun.application.exchange.infrastructure.annotation.NotRepetitive.message}";
+    String message() default "{com.simm.application.exchange.infrastructure.annotation.NotRepetitive.message}";
 
     /**
      * 关联的表
