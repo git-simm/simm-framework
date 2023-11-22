@@ -45,6 +45,7 @@
         <module>spring-cloud-test</module>
         <module>simm-bytecode</module>
         <module>spring-boot-test</module>
+        <module>simm-spi</module>
     </modules>
     <!-- dependencyManagement用于声明依赖，管理版本，不会自动下载。 如果需要使用具体的jar，则在dependencies中声明-->
     <dependencyManagement>
