@@ -1,3 +1,6 @@
+package simm.boot.test;
+
+import lombok.SneakyThrows;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -12,7 +15,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableAsync
 @EnableAspectJAutoProxy(exposeProxy = true)
 public class WebSocketApplication {
-    public static void main(String[] args) throws Exception {
+    @SneakyThrows
+    public static void main(String[] args) {
         new SpringApplicationBuilder(WebSocketApplication.class).web(WebApplicationType.SERVLET).run(args);
     }
 }
